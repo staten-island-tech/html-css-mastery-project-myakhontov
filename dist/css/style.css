@@ -8,7 +8,7 @@ html {
 
 .cover {
   height: 60rem;
-  width: 100%;
-  background-image: url(../media/switzerland-town.jpg);
+  background-color: black;
+  background-image: url(media/switzerland-town.jpg);
 }
 /*# sourceMappingURL=style.css.map */
