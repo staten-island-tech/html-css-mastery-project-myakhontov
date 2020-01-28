@@ -6,7 +6,26 @@ html{
 }
 
 .cover{
-    height: 60rem;
+    height: 100rem;
     background-color: black;
     background-image: url(media/switzerland-town.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;;
+    align-items: center;
+}
+
+.cover .header{
+    font-size: 20rem;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 black,
+                -2px 2px 0 black,
+                2px -2px 0 black,
+               -2px -2px 0 black;
+}
+
+.cover h2{
+    transform: translateY(9rem) scaleY(-1);
 }
