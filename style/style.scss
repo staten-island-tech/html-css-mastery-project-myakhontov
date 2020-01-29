@@ -1,3 +1,5 @@
+@import"./colors";
+
 html{
     padding: 0;
     margin: 0;
@@ -17,7 +19,6 @@ html{
 }
 
 .cover .header{
-    font-size: 20rem;
     color: white;
     text-transform: uppercase;
     text-shadow: 2px 2px 0 black,
@@ -26,6 +27,25 @@ html{
                -2px -2px 0 black;
 }
 
+.cover h1{
+    transform: translateY(5rem);
+    font-size: 20rem;
+}
+
 .cover h2{
-    transform: translateY(9rem) scaleY(-1);
+    transform: translateY(11rem) scaleY(-1);
+    opacity: .7;
+    font-size: 18rem;
+}
+
+.blue-box{
+    height: 100rem;
+    background-color: color(lightblue);
+}
+
+.blue-box header{
+    font-size: 14rem;
+    text-align: center;
+    font-family: 'Marcellus', serif;
+
 }

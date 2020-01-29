@@ -1,0 +1,7 @@
+$colors: (
+    lightblue: #B9D6F8
+);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+  }
