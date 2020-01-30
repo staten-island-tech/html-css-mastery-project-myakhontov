@@ -49,3 +49,38 @@ html{
     font-family: 'Marcellus', serif;
 
 }
+
+.blue-box-parent{
+    height: 80rem;
+    border: 10px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.blue-image{
+    background-image: url(media/zurich.jpg);
+    background-size: cover;
+    height: 60rem;
+    width: 80rem;
+    border: solid 3px black;
+    margin-left: 2rem;
+}
+
+.blue-image header{
+    font-size: 11rem;
+    font-family: 'Marcellus', serif;
+    text-shadow: 2px 2px 0 white,
+                -2px 2px 0 white,
+                2px -2px 0 white,
+               -2px -2px 0 white;
+}
+
+.blue-box p{
+    width: 70rem;
+    font-size: 2rem;
+    border: 5px solid green;
+    text-align: center;
+    margin-right: 2rem;
+}
