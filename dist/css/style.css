@@ -51,14 +51,13 @@ html {
 }
 
 .blue-box header {
-  font-size: 14rem;
+  font-size: 12rem;
   text-align: center;
   font-family: 'Marcellus', serif;
 }
 
 .blue-box-parent {
   height: 80rem;
-  border: 10px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -74,22 +73,55 @@ html {
   background-image: url(media/zurich.jpg);
   background-size: cover;
   height: 60rem;
-  width: 80rem;
+  width: 70rem;
   border: solid 3px black;
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 
-.blue-image header {
-  font-size: 11rem;
+.titles {
+  font-size: 10rem;
   font-family: 'Marcellus', serif;
   text-shadow: 2px 2px 0 white, -2px 2px 0 white, 2px -2px 0 white, -2px -2px 0 white;
+  text-align: center;
 }
 
 .blue-box p {
+  width: 60rem;
+  font-size: 1.5em;
+  text-align: right;
+  margin-right: 4rem;
+  font-family: 'Marcellus', serif;
+}
+
+.purple-box {
+  height: 80rem;
+  background-color: #C6B9F8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.purple-box p {
+  width: 60rem;
+  font-size: 1.5em;
+  text-align: left;
+  font-family: 'Marcellus', serif;
+  margin-left: 2rem;
+}
+
+.purple-image {
+  background-image: url(media/geneva.jpg);
+  background-size: cover;
+  height: 60rem;
   width: 70rem;
-  font-size: 2rem;
-  border: 5px solid green;
-  text-align: center;
+  border: solid 3px black;
+  margin-left: 6rem;
   margin-right: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
