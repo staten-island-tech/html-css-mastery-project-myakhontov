@@ -45,15 +45,28 @@ html {
   font-size: 18rem;
 }
 
+.titles {
+  font-size: 10rem;
+  font-family: 'Marcellus', serif;
+  text-shadow: 2px 2px 0 white, -2px 2px 0 white, 2px -2px 0 white, -2px -2px 0 white;
+  text-align: center;
+}
+
+.city-section p {
+  width: 60rem;
+  font-size: 1.5em;
+  font-family: 'Marcellus', serif;
+}
+
 .blue-box {
   height: 100rem;
   background-color: #B9D6F8;
 }
 
-.blue-box header {
+.city-section-title {
   font-size: 12rem;
-  text-align: center;
   font-family: 'Marcellus', serif;
+  text-align: center;
 }
 
 .blue-box-parent {
@@ -70,27 +83,17 @@ html {
 }
 
 .blue-image {
-  background-image: url(media/zurich.jpg);
-  background-size: cover;
   height: 60rem;
   width: 70rem;
+  background-image: url(media/zurich.jpg);
+  background-size: cover;
   border: solid 3px black;
   margin-left: 3rem;
 }
 
-.titles {
-  font-size: 10rem;
-  font-family: 'Marcellus', serif;
-  text-shadow: 2px 2px 0 white, -2px 2px 0 white, 2px -2px 0 white, -2px -2px 0 white;
-  text-align: center;
-}
-
 .blue-box p {
-  width: 60rem;
-  font-size: 1.5em;
   text-align: right;
-  margin-right: 4rem;
-  font-family: 'Marcellus', serif;
+  margin-right: 3rem;
 }
 
 .purple-box {
@@ -108,20 +111,46 @@ html {
 }
 
 .purple-box p {
-  width: 60rem;
-  font-size: 1.5em;
   text-align: left;
-  font-family: 'Marcellus', serif;
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 
 .purple-image {
-  background-image: url(media/geneva.jpg);
-  background-size: cover;
   height: 60rem;
   width: 70rem;
+  background-image: url(media/geneva.jpg);
+  background-size: cover;
   border: solid 3px black;
-  margin-left: 6rem;
-  margin-right: 2rem;
+  margin-right: 3rem;
+  -webkit-filter: brightness(95%);
+          filter: brightness(95%);
+}
+
+.red-box {
+  height: 80rem;
+  background-color: #F8B9B9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.red-image {
+  height: 60rem;
+  width: 70rem;
+  background-image: url(media/bern.jpg);
+  background-size: cover;
+  margin-left: 3rem;
+  border: solid 3px black;
+}
+
+.red-box p {
+  margin-right: 3rem;
+  text-align: right;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,14 @@
+$colors: (
+    lightblue: #B9D6F8,
+    lightpurple: #C6B9F8,
+    lightred: #F8B9B9
+);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+  }
+
+  
+$margin: 3rem;
+$cityimageheight: 60rem;
+$cityimagewidth: 70rem;

@@ -1,4 +1,4 @@
-@import"./colors";
+@import"./variables";
 
 html{
     padding: 0;
@@ -38,19 +38,34 @@ html{
     font-size: 18rem;
 }
 
+.titles{
+    font-size: 10rem;
+    font-family: 'Marcellus', serif;
+    text-shadow: 2px 2px 0 white,
+                -2px 2px 0 white,
+                2px -2px 0 white,
+               -2px -2px 0 white;
+    text-align: center;
+}
 
 
-
+.city-section p{
+    width: 60rem;
+    font-size: 1.5em;
+    //border: 5px solid green;
+    font-family: 'Marcellus', serif;
+}
 
 .blue-box{
     height: 100rem;
     background-color: color(lightblue);
 }
 
-.blue-box header{
+
+.city-section-title{
     font-size: 12rem;
-    text-align: center;
     font-family: 'Marcellus', serif;
+    text-align: center;
 
 }
 
@@ -64,31 +79,20 @@ html{
 }
 
 .blue-image{
+    height: $cityimageheight;
+    width: $cityimagewidth;
     background-image: url(media/zurich.jpg);
     background-size: cover;
-    height: 60rem;
-    width: 70rem;
     border: solid 3px black;
-    margin-left: 3rem;
+    margin-left: $margin;
 }
 
-.titles{
-    font-size: 10rem;
-    font-family: 'Marcellus', serif;
-    text-shadow: 2px 2px 0 white,
-                -2px 2px 0 white,
-                2px -2px 0 white,
-               -2px -2px 0 white;
-    text-align: center;
-}
+
 
 .blue-box p{
-    width: 60rem;
-    font-size: 1.5em;
     //border: 5px solid green;
     text-align: right;
-    margin-right: 4rem;
-    font-family: 'Marcellus', serif;
+    margin-right: $margin;
 }
 
 
@@ -104,20 +108,43 @@ html{
 }
 
 .purple-box p{
-    width: 60rem;
-    font-size: 1.5em;
     //border: 5px solid green;
     text-align: left;
-    font-family: 'Marcellus', serif;
-    margin-left: 2rem;
+    margin-left: $margin;
 }
 
 .purple-image{
+    height: $cityimageheight;
+    width: $cityimagewidth;
     background-image: url(media/geneva.jpg);
     background-size: cover;
-    height: 60rem;
-    width: 70rem;
     border: solid 3px black;
-    margin-left: 6rem;
-    margin-right: 2rem;
+    margin-right: $margin;
+    filter: brightness(95%);
+}
+
+
+
+
+
+.red-box{
+    height: 80rem;
+    background-color: color(lightred);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.red-image{
+    height: $cityimageheight;
+    width: $cityimagewidth;
+    background-image: url(media/bern.jpg);
+    background-size: cover;
+    margin-left: $margin;
+    border: solid 3px black;
+}
+
+.red-box p{
+    margin-right: $margin;
+    text-align: right;
 }
