@@ -10,7 +10,12 @@ html{
 .cover{
     height: 100rem;
     background-color: black;
-    background-image: url(media/switzerland-town.jpg);
+    background-image: /*linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.0),
+        rgba(color(lightblue), 0.5)
+    ),*/
+    url(media/switzerland-town.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -58,7 +63,8 @@ html{
 
 .blue-box{
     height: 100rem;
-    background-color: color(lightblue);
+    background-image: linear-gradient(to bottom, color(lightblue), color(lightpurple));
+    //background-color: color(lightblue);
 }
 
 
@@ -101,7 +107,8 @@ html{
 
 .purple-box{
     height: 80rem;
-    background-color: color(lightpurple);
+    background-image: linear-gradient(to bottom, color(lightpurple), color(lightred));
+    //background-color: color(lightpurple);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -129,7 +136,8 @@ html{
 
 .red-box{
     height: 80rem;
-    background-color: color(lightred);
+    background-image: linear-gradient(to bottom, color(lightred), color(lightbeige));
+    //background-color: color(lightred);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -147,4 +155,30 @@ html{
 .red-box p{
     margin-right: $margin;
     text-align: right;
+}
+
+
+
+.beige-box{
+    height: 80rem;
+    background-color: color(lightbeige);
+}
+
+.beige-box header{
+    font-size: 8rem;
+    font-family: 'Marcellus', serif;
+    text-align: center;
+}
+
+.beige-box-parent{
+    height: 70rem;
+    border: solid 5px black;
+}
+
+.alps{
+    height: 40rem;
+    width: 50rem;
+    background-image: url(media/swiss_alps.jpg);
+    background-size: cover;
+    border: solid 2px black;
 }
