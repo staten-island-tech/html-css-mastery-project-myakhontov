@@ -1,4 +1,5 @@
 @import"./variables";
+@import"./gradients";
 
 html{
     padding: 0;
@@ -6,6 +7,7 @@ html{
     font-size: 62.5%;
     box-sizing: border-box;
 }
+
 
 .cover{
     height: 100rem;
@@ -43,6 +45,8 @@ html{
     font-size: 18rem;
 }
 
+
+
 .titles{
     font-size: 10rem;
     font-family: 'Marcellus', serif;
@@ -62,9 +66,9 @@ html{
 }
 
 .blue-box{
-    height: 100rem;
-    background-image: linear-gradient(to bottom, color(lightblue), color(lightpurple));
-    //background-color: color(lightblue);
+    height: 90rem;
+    //background-image: linear-gradient(to bottom, color(lightblue), color(lightpurple));
+    background-color: color(lightblue);
 }
 
 
@@ -105,10 +109,12 @@ html{
 
 
 
+
+
 .purple-box{
     height: 80rem;
-    background-image: linear-gradient(to bottom, color(lightpurple), color(lightred));
-    //background-color: color(lightpurple);
+    //background-image: linear-gradient(to bottom, color(lightpurple), color(lightred));
+    background-color: color(lightpurple);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -136,8 +142,8 @@ html{
 
 .red-box{
     height: 80rem;
-    background-image: linear-gradient(to bottom, color(lightred), color(lightbeige));
-    //background-color: color(lightred);
+    //background-image: linear-gradient(to bottom, color(lightred), color(lightbeige));
+    background-color: color(lightred);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -159,6 +165,9 @@ html{
 
 
 
+
+
+
 .beige-box{
     height: 80rem;
     background-color: color(lightbeige);
@@ -172,13 +181,29 @@ html{
 
 .beige-box-parent{
     height: 70rem;
-    border: solid 5px black;
+    //border: solid 5px red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.alps{
-    height: 40rem;
-    width: 50rem;
-    background-image: url(media/swiss_alps.jpg);
-    background-size: cover;
+.landmark{
+    height: 30rem;
+    width: 40rem;
     border: solid 2px black;
 }
+.alps{
+    background-image: url(media/swiss_alps.jpg);
+    background-size: cover;
+}
+
+.jet{
+    background-image: url(media/jetdeau.jpg);
+    background-size: cover;
+}
+
+.festival{
+    background-image: url(media/balloon.jpg);
+    background-size: cover;
+}
+

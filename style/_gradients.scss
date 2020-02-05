@@ -1,0 +1,19 @@
+@import"./variables";
+
+.gradient{
+    height: 10rem;
+}
+
+.blue-purple{
+    background-image: linear-gradient(to bottom, color(lightblue), color(lightpurple));
+}
+
+.purple-red{
+    height: 10rem;
+    background-image: linear-gradient(to bottom, color(lightpurple), color(lightred));
+}
+
+.red-beige{
+    height: 10rem;
+    background-image: linear-gradient(to bottom, color(lightred), color(lightbeige));
+}

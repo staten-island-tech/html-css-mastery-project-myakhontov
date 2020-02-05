@@ -1,3 +1,24 @@
+.gradient {
+  height: 10rem;
+}
+
+.blue-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#B9D6F8), to(#C6B9F8));
+  background-image: linear-gradient(to bottom, #B9D6F8, #C6B9F8);
+}
+
+.purple-red {
+  height: 10rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#C6B9F8), to(#F8B9B9));
+  background-image: linear-gradient(to bottom, #C6B9F8, #F8B9B9);
+}
+
+.red-beige {
+  height: 10rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#F8B9B9), to(#F8DFB9));
+  background-image: linear-gradient(to bottom, #F8B9B9, #F8DFB9);
+}
+
 html {
   padding: 0;
   margin: 0;
@@ -59,9 +80,8 @@ html {
 }
 
 .blue-box {
-  height: 100rem;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#B9D6F8), to(#C6B9F8));
-  background-image: linear-gradient(to bottom, #B9D6F8, #C6B9F8);
+  height: 90rem;
+  background-color: #B9D6F8;
 }
 
 .city-section-title {
@@ -99,8 +119,7 @@ html {
 
 .purple-box {
   height: 80rem;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#C6B9F8), to(#F8B9B9));
-  background-image: linear-gradient(to bottom, #C6B9F8, #F8B9B9);
+  background-color: #C6B9F8;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -130,8 +149,7 @@ html {
 
 .red-box {
   height: 80rem;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#F8B9B9), to(#F8DFB9));
-  background-image: linear-gradient(to bottom, #F8B9B9, #F8DFB9);
+  background-color: #F8B9B9;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -170,14 +188,34 @@ html {
 
 .beige-box-parent {
   height: 70rem;
-  border: solid 5px black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landmark {
+  height: 30rem;
+  width: 40rem;
+  border: solid 2px black;
 }
 
 .alps {
-  height: 40rem;
-  width: 50rem;
   background-image: url(media/swiss_alps.jpg);
   background-size: cover;
-  border: solid 2px black;
+}
+
+.jet {
+  background-image: url(media/jetdeau.jpg);
+  background-size: cover;
+}
+
+.festival {
+  background-image: url(media/balloon.jpg);
+  background-size: cover;
 }
 /*# sourceMappingURL=style.css.map */
