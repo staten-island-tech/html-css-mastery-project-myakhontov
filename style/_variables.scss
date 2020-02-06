@@ -13,3 +13,32 @@ $colors: (
 $margin: 3rem;
 $cityimageheight: 60rem;
 $cityimagewidth: 70rem;
+
+$desktop: 1100px;
+$laptop: 900px;
+$tablet: 600px;
+$phone: 350px;
+
+@mixin desktop{
+  @media(min-width: #{$desktop}){
+    @content;
+  }
+}
+
+@mixin laptop{
+  @media(min-width: #{$laptop}){
+    @content;
+  }
+}
+
+@mixin tablet{
+  @media(min-width: #{$tablet}){
+    @content;
+  }
+}
+
+@mixin phone{
+  @media(min-width: #{$phone}){
+    @content;
+  }
+}

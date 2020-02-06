@@ -1,5 +1,8 @@
 @import"./variables";
 @import"./gradients";
+@import"./cover";
+@import"./cities";
+@import"./landmarks";
 
 html{
     padding: 0;
@@ -9,101 +12,6 @@ html{
 }
 
 
-.cover{
-    height: 100rem;
-    background-color: black;
-    background-image: /*linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0.0),
-        rgba(color(lightblue), 0.5)
-    ),*/
-    url(media/switzerland-town.jpg);
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;;
-    align-items: center;
-}
-
-.cover .header{
-    color: white;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 0 black,
-                -2px 2px 0 black,
-                2px -2px 0 black,
-               -2px -2px 0 black;
-}
-
-.cover h1{
-    transform: translateY(5rem);
-    font-size: 20rem;
-}
-
-.cover h2{
-    transform: translateY(11rem) scaleY(-1);
-    opacity: .7;
-    font-size: 18rem;
-}
-
-
-
-.titles{
-    font-size: 10rem;
-    font-family: 'Marcellus', serif;
-    text-shadow: 2px 2px 0 white,
-                -2px 2px 0 white,
-                2px -2px 0 white,
-               -2px -2px 0 white;
-    text-align: center;
-}
-
-
-.city-section p{
-    width: 60rem;
-    font-size: 1.5em;
-    //border: 5px solid green;
-    font-family: 'Marcellus', serif;
-}
-
-.blue-box{
-    height: 90rem;
-    //background-image: linear-gradient(to bottom, color(lightblue), color(lightpurple));
-    background-color: color(lightblue);
-}
-
-
-.city-section-title{
-    font-size: 12rem;
-    font-family: 'Marcellus', serif;
-    text-align: center;
-
-}
-
-.blue-box-parent{
-    height: 80rem;
-   // border: 10px solid red;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.blue-image{
-    height: $cityimageheight;
-    width: $cityimagewidth;
-    background-image: url(media/zurich.jpg);
-    background-size: cover;
-    border: solid 3px black;
-    margin-left: $margin;
-}
-
-
-
-.blue-box p{
-    //border: 5px solid green;
-    text-align: right;
-    margin-right: $margin;
-}
 
 
 
@@ -111,99 +19,6 @@ html{
 
 
 
-.purple-box{
-    height: 80rem;
-    //background-image: linear-gradient(to bottom, color(lightpurple), color(lightred));
-    background-color: color(lightpurple);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.purple-box p{
-    //border: 5px solid green;
-    text-align: left;
-    margin-left: $margin;
-}
-
-.purple-image{
-    height: $cityimageheight;
-    width: $cityimagewidth;
-    background-image: url(media/geneva.jpg);
-    background-size: cover;
-    border: solid 3px black;
-    margin-right: $margin;
-    filter: brightness(95%);
-}
 
 
-
-
-
-.red-box{
-    height: 80rem;
-    //background-image: linear-gradient(to bottom, color(lightred), color(lightbeige));
-    background-color: color(lightred);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.red-image{
-    height: $cityimageheight;
-    width: $cityimagewidth;
-    background-image: url(media/bern.jpg);
-    background-size: cover;
-    margin-left: $margin;
-    border: solid 3px black;
-}
-
-.red-box p{
-    margin-right: $margin;
-    text-align: right;
-}
-
-
-
-
-
-
-.beige-box{
-    height: 80rem;
-    background-color: color(lightbeige);
-}
-
-.beige-box header{
-    font-size: 8rem;
-    font-family: 'Marcellus', serif;
-    text-align: center;
-}
-
-.beige-box-parent{
-    height: 70rem;
-    //border: solid 5px red;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.landmark{
-    height: 30rem;
-    width: 40rem;
-    border: solid 2px black;
-}
-.alps{
-    background-image: url(media/swiss_alps.jpg);
-    background-size: cover;
-}
-
-.jet{
-    background-image: url(media/jetdeau.jpg);
-    background-size: cover;
-}
-
-.festival{
-    background-image: url(media/balloon.jpg);
-    background-size: cover;
-}
 

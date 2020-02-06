@@ -1,0 +1,119 @@
+@import"./variables";
+
+
+.titles{
+    font-size: 10rem;
+    font-family: 'Marcellus', serif;
+    text-shadow: 2px 2px 0 white,
+                -2px 2px 0 white,
+                2px -2px 0 white,
+               -2px -2px 0 white;
+    text-align: center;
+}
+
+
+.city-section p{
+    width: 60rem;
+    font-size: 1.5em;
+    //border: 5px solid green;
+    font-family: 'Marcellus', serif;
+}
+
+.blue-box{
+    height: 90vh;
+    //background-image: linear-gradient(to bottom, color(lightblue), color(lightpurple));
+    background-color: color(lightblue);
+}
+
+
+.city-section-title{
+    font-size: 12rem;
+    font-family: 'Marcellus', serif;
+    text-align: center;
+
+}
+
+.blue-box-parent{
+    height: 80vh;
+   // border: 10px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.blue-image{
+    height: $cityimageheight;
+    width: $cityimagewidth;
+    background-image: url(media/zurich.jpg);
+    background-size: cover;
+    border: solid 3px black;
+    margin-left: $margin;
+}
+
+
+
+.blue-box p{
+    //border: 5px solid green;
+    text-align: right;
+    margin-right: $margin;
+}
+
+
+
+
+
+
+
+.purple-box{
+    height: 80vh;
+    //background-image: linear-gradient(to bottom, color(lightpurple), color(lightred));
+    background-color: color(lightpurple);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 5px red;
+}
+
+.purple-box p{
+    //border: 5px solid green;
+    text-align: left;
+    margin-left: $margin;
+}
+
+.purple-image{
+    height: $cityimageheight;
+    width: $cityimagewidth;
+    background-image: url(media/geneva.jpg);
+    background-size: cover;
+    border: solid 3px black;
+    margin-right: $margin;
+    filter: brightness(95%);
+}
+
+
+
+
+
+.red-box{
+    height: 80vh;
+    //background-image: linear-gradient(to bottom, color(lightred), color(lightbeige));
+    background-color: color(lightred);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.red-image{
+    height: $cityimageheight;
+    width: $cityimagewidth;
+    background-image: url(media/bern.jpg);
+    background-size: cover;
+    margin-left: $margin;
+    border: solid 3px black;
+}
+
+.red-box p{
+    margin-right: $margin;
+    text-align: right;
+}

@@ -1,0 +1,41 @@
+@import"./variables";
+
+
+.beige-box{
+    height: 90vh;
+    background-color: color(lightbeige);
+}
+
+.beige-box header{
+    font-size: 8rem;
+    font-family: 'Marcellus', serif;
+    text-align: center;
+}
+
+.beige-box-parent{
+    height: 70vh;
+    //border: solid 5px red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.landmark{
+    height: 30rem;
+    width: 40rem;
+    border: solid 2px black;
+}
+.alps{
+    background-image: url(media/swiss_alps.jpg);
+    background-size: cover;
+}
+
+.jet{
+    background-image: url(media/jetdeau.jpg);
+    background-size: cover;
+}
+
+.festival{
+    background-image: url(media/balloon.jpg);
+    background-size: cover;
+}
