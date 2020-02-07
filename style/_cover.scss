@@ -1,15 +1,11 @@
 @import"./variables";
 
-html{
-    padding: 0;
-    margin: 0;
-    font-size: 62.5%;
-    box-sizing: border-box;
-}                                   //media smallest to largest
+ //media smallest to largest
 
 
 .cover{
-    //height: 120vh;
+    height: 100vh;
+    width: 100vw;
     background-color: black;
     background-image: /*linear-gradient(
         to bottom,
@@ -20,15 +16,17 @@ html{
     background-size: cover;
     display: flex;
     justify-content: center;
-    flex-direction: column;;
+    flex-direction: column;
     align-items: center;
+    /*@include phone{
+        height: 100vh;
+        width: 100vw;
+    }
+    @include tablet{
+        width: 100vw;
+    }*/
     @include desktop{
         height: 120vh;
-    }
-
-
-    @include phone{
-        height: 100vh;
     }
 }
 
@@ -42,18 +40,33 @@ html{
 }
 
 .cover h1{
-    transform: translateY(5rem);
+    
     font-size: 20rem;
+    @include phone{
+        font-size: 4.5rem;
+        transform: translateY(-4rem);
+    }
+    @include tablet{
+        font-size: 9rem;
+    }
     @include desktop{
         font-size: 20rem;
-    }
-    @include phone{
-        font-size: 4rem;
+        transform: translateY(5rem);
     }
 }
 
 .cover h2{
-    transform: translateY(11rem) scaleY(-1);
     opacity: .7;
-    font-size: 18rem;
+    @include phone{
+        font-size: 4.5rem;
+        transform: translateY(13rem) scaleY(-1);
+    }
+    @include tablet{
+        font-size: 8rem;
+        transform: translateY(17rem) scaleY(-1)
+    }
+    @include desktop{
+        font-size: 18rem;
+        transform: translateY(12rem) scaleY(-1);
+    }
 }
