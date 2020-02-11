@@ -56,7 +56,7 @@
 .cover .header {
   color: white;
   text-transform: uppercase;
-  text-shadow: 2px 2px 0 black, -2px 2px 0 black, 2px -2px 0 black, -2px -2px 0 black;
+  text-shadow: 3px 3px 0 black, -3px 3px 0 black, 3px -3px 0 black, -3px -3px 0 black;
 }
 
 .cover h1 {
@@ -79,7 +79,7 @@
 
 @media (min-width: 1100px) {
   .cover h1 {
-    font-size: 20rem;
+    font-size: 24rem;
     -webkit-transform: translateY(5rem);
             transform: translateY(5rem);
   }
@@ -156,7 +156,7 @@
 
 @media (min-width: 1100px) {
   .city-section p {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     width: 40vw;
   }
 }
@@ -168,6 +168,7 @@
 @media (min-width: 350px) {
   .blue-box {
     height: 70vh;
+    width: 100vw;
   }
 }
 
@@ -196,7 +197,7 @@
 
 @media (min-width: 1100px) {
   .city-section-title {
-    font-size: 12rem;
+    font-size: 14rem;
   }
 }
 
@@ -268,8 +269,8 @@
 
 @media (min-width: 1100px) {
   .blue-image {
-    height: 60rem;
-    width: 70rem;
+    height: 70rem;
+    width: 80rem;
     margin-left: 3rem;
   }
 }
@@ -307,8 +308,8 @@
 }
 
 .purple-image {
-  height: 60rem;
-  width: 70rem;
+  height: 70rem;
+  width: 80rem;
   background-image: url(media/geneva.jpg);
   background-size: cover;
   border: solid 3px black;
@@ -332,8 +333,8 @@
 }
 
 .red-image {
-  height: 60rem;
-  width: 70rem;
+  height: 70rem;
+  width: 80rem;
   background-image: url(media/bern.jpg);
   background-size: cover;
   margin-left: 3rem;

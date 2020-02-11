@@ -33,10 +33,10 @@
 .cover .header{
     color: white;
     text-transform: uppercase;
-    text-shadow: 2px 2px 0 black,
-                -2px 2px 0 black,
-                2px -2px 0 black,
-               -2px -2px 0 black;
+    text-shadow: 3px 3px 0 black,
+                -3px 3px 0 black,
+                3px -3px 0 black,
+               -3px -3px 0 black;
 }
 
 .cover h1{
@@ -50,7 +50,7 @@
         font-size: 9rem;
     }
     @include desktop{
-        font-size: 20rem;
+        font-size: 24rem;
         transform: translateY(5rem);
     }
 }

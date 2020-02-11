@@ -31,7 +31,7 @@
         font-size: 1rem;
     }
     @include desktop{
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         width: 40vw;
     }
 }
@@ -41,6 +41,7 @@
     background-color: color(lightblue);
     @include phone{
         height: 70vh;
+        width: 100vw;
     }
     @include tablet{
         height: 90vh;
@@ -58,7 +59,7 @@
         font-size: 5rem;
     }
     @include desktop{
-        font-size: 12rem;
+        font-size: 14rem;
     }
 
 }
@@ -99,8 +100,8 @@
         width: 50rem;
     }
     @include desktop{
-        height: $cityimageheight;
-        width: $cityimagewidth;
+        height: $cityimageheightdesktop;
+        width: $cityimagewidthdesktop;
         margin-left: $margin;
     }
 }
@@ -142,8 +143,8 @@
 }
 
 .purple-image{
-    height: $cityimageheight;
-    width: $cityimagewidth;
+    height: $cityimageheightdesktop;
+    width: $cityimagewidthdesktop;
     background-image: url(media/geneva.jpg);
     background-size: cover;
     border: solid 3px black;
@@ -165,8 +166,8 @@
 }
 
 .red-image{
-    height: $cityimageheight;
-    width: $cityimagewidth;
+    height: $cityimageheightdesktop;
+    width: $cityimagewidthdesktop;
     background-image: url(media/bern.jpg);
     background-size: cover;
     margin-left: $margin;
