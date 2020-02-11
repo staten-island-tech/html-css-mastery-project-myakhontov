@@ -2,30 +2,52 @@
 
 
 .titles{
-    font-size: 10rem;
     font-family: 'Marcellus', serif;
     text-shadow: 2px 2px 0 white,
                 -2px 2px 0 white,
                 2px -2px 0 white,
                -2px -2px 0 white;
     text-align: center;
+    @include phone{
+        font-size: 3rem;
+    }
+    @include tablet{
+        font-size: 7rem;
+    }
+    @include desktop{
+        font-size: 10rem;
+    }
 }
 
 
 .city-section p{
-    width: 60rem;
-    font-size: 1.5em;
     //border: 5px solid green;
     font-family: 'Marcellus', serif;
     @include phone{
+        font-size: 0.75rem;
+        width: 80vw;
+    }
+    @include tablet{
         font-size: 1rem;
+    }
+    @include desktop{
+        font-size: 1.5rem;
+        width: 40vw;
     }
 }
 
 .blue-box{
-    height: 90vh;
     //background-image: linear-gradient(to bottom, color(lightblue), color(lightpurple));
     background-color: color(lightblue);
+    @include phone{
+        height: 70vh;
+    }
+    @include tablet{
+        height: 90vh;
+    }
+    @include desktop{
+        height: 100vh;
+    }
 }
 
 
@@ -42,29 +64,59 @@
 }
 
 .blue-box-parent{
-    height: 80vh;
    // border: 10px solid red;
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
+    @include phone{
+        height: 60vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    @include tablet{
+        height: 70vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    @include desktop{
+        height: 80vh;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
 }
 
 .blue-image{
-    height: $cityimageheight;
-    width: $cityimagewidth;
     background-image: url(media/zurich.jpg);
     background-size: cover;
     border: solid 3px black;
-    margin-left: $margin;
+    @include phone{
+        height: 20rem;
+        width: 30rem;
+    }
+    @include tablet{
+        height: 40rem;
+        width: 50rem;
+    }
+    @include desktop{
+        height: $cityimageheight;
+        width: $cityimagewidth;
+        margin-left: $margin;
+    }
 }
 
 
 
 .blue-box p{
     //border: 5px solid green;
-    text-align: right;
-    margin-right: $margin;
+    
+    @include phone{
+        text-align: center;
+    }
+    @include desktop{
+        text-align: right;
+        margin-right: $margin;
+    }
 }
 
 
@@ -80,7 +132,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: solid 5px red;
+    //border: solid 5px red;
 }
 
 .purple-box p{
