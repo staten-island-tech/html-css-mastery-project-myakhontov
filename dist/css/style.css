@@ -92,8 +92,8 @@
 @media (min-width: 350px) {
   .cover h2 {
     font-size: 4.5rem;
-    -webkit-transform: translateY(13rem) scaleY(-1);
-            transform: translateY(13rem) scaleY(-1);
+    -webkit-transform: translateY(17rem) scaleY(-1);
+            transform: translateY(17rem) scaleY(-1);
   }
 }
 
