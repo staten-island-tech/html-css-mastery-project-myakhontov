@@ -40,7 +40,7 @@
     //background-image: linear-gradient(to bottom, color(lightblue), color(lightpurple));
     background-color: color(lightblue);
     @include phone{
-        height: 70vh;
+        height: 80vh;
         width: 100vw;
     }
     @include tablet{
@@ -70,7 +70,7 @@
     
     align-items: center;
     @include phone{
-        height: 60vh;
+        height: 70vh;
         flex-direction: column;
         justify-content: space-around;
     }
@@ -92,8 +92,8 @@
     background-size: cover;
     border: solid 3px black;
     @include phone{
-        height: $cityimageheightphone;
-        width: $cityimagewidthphone;
+        height: 35vh;
+        width: 75vw;
     }
     @include tablet{
         height: 40rem;
@@ -102,7 +102,7 @@
     @include desktop{
         height: $cityimageheightdesktop;
         width: $cityimagewidthdesktop;
-        margin-right: $margin;
+        margin-left: $margin;
     }
 }
 

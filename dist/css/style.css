@@ -167,7 +167,7 @@
 
 @media (min-width: 350px) {
   .blue-box {
-    height: 70vh;
+    height: 80vh;
     width: 100vw;
   }
 }
@@ -212,7 +212,7 @@
 
 @media (min-width: 350px) {
   .blue-box-parent {
-    height: 60vh;
+    height: 70vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -255,8 +255,8 @@
 
 @media (min-width: 350px) {
   .blue-image {
-    height: 30rem;
-    width: 40rem;
+    height: 35vh;
+    width: 75vw;
   }
 }
 
@@ -271,7 +271,7 @@
   .blue-image {
     height: 70rem;
     width: 80rem;
-    margin-right: 6rem;
+    margin-left: 6rem;
   }
 }
 
