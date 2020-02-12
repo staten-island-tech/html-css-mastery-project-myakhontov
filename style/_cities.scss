@@ -93,7 +93,7 @@
     border: solid 3px black;
     @include phone{
         height: $cityimageheightphone;
-        width: $cityimageheightphone;
+        width: $cityimagewidthphone;
     }
     @include tablet{
         height: 40rem;
