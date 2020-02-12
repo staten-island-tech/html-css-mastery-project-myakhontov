@@ -256,7 +256,7 @@
 @media (min-width: 350px) {
   .blue-image {
     height: 30rem;
-    width: 40rem;
+    width: 30rem;
   }
 }
 
@@ -271,7 +271,7 @@
   .blue-image {
     height: 70rem;
     width: 80rem;
-    margin-left: 6rem;
+    margin-right: 6rem;
   }
 }
 

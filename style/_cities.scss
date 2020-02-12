@@ -93,7 +93,7 @@
     border: solid 3px black;
     @include phone{
         height: $cityimageheightphone;
-        width: $cityimagewidthphone;
+        width: $cityimageheightphone;
     }
     @include tablet{
         height: 40rem;
@@ -102,7 +102,7 @@
     @include desktop{
         height: $cityimageheightdesktop;
         width: $cityimagewidthdesktop;
-        margin-left: $margin;
+        margin-right: $margin;
     }
 }
 
