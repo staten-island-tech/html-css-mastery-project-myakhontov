@@ -92,8 +92,8 @@
     background-size: cover;
     border: solid 3px black;
     @include phone{
-        height: 20rem;
-        width: 30rem;
+        height: $cityimageheightphone;
+        width: $cityimagewidthphone;
     }
     @include tablet{
         height: 40rem;
@@ -168,8 +168,8 @@
     border: solid 3px black;
     filter: brightness(95%);
     @include phone{
-        height: 20rem;
-        width: 30rem;
+        height: $cityimageheightphone;
+        width: $cityimageheightphone;
     }
     @include tablet{
         height: 40rem;
@@ -214,8 +214,8 @@
     background-size: cover;
     border: solid 3px black;
     @include phone{
-        height: 20rem;
-        width: 30rem;
+        height: $cityimageheightphone;
+        width: $cityimageheightphone;
     }
     @include tablet{
         height: 40rem;
