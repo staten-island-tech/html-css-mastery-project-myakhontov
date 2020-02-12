@@ -7,9 +7,14 @@
 }
 
 .beige-box header{
-    font-size: 8rem;
     font-family: 'Marcellus', serif;
     text-align: center;
+    @include phone{
+        font-size: 4rem;
+    }
+    @include desktop{
+        font-size: 8rem;
+    }
 }
 
 .beige-box-parent{

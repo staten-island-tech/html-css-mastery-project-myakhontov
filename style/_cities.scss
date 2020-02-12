@@ -127,54 +127,114 @@
 
 
 .purple-box{
-    height: 80vh;
     //background-image: linear-gradient(to bottom, color(lightpurple), color(lightred));
     background-color: color(lightpurple);
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include phone{
+        height: 70vh;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+    @include tablet{
+        height: 90vh;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+    @include desktop{
+        height: 100vh;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    
     //border: solid 5px red;
 }
 
 .purple-box p{
     //border: 5px solid green;
-    text-align: left;
-    margin-left: $margin;
+    @include phone{
+        text-align: center;
+    }
+    @include desktop{
+        text-align: left;
+        margin-left: $margin;
+    }
 }
 
 .purple-image{
-    height: $cityimageheightdesktop;
-    width: $cityimagewidthdesktop;
     background-image: url(media/geneva.jpg);
     background-size: cover;
     border: solid 3px black;
-    margin-right: $margin;
     filter: brightness(95%);
+    @include phone{
+        height: 20rem;
+        width: 30rem;
+    }
+    @include tablet{
+        height: 40rem;
+        width: 50rem;
+    }
+    @include desktop{
+        height: $cityimageheightdesktop;
+        width: $cityimagewidthdesktop;
+        margin-right: $margin;
+    }
 }
+
 
 
 
 
 
 .red-box{
-    height: 80vh;
     //background-image: linear-gradient(to bottom, color(lightred), color(lightbeige));
     background-color: color(lightred);
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include phone{
+        height: 70vh;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    @include tablet{
+        height: 90vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    @include desktop{
+        height: 100vh;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 .red-image{
-    height: $cityimageheightdesktop;
-    width: $cityimagewidthdesktop;
     background-image: url(media/bern.jpg);
     background-size: cover;
-    margin-left: $margin;
     border: solid 3px black;
+    @include phone{
+        height: 20rem;
+        width: 30rem;
+    }
+    @include tablet{
+        height: 40rem;
+        width: 50rem;
+    }
+    @include desktop{
+        height: $cityimageheightdesktop;
+        width: $cityimagewidthdesktop;
+        margin-left: $margin;
+    }
 }
 
+
 .red-box p{
-    margin-right: $margin;
-    text-align: right;
+    @include phone{
+        text-align: center;
+    }
+    @include desktop{
+        text-align: right;
+        margin-right: $margin;
+    }
 }
