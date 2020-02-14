@@ -1,0 +1,16 @@
+@import"./cities";
+
+.blue-image header{
+    transform: translateX(-100rem);
+}
+
+.blue-image:hover{
+    .blue-image header{
+        transform: translateX(100rem);
+    }
+    
+}
+
+.blue-image:hover{
+    transform: rotate(360deg);
+}

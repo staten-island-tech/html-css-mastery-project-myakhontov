@@ -67,7 +67,6 @@
 .blue-box-parent{
    // border: 10px solid red;
     display: flex;
-    
     align-items: center;
     @include phone{
         height: 70vh;
@@ -105,8 +104,6 @@
         margin-left: $margin;
     }
 }
-
-
 
 .blue-box p{
     //border: 5px solid green;
