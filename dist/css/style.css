@@ -275,6 +275,18 @@
   }
 }
 
+.zurich-title {
+  -webkit-transform: translateX(-100rem);
+          transform: translateX(-100rem);
+  -webkit-transition: 1.0s all;
+  transition: 1.0s all;
+}
+
+.blue-box:hover .zurich-title {
+  -webkit-transform: translateX(0rem);
+          transform: translateX(0rem);
+}
+
 @media (min-width: 350px) {
   .blue-box p {
     text-align: center;
@@ -501,9 +513,10 @@
 }
 
 .landmark {
-  height: 30rem;
-  width: 40rem;
-  border: solid 2px black;
+  border-radius: 20px;
+  height: 40rem;
+  width: 50rem;
+  border: solid 4px black;
 }
 
 .alps {

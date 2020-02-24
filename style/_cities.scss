@@ -49,6 +49,7 @@
     @include desktop{
         height: 100vh;
     }
+    
 }
 
 
@@ -104,6 +105,19 @@
         margin-left: $margin;
     }
 }
+
+.zurich-title{
+    transform: translateX(-100rem);
+    transition: 1.0s all;
+}
+
+.blue-box:hover{
+    .zurich-title{
+        transform: translateX(0rem);
+    }
+}
+
+
 
 .blue-box p{
     //border: 5px solid green;
