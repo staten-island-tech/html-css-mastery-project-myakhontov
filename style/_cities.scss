@@ -17,6 +17,7 @@
     @include desktop{
         font-size: 10rem;
     }
+    transform: scale(1.25);
 }
 
 
@@ -107,13 +108,25 @@
 }
 
 .zurich-title{
-    transform: translateX(-100rem);
+    /*transform: translateX(-100rem);
     transition: 1.0s all;
+    animation-fill-mode: forwards;*/
+    animation-name: zurich-animation;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out;
+    animation-play-state: paused;
+    
+}
+
+@keyframes zurich-animation{
+    0%{transform: translateX(-100rem) scale(0.75);}
+    100%{transform: translateX(0rem) scale(1.25);}
 }
 
 .blue-box:hover{
     .zurich-title{
-        transform: translateX(0rem);
+        animation-play-state: running;
+        
     }
 }
 
@@ -194,6 +207,30 @@
 }
 
 
+.geneva-title{
+    /*transform: translateX(-100rem);
+    transition: 1.0s all;
+    animation-fill-mode: forwards;*/
+    animation-name: geneva-animation;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out;
+    animation-play-state: paused;
+    
+}
+
+@keyframes geneva-animation{
+    0%{transform: translateX(100rem) scale(0.75);}
+    100%{transform: translateX(0rem) scale(1.25);}
+}
+
+.purple-box:hover{
+    .geneva-title{
+        animation-play-state: running;
+        
+    }
+}
+
+
 
 
 
@@ -247,5 +284,29 @@
     @include desktop{
         text-align: right;
         margin-right: $margin;
+    }
+}
+
+
+.bern-title{
+    /*transform: translateX(-100rem);
+    transition: 1.0s all;
+    animation-fill-mode: forwards;*/
+    animation-name: bern-animation;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out;
+    animation-play-state: paused;
+    
+}
+
+@keyframes bern-animation{
+    0%{transform: translateX(-100rem) scale(0.75);}
+    100%{transform: translateX(0rem) scale(1.25);}
+}
+
+.red-box:hover{
+    .bern-title{
+        animation-play-state: running;
+        
     }
 }

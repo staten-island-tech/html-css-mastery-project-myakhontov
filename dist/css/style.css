@@ -117,6 +117,8 @@
   font-family: 'Marcellus', serif;
   text-shadow: 2px 2px 0 white, -2px 2px 0 white, 2px -2px 0 white, -2px -2px 0 white;
   text-align: center;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
 }
 
 @media (min-width: 350px) {
@@ -276,15 +278,44 @@
 }
 
 .zurich-title {
-  -webkit-transform: translateX(-100rem);
-          transform: translateX(-100rem);
-  -webkit-transition: 1.0s all;
-  transition: 1.0s all;
+  /*transform: translateX(-100rem);
+    transition: 1.0s all;
+    animation-fill-mode: forwards;*/
+  -webkit-animation-name: zurich-animation;
+          animation-name: zurich-animation;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@-webkit-keyframes zurich-animation {
+  0% {
+    -webkit-transform: translateX(-100rem) scale(0.75);
+            transform: translateX(-100rem) scale(0.75);
+  }
+  100% {
+    -webkit-transform: translateX(0rem) scale(1.25);
+            transform: translateX(0rem) scale(1.25);
+  }
+}
+
+@keyframes zurich-animation {
+  0% {
+    -webkit-transform: translateX(-100rem) scale(0.75);
+            transform: translateX(-100rem) scale(0.75);
+  }
+  100% {
+    -webkit-transform: translateX(0rem) scale(1.25);
+            transform: translateX(0rem) scale(1.25);
+  }
 }
 
 .blue-box:hover .zurich-title {
-  -webkit-transform: translateX(0rem);
-          transform: translateX(0rem);
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
 }
 
 @media (min-width: 350px) {
@@ -390,6 +421,47 @@
   }
 }
 
+.geneva-title {
+  /*transform: translateX(-100rem);
+    transition: 1.0s all;
+    animation-fill-mode: forwards;*/
+  -webkit-animation-name: geneva-animation;
+          animation-name: geneva-animation;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@-webkit-keyframes geneva-animation {
+  0% {
+    -webkit-transform: translateX(100rem) scale(0.75);
+            transform: translateX(100rem) scale(0.75);
+  }
+  100% {
+    -webkit-transform: translateX(0rem) scale(1.25);
+            transform: translateX(0rem) scale(1.25);
+  }
+}
+
+@keyframes geneva-animation {
+  0% {
+    -webkit-transform: translateX(100rem) scale(0.75);
+            transform: translateX(100rem) scale(0.75);
+  }
+  100% {
+    -webkit-transform: translateX(0rem) scale(1.25);
+            transform: translateX(0rem) scale(1.25);
+  }
+}
+
+.purple-box:hover .geneva-title {
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
 .red-box {
   background-color: #F8B9B9;
   display: -webkit-box;
@@ -476,6 +548,47 @@
     text-align: right;
     margin-right: 6rem;
   }
+}
+
+.bern-title {
+  /*transform: translateX(-100rem);
+    transition: 1.0s all;
+    animation-fill-mode: forwards;*/
+  -webkit-animation-name: bern-animation;
+          animation-name: bern-animation;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@-webkit-keyframes bern-animation {
+  0% {
+    -webkit-transform: translateX(-100rem) scale(0.75);
+            transform: translateX(-100rem) scale(0.75);
+  }
+  100% {
+    -webkit-transform: translateX(0rem) scale(1.25);
+            transform: translateX(0rem) scale(1.25);
+  }
+}
+
+@keyframes bern-animation {
+  0% {
+    -webkit-transform: translateX(-100rem) scale(0.75);
+            transform: translateX(-100rem) scale(0.75);
+  }
+  100% {
+    -webkit-transform: translateX(0rem) scale(1.25);
+            transform: translateX(0rem) scale(1.25);
+  }
+}
+
+.red-box:hover .bern-title {
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
 }
 
 .beige-box {
