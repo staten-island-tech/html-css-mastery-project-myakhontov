@@ -285,8 +285,6 @@
           animation-duration: 0.8s;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
 }
 
 @media (min-width: 350px) {
@@ -300,6 +298,8 @@
   .zurich-title {
     -webkit-animation-name: zurich-animation-desktop;
             animation-name: zurich-animation-desktop;
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
   }
 }
 

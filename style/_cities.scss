@@ -113,12 +113,13 @@
     animation-fill-mode: forwards;*/
     animation-duration: 0.8s;
     animation-timing-function: ease-out;
-    animation-play-state: paused;
+    
     @include phone{
         animation-name: zurich-animation-phone;
     }
     @include desktop{
         animation-name: zurich-animation-desktop;
+        animation-play-state: paused;
     }
     
 }
