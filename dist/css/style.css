@@ -281,8 +281,6 @@
   /*transform: translateX(-100rem);
     transition: 1.0s all;
     animation-fill-mode: forwards;*/
-  -webkit-animation-name: zurich-animation;
-          animation-name: zurich-animation;
   -webkit-animation-duration: 0.8s;
           animation-duration: 0.8s;
   -webkit-animation-timing-function: ease-out;
@@ -291,7 +289,43 @@
           animation-play-state: paused;
 }
 
-@-webkit-keyframes zurich-animation {
+@media (min-width: 350px) {
+  .zurich-title {
+    -webkit-animation-name: zurich-animation-phone;
+            animation-name: zurich-animation-phone;
+  }
+}
+
+@media (min-width: 1100px) {
+  .zurich-title {
+    -webkit-animation-name: zurich-animation-desktop;
+            animation-name: zurich-animation-desktop;
+  }
+}
+
+@-webkit-keyframes zurich-animation-phone {
+  0% {
+    -webkit-transform: translateX(-200rem) scale(0.75);
+            transform: translateX(-200rem) scale(0.75);
+  }
+  100% {
+    -webkit-transform: translateX(0rem) scale(1.25);
+            transform: translateX(0rem) scale(1.25);
+  }
+}
+
+@keyframes zurich-animation-phone {
+  0% {
+    -webkit-transform: translateX(-200rem) scale(0.75);
+            transform: translateX(-200rem) scale(0.75);
+  }
+  100% {
+    -webkit-transform: translateX(0rem) scale(1.25);
+            transform: translateX(0rem) scale(1.25);
+  }
+}
+
+@-webkit-keyframes zurich-animation-desktop {
   0% {
     -webkit-transform: translateX(-100rem) scale(0.75);
             transform: translateX(-100rem) scale(0.75);
@@ -302,7 +336,7 @@
   }
 }
 
-@keyframes zurich-animation {
+@keyframes zurich-animation-desktop {
   0% {
     -webkit-transform: translateX(-100rem) scale(0.75);
             transform: translateX(-100rem) scale(0.75);
@@ -425,8 +459,6 @@
   /*transform: translateX(-100rem);
     transition: 1.0s all;
     animation-fill-mode: forwards;*/
-  -webkit-animation-name: geneva-animation;
-          animation-name: geneva-animation;
   -webkit-animation-duration: 0.8s;
           animation-duration: 0.8s;
   -webkit-animation-timing-function: ease-out;
@@ -435,7 +467,43 @@
           animation-play-state: paused;
 }
 
-@-webkit-keyframes geneva-animation {
+@media (min-width: 350px) {
+  .geneva-title {
+    -webkit-animation-name: geneva-animation-phone;
+            animation-name: geneva-animation-phone;
+  }
+}
+
+@media (min-width: 1100px) {
+  .geneva-title {
+    -webkit-animation-name: geneva-animation-desktop;
+            animation-name: geneva-animation-desktop;
+  }
+}
+
+@-webkit-keyframes geneva-animation-phone {
+  0% {
+    -webkit-transform: translateX(200rem) scale(0.75);
+            transform: translateX(200rem) scale(0.75);
+  }
+  100% {
+    -webkit-transform: translateX(0rem) scale(1.25);
+            transform: translateX(0rem) scale(1.25);
+  }
+}
+
+@keyframes geneva-animation-phone {
+  0% {
+    -webkit-transform: translateX(200rem) scale(0.75);
+            transform: translateX(200rem) scale(0.75);
+  }
+  100% {
+    -webkit-transform: translateX(0rem) scale(1.25);
+            transform: translateX(0rem) scale(1.25);
+  }
+}
+
+@-webkit-keyframes geneva-animation-desktop {
   0% {
     -webkit-transform: translateX(100rem) scale(0.75);
             transform: translateX(100rem) scale(0.75);
@@ -446,7 +514,7 @@
   }
 }
 
-@keyframes geneva-animation {
+@keyframes geneva-animation-desktop {
   0% {
     -webkit-transform: translateX(100rem) scale(0.75);
             transform: translateX(100rem) scale(0.75);
@@ -554,8 +622,6 @@
   /*transform: translateX(-100rem);
     transition: 1.0s all;
     animation-fill-mode: forwards;*/
-  -webkit-animation-name: bern-animation;
-          animation-name: bern-animation;
   -webkit-animation-duration: 0.8s;
           animation-duration: 0.8s;
   -webkit-animation-timing-function: ease-out;
@@ -564,7 +630,43 @@
           animation-play-state: paused;
 }
 
-@-webkit-keyframes bern-animation {
+@media (min-width: 350px) {
+  .bern-title {
+    -webkit-animation-name: bern-animation-phone;
+            animation-name: bern-animation-phone;
+  }
+}
+
+@media (min-width: 1100px) {
+  .bern-title {
+    -webkit-animation-name: bern-animation-desktop;
+            animation-name: bern-animation-desktop;
+  }
+}
+
+@-webkit-keyframes bern-animation-phone {
+  0% {
+    -webkit-transform: translateX(-200rem) scale(0.75);
+            transform: translateX(-200rem) scale(0.75);
+  }
+  100% {
+    -webkit-transform: translateX(0rem) scale(1.25);
+            transform: translateX(0rem) scale(1.25);
+  }
+}
+
+@keyframes bern-animation-phone {
+  0% {
+    -webkit-transform: translateX(-200rem) scale(0.75);
+            transform: translateX(-200rem) scale(0.75);
+  }
+  100% {
+    -webkit-transform: translateX(0rem) scale(1.25);
+            transform: translateX(0rem) scale(1.25);
+  }
+}
+
+@-webkit-keyframes bern-animation-desktop {
   0% {
     -webkit-transform: translateX(-100rem) scale(0.75);
             transform: translateX(-100rem) scale(0.75);
@@ -575,7 +677,7 @@
   }
 }
 
-@keyframes bern-animation {
+@keyframes bern-animation-desktop {
   0% {
     -webkit-transform: translateX(-100rem) scale(0.75);
             transform: translateX(-100rem) scale(0.75);

@@ -111,14 +111,24 @@
     /*transform: translateX(-100rem);
     transition: 1.0s all;
     animation-fill-mode: forwards;*/
-    animation-name: zurich-animation;
     animation-duration: 0.8s;
     animation-timing-function: ease-out;
     animation-play-state: paused;
+    @include phone{
+        animation-name: zurich-animation-phone;
+    }
+    @include desktop{
+        animation-name: zurich-animation-desktop;
+    }
     
 }
 
-@keyframes zurich-animation{
+@keyframes zurich-animation-phone{
+    0%{transform: translateX(-200rem) scale(0.75);}
+    100%{transform: translateX(0rem) scale(1.25);}
+}
+
+@keyframes zurich-animation-desktop{
     0%{transform: translateX(-100rem) scale(0.75);}
     100%{transform: translateX(0rem) scale(1.25);}
 }
@@ -211,14 +221,23 @@
     /*transform: translateX(-100rem);
     transition: 1.0s all;
     animation-fill-mode: forwards;*/
-    animation-name: geneva-animation;
     animation-duration: 0.8s;
     animation-timing-function: ease-out;
     animation-play-state: paused;
+    @include phone{
+        animation-name: geneva-animation-phone;
+    }
+    @include desktop{
+        animation-name: geneva-animation-desktop;
+    }
     
 }
+@keyframes geneva-animation-phone{
+    0%{transform: translateX(200rem) scale(0.75);}
+    100%{transform: translateX(0rem) scale(1.25);}
+}
 
-@keyframes geneva-animation{
+@keyframes geneva-animation-desktop{
     0%{transform: translateX(100rem) scale(0.75);}
     100%{transform: translateX(0rem) scale(1.25);}
 }
@@ -292,14 +311,24 @@
     /*transform: translateX(-100rem);
     transition: 1.0s all;
     animation-fill-mode: forwards;*/
-    animation-name: bern-animation;
     animation-duration: 0.8s;
     animation-timing-function: ease-out;
     animation-play-state: paused;
+    @include phone{
+        animation-name: bern-animation-phone;
+    }
+    @include desktop{
+        animation-name: bern-animation-desktop;
+    }
     
 }
 
-@keyframes bern-animation{
+@keyframes bern-animation-phone{
+    0%{transform: translateX(-200rem) scale(0.75);}
+    100%{transform: translateX(0rem) scale(1.25);}
+}
+
+@keyframes bern-animation-desktop{
     0%{transform: translateX(-100rem) scale(0.75);}
     100%{transform: translateX(0rem) scale(1.25);}
 }
