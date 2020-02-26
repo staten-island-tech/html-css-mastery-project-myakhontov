@@ -300,15 +300,8 @@
 }
 
 @keyframes bern-animation{
-    @include phone{
-        0%{transform: translateX(-300rem);}
-        100%{transform: translateX(0rem);}
-    }
-    @include desktop{
-        0%{transform: translateX(-100rem) scale(0.75);}
-        100%{transform: translateX(0rem) scale(1.25);}
-    }
-    
+    0%{transform: translateX(-100rem) scale(0.75);}
+    100%{transform: translateX(0rem) scale(1.25);}
 }
 
 .red-box:hover{
