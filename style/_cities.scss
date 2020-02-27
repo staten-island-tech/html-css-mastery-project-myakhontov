@@ -238,6 +238,9 @@
     @include phone{
         animation-name: geneva-animation-phone;
     }
+    @include tablet{
+        animation-name: geneva-animation-tablet;
+    }
     @include desktop{
         animation-name: geneva-animation-desktop;
     }
@@ -245,6 +248,11 @@
 }
 @keyframes geneva-animation-phone{
     0%{transform: translateX(250rem) scale(0.75);}
+    100%{transform: translateX(0rem) scale(1.25);}
+}
+
+@keyframes geneva-animation-tablet{
+    0%{transform: translateX(600rem) scale(0.75);}
     100%{transform: translateX(0rem) scale(1.25);}
 }
 
@@ -328,6 +336,9 @@
     @include phone{
         animation-name: bern-animation-phone;
     }
+    @include tablet{
+        animation-name: bern-animation-tablet;
+    }
     @include desktop{
         animation-name: bern-animation-desktop;
     }
@@ -336,6 +347,11 @@
 
 @keyframes bern-animation-phone{
     0%{transform: translateX(-250rem) scale(0.75);}
+    100%{transform: translateX(0rem) scale(1.25);}
+}
+
+@keyframes bern-animation-tablet{
+    0%{transform: translateX(-600rem) scale(0.75);}
     100%{transform: translateX(0rem) scale(1.25);}
 }
 

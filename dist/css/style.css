@@ -503,6 +503,13 @@
   }
 }
 
+@media (min-width: 600px) {
+  .geneva-title {
+    -webkit-animation-name: geneva-animation-tablet;
+            animation-name: geneva-animation-tablet;
+  }
+}
+
 @media (min-width: 1100px) {
   .geneva-title {
     -webkit-animation-name: geneva-animation-desktop;
@@ -525,6 +532,28 @@
   0% {
     -webkit-transform: translateX(250rem) scale(0.75);
             transform: translateX(250rem) scale(0.75);
+  }
+  100% {
+    -webkit-transform: translateX(0rem) scale(1.25);
+            transform: translateX(0rem) scale(1.25);
+  }
+}
+
+@-webkit-keyframes geneva-animation-tablet {
+  0% {
+    -webkit-transform: translateX(600rem) scale(0.75);
+            transform: translateX(600rem) scale(0.75);
+  }
+  100% {
+    -webkit-transform: translateX(0rem) scale(1.25);
+            transform: translateX(0rem) scale(1.25);
+  }
+}
+
+@keyframes geneva-animation-tablet {
+  0% {
+    -webkit-transform: translateX(600rem) scale(0.75);
+            transform: translateX(600rem) scale(0.75);
   }
   100% {
     -webkit-transform: translateX(0rem) scale(1.25);
@@ -666,6 +695,13 @@
   }
 }
 
+@media (min-width: 600px) {
+  .bern-title {
+    -webkit-animation-name: bern-animation-tablet;
+            animation-name: bern-animation-tablet;
+  }
+}
+
 @media (min-width: 1100px) {
   .bern-title {
     -webkit-animation-name: bern-animation-desktop;
@@ -688,6 +724,28 @@
   0% {
     -webkit-transform: translateX(-250rem) scale(0.75);
             transform: translateX(-250rem) scale(0.75);
+  }
+  100% {
+    -webkit-transform: translateX(0rem) scale(1.25);
+            transform: translateX(0rem) scale(1.25);
+  }
+}
+
+@-webkit-keyframes bern-animation-tablet {
+  0% {
+    -webkit-transform: translateX(-600rem) scale(0.75);
+            transform: translateX(-600rem) scale(0.75);
+  }
+  100% {
+    -webkit-transform: translateX(0rem) scale(1.25);
+            transform: translateX(0rem) scale(1.25);
+  }
+}
+
+@keyframes bern-animation-tablet {
+  0% {
+    -webkit-transform: translateX(-600rem) scale(0.75);
+            transform: translateX(-600rem) scale(0.75);
   }
   100% {
     -webkit-transform: translateX(0rem) scale(1.25);
