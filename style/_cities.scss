@@ -113,20 +113,21 @@
     animation-fill-mode: forwards;*/
     animation-duration: 0.8s;
     animation-timing-function: ease-out;
+    animation-play-state: paused;
     
     @include phone{
         animation-name: zurich-animation-phone;
-        animation-play-state: paused;
+        
     }
     @include desktop{
         animation-name: zurich-animation-desktop;
-        animation-play-state: paused;
+        
     }
     
 }
 
 @keyframes zurich-animation-phone{
-    0%{transform: translateX(-200rem) scale(0.75);}
+    0%{transform: translateX(-250rem) scale(0.75);}
     100%{transform: translateX(0rem) scale(1.25);}
 }
 
@@ -235,7 +236,7 @@
     
 }
 @keyframes geneva-animation-phone{
-    0%{transform: translateX(200rem) scale(0.75);}
+    0%{transform: translateX(250rem) scale(0.75);}
     100%{transform: translateX(0rem) scale(1.25);}
 }
 
@@ -326,7 +327,7 @@
 }
 
 @keyframes bern-animation-phone{
-    0%{transform: translateX(-200rem) scale(0.75);}
+    0%{transform: translateX(-250rem) scale(0.75);}
     100%{transform: translateX(0rem) scale(1.25);}
 }
 
