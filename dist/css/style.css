@@ -296,6 +296,13 @@
   }
 }
 
+@media (min-width: 600px) {
+  .zurich-title {
+    -webkit-animation-name: zurich-animation-tablet;
+            animation-name: zurich-animation-tablet;
+  }
+}
+
 @media (min-width: 1100px) {
   .zurich-title {
     -webkit-animation-name: zurich-animation-desktop;
@@ -318,6 +325,28 @@
   0% {
     -webkit-transform: translateX(-250rem) scale(0.75);
             transform: translateX(-250rem) scale(0.75);
+  }
+  100% {
+    -webkit-transform: translateX(0rem) scale(1.25);
+            transform: translateX(0rem) scale(1.25);
+  }
+}
+
+@-webkit-keyframes zurich-animation-tablet {
+  0% {
+    -webkit-transform: translateX(-450rem) scale(0.75);
+            transform: translateX(-450rem) scale(0.75);
+  }
+  100% {
+    -webkit-transform: translateX(0rem) scale(1.25);
+            transform: translateX(0rem) scale(1.25);
+  }
+}
+
+@keyframes zurich-animation-tablet {
+  0% {
+    -webkit-transform: translateX(-450rem) scale(0.75);
+            transform: translateX(-450rem) scale(0.75);
   }
   100% {
     -webkit-transform: translateX(0rem) scale(1.25);

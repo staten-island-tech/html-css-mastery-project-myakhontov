@@ -119,6 +119,9 @@
         animation-name: zurich-animation-phone;
         
     }
+    @include tablet{
+        animation-name: zurich-animation-tablet;
+    }
     @include desktop{
         animation-name: zurich-animation-desktop;
         
@@ -128,6 +131,11 @@
 
 @keyframes zurich-animation-phone{
     0%{transform: translateX(-250rem) scale(0.75);}
+    100%{transform: translateX(0rem) scale(1.25);}
+}
+
+@keyframes zurich-animation-tablet{
+    0%{transform: translateX(-450rem) scale(0.75);}
     100%{transform: translateX(0rem) scale(1.25);}
 }
 
