@@ -116,6 +116,7 @@
     
     @include phone{
         animation-name: zurich-animation-phone;
+        animation-play-state: paused;
     }
     @include desktop{
         animation-name: zurich-animation-desktop;

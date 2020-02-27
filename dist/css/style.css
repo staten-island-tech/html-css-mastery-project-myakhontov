@@ -291,6 +291,8 @@
   .zurich-title {
     -webkit-animation-name: zurich-animation-phone;
             animation-name: zurich-animation-phone;
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
   }
 }
 
