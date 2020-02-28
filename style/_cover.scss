@@ -53,7 +53,15 @@
         font-size: 24rem;
         transform: translateY(5rem);
     }
-    
+    animation-name: switzerland-animation;
+    animation-duration: 3.0s;
+    animation-timing-function: ease-out;
+
+}
+
+@keyframes switzerland-animation{
+    0%{opacity: 0.0;}
+    100%{opacity: 1.0;}
 }
 
 .cover h2{
@@ -71,3 +79,5 @@
         transform: translateY(12rem) scaleY(-1);
     }
 }
+
+

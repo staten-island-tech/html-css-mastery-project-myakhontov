@@ -2,7 +2,12 @@
 
 
 .beige-box{
-    height: 90vh;
+    @include phone{
+        height: 100vh;
+    }
+    @include desktop{
+        height: 90vh;
+    }
     background-color: color(lightbeige);
 }
 
@@ -18,18 +23,30 @@
 }
 
 .beige-box-parent{
-    height: 70vh;
+    height: 80vh;
     //border: solid 5px red;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    @include phone{
+        flex-direction: column;
+    }
+    @include desktop{
+        flex-direction: row;
+    }
 }
 
 .landmark{
-    border-radius: 20px;
-    height: 40rem;
-    width: 50rem;
+    border-radius: 30rem;
     border: solid 4px black;
+    @include phone{
+        height: 18rem;
+        width: 27rem;
+    }
+    @include desktop{
+        height: 50rem;
+        width: 50rem;
+    }
 }
 .alps{
     background-image: url(media/swiss_alps.jpg);
