@@ -5,17 +5,23 @@
     @include phone{
         height: 100vh;
     }
+    @include tablet{
+        height: 100vh;
+    }
     @include desktop{
         height: 90vh;
     }
     background-color: color(lightbeige);
 }
 
-.beige-box header{
+.landmark-sec-title{
     font-family: 'Marcellus', serif;
     text-align: center;
     @include phone{
         font-size: 4rem;
+    }
+    @include tablet{
+        font-size: 6rem;
     }
     @include desktop{
         font-size: 8rem;
@@ -23,25 +29,34 @@
 }
 
 .beige-box-parent{
-    height: 80vh;
     //border: solid 5px red;
     display: flex;
     justify-content: space-around;
     align-items: center;
     @include phone{
         flex-direction: column;
+        height: 80vh;
+    }
+    @include tablet{
+        height: 85vh;
     }
     @include desktop{
         flex-direction: row;
+        height: 80vh;
     }
 }
 
 .landmark{
     border-radius: 30rem;
     border: solid 4px black;
+    background-size: cover;
     @include phone{
         height: 18rem;
         width: 27rem;
+    }
+    @include tablet{
+        height: 25rem;
+        width: 40rem;
     }
     @include desktop{
         height: 50rem;
@@ -50,15 +65,23 @@
 }
 .alps{
     background-image: url(media/swiss_alps.jpg);
-    background-size: cover;
 }
 
 .jet{
     background-image: url(media/jetdeau.jpg);
-    background-size: cover;
 }
 
 .festival{
     background-image: url(media/balloon.jpg);
-    background-size: cover;
+}
+
+.landmark header{
+    text-align: center;
+    font-family: 'Marcellus', serif;
+    font-size: 6rem;
+    color: white;
+    text-shadow: 2px 2px 0 black,
+                -2px 2px 0 black,
+                2px -2px 0 black,
+               -2px -2px 0 black;
 }

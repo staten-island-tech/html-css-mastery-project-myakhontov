@@ -305,8 +305,8 @@
   /*transform: translateX(-100rem);
     transition: 1.0s all;
     animation-fill-mode: forwards;*/
-  -webkit-animation-duration: 0.8s;
-          animation-duration: 0.8s;
+  -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
   -webkit-animation-play-state: paused;
@@ -512,8 +512,8 @@
   /*transform: translateX(-100rem);
     transition: 1.0s all;
     animation-fill-mode: forwards;*/
-  -webkit-animation-duration: 0.8s;
-          animation-duration: 0.8s;
+  -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
   -webkit-animation-play-state: paused;
@@ -704,8 +704,8 @@
   /*transform: translateX(-100rem);
     transition: 1.0s all;
     animation-fill-mode: forwards;*/
-  -webkit-animation-duration: 0.8s;
-          animation-duration: 0.8s;
+  -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
   -webkit-animation-play-state: paused;
@@ -814,31 +814,42 @@
   }
 }
 
+@media (min-width: 600px) {
+  .beige-box {
+    height: 100vh;
+  }
+}
+
 @media (min-width: 1100px) {
   .beige-box {
     height: 90vh;
   }
 }
 
-.beige-box header {
+.landmark-sec-title {
   font-family: 'Marcellus', serif;
   text-align: center;
 }
 
 @media (min-width: 350px) {
-  .beige-box header {
+  .landmark-sec-title {
     font-size: 4rem;
   }
 }
 
+@media (min-width: 600px) {
+  .landmark-sec-title {
+    font-size: 6rem;
+  }
+}
+
 @media (min-width: 1100px) {
-  .beige-box header {
+  .landmark-sec-title {
     font-size: 8rem;
   }
 }
 
 .beige-box-parent {
-  height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -855,6 +866,13 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: 80vh;
+  }
+}
+
+@media (min-width: 600px) {
+  .beige-box-parent {
+    height: 85vh;
   }
 }
 
@@ -864,18 +882,27 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    height: 80vh;
   }
 }
 
 .landmark {
   border-radius: 30rem;
   border: solid 4px black;
+  background-size: cover;
 }
 
 @media (min-width: 350px) {
   .landmark {
     height: 18rem;
     width: 27rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .landmark {
+    height: 25rem;
+    width: 40rem;
   }
 }
 
@@ -888,17 +915,22 @@
 
 .alps {
   background-image: url(media/swiss_alps.jpg);
-  background-size: cover;
 }
 
 .jet {
   background-image: url(media/jetdeau.jpg);
-  background-size: cover;
 }
 
 .festival {
   background-image: url(media/balloon.jpg);
-  background-size: cover;
+}
+
+.landmark header {
+  text-align: center;
+  font-family: 'Marcellus', serif;
+  font-size: 6rem;
+  color: white;
+  text-shadow: 2px 2px 0 black, -2px 2px 0 black, 2px -2px 0 black, -2px -2px 0 black;
 }
 
 html {
