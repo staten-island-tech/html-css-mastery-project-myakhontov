@@ -29,10 +29,10 @@
 }
 
 .beige-box-parent{
-    //border: solid 5px red;
+    border: solid 5px red;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+
     @include phone{
         flex-direction: column;
         height: 80vh;
@@ -46,7 +46,64 @@
     }
 }
 
-.landmark{
+
+.card{
+    perspective: 150rem;
+    position: relative;
+}
+
+.card-side{
+    font-size: 15px;
+    color: white;
+    backface-visibility: hidden;
+    box-shadow: 0 1.5rem 4rem rgba(0,0,0,.15);
+    border-radius: 30rem;
+    @include phone{
+        height: 18rem;
+        width: 27rem;
+    }
+    @include tablet{
+        height: 25rem;
+        width: 40rem;
+    }
+    @include desktop{
+        height: 50rem;
+        width: 50rem;
+    }
+}
+
+.card-side-front{
+    background-color: red;
+    position: absolute;
+    //top: 0;
+    //left: 0;
+    z-index: 1;
+    transition: all 1s;
+    background-image: url(media/zurich.jpg);
+    
+}
+
+.card-side-back{
+    background-image: url(media/zurich.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    transform: rotateY(-180deg);
+    transition: all 1s;
+}
+
+.card:hover .card-side-front{
+    transform: rotateY(-180deg);
+}
+.card:hover .card-side-back{
+    transform: rotateY(0deg);
+}
+
+
+
+
+/*.landmark{
     border-radius: 30rem;
     border: solid 4px black;
     background-size: cover;
@@ -73,7 +130,7 @@
 
 .festival{
     background-image: url(media/balloon.jpg);
-}
+} 
 
 .landmark header{
     text-align: center;
@@ -84,4 +141,14 @@
                 -2px 2px 0 black,
                 2px -2px 0 black,
                -2px -2px 0 black;
-}
+    @include phone{
+        font-size: 4rem;
+    }
+    @include tablet{
+        font-size: 5rem;
+    }
+    @include desktop{
+        font-size: 6rem;
+        transform: translateY(2rem);
+    }
+} */

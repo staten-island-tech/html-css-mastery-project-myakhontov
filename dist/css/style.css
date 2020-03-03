@@ -541,72 +541,20 @@
   }
 }
 
-@-webkit-keyframes geneva-animation-phone {
-  0% {
-    -webkit-transform: translateX(250rem) scale(0.75);
-            transform: translateX(250rem) scale(0.75);
-  }
-  100% {
-    -webkit-transform: translateX(0rem) scale(1.25);
-            transform: translateX(0rem) scale(1.25);
-  }
+/*@keyframes geneva-animation-phone{
+    0%{transform: translateX(250rem) scale(0.75);}
+    100%{transform: translateX(0rem) scale(1.25);}
 }
 
-@keyframes geneva-animation-phone {
-  0% {
-    -webkit-transform: translateX(250rem) scale(0.75);
-            transform: translateX(250rem) scale(0.75);
-  }
-  100% {
-    -webkit-transform: translateX(0rem) scale(1.25);
-            transform: translateX(0rem) scale(1.25);
-  }
+@keyframes geneva-animation-tablet{
+    0%{transform: translateX(600rem) scale(0.75);}
+    100%{transform: translateX(0rem) scale(1.25);}
 }
 
-@-webkit-keyframes geneva-animation-tablet {
-  0% {
-    -webkit-transform: translateX(600rem) scale(0.75);
-            transform: translateX(600rem) scale(0.75);
-  }
-  100% {
-    -webkit-transform: translateX(0rem) scale(1.25);
-            transform: translateX(0rem) scale(1.25);
-  }
-}
-
-@keyframes geneva-animation-tablet {
-  0% {
-    -webkit-transform: translateX(600rem) scale(0.75);
-            transform: translateX(600rem) scale(0.75);
-  }
-  100% {
-    -webkit-transform: translateX(0rem) scale(1.25);
-            transform: translateX(0rem) scale(1.25);
-  }
-}
-
-@-webkit-keyframes geneva-animation-desktop {
-  0% {
-    -webkit-transform: translateX(100rem) scale(0.75);
-            transform: translateX(100rem) scale(0.75);
-  }
-  100% {
-    -webkit-transform: translateX(0rem) scale(1.25);
-            transform: translateX(0rem) scale(1.25);
-  }
-}
-
-@keyframes geneva-animation-desktop {
-  0% {
-    -webkit-transform: translateX(100rem) scale(0.75);
-            transform: translateX(100rem) scale(0.75);
-  }
-  100% {
-    -webkit-transform: translateX(0rem) scale(1.25);
-            transform: translateX(0rem) scale(1.25);
-  }
-}
-
+@keyframes geneva-animation-desktop{
+    0%{transform: translateX(100rem) scale(0.75);}
+    100%{transform: translateX(0rem) scale(1.25);}
+}*/
 .purple-box:hover .geneva-title {
   -webkit-animation-play-state: running;
           animation-play-state: running;
@@ -850,14 +798,13 @@
 }
 
 .beige-box-parent {
+  border: solid 5px red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 @media (min-width: 350px) {
@@ -886,53 +833,123 @@
   }
 }
 
-.landmark {
+.card {
+  -webkit-perspective: 150rem;
+          perspective: 150rem;
+  position: relative;
+}
+
+.card-side {
+  font-size: 15px;
+  color: white;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   border-radius: 30rem;
-  border: solid 4px black;
-  background-size: cover;
 }
 
 @media (min-width: 350px) {
-  .landmark {
+  .card-side {
     height: 18rem;
     width: 27rem;
   }
 }
 
 @media (min-width: 600px) {
-  .landmark {
+  .card-side {
     height: 25rem;
     width: 40rem;
   }
 }
 
 @media (min-width: 1100px) {
-  .landmark {
+  .card-side {
     height: 50rem;
     width: 50rem;
   }
 }
 
-.alps {
-  background-image: url(media/swiss_alps.jpg);
+.card-side-front {
+  background-color: red;
+  position: absolute;
+  z-index: 1;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  background-image: url(media/zurich.jpg);
 }
 
-.jet {
-  background-image: url(media/jetdeau.jpg);
+.card-side-back {
+  background-image: url(media/zurich.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
-.festival {
-  background-image: url(media/balloon.jpg);
+.card:hover .card-side-front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
 }
 
-.landmark header {
-  text-align: center;
-  font-family: 'Marcellus', serif;
-  font-size: 6rem;
-  color: white;
-  text-shadow: 2px 2px 0 black, -2px 2px 0 black, 2px -2px 0 black, -2px -2px 0 black;
+.card:hover .card-side-back {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
 }
 
+/*.landmark{
+    border-radius: 30rem;
+    border: solid 4px black;
+    background-size: cover;
+    @include phone{
+        height: 18rem;
+        width: 27rem;
+    }
+    @include tablet{
+        height: 25rem;
+        width: 40rem;
+    }
+    @include desktop{
+        height: 50rem;
+        width: 50rem;
+    }
+}
+.alps{
+    background-image: url(media/swiss_alps.jpg);
+}
+
+.jet{
+    background-image: url(media/jetdeau.jpg);
+}
+
+.festival{
+    background-image: url(media/balloon.jpg);
+} 
+
+.landmark header{
+    text-align: center;
+    font-family: 'Marcellus', serif;
+    font-size: 6rem;
+    color: white;
+    text-shadow: 2px 2px 0 black,
+                -2px 2px 0 black,
+                2px -2px 0 black,
+               -2px -2px 0 black;
+    @include phone{
+        font-size: 4rem;
+    }
+    @include tablet{
+        font-size: 5rem;
+    }
+    @include desktop{
+        font-size: 6rem;
+        transform: translateY(2rem);
+    }
+} */
 html {
   padding: 0;
   margin: 0;
