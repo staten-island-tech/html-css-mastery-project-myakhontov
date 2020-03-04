@@ -31,8 +31,8 @@
 .beige-box-parent{
     border: solid 5px red;
     display: flex;
-    justify-content: space-between;
-
+    justify-content: space-around;
+    width: 100vw;
     @include phone{
         flex-direction: column;
         height: 80vh;
@@ -42,7 +42,9 @@
     }
     @include desktop{
         flex-direction: row;
+        justify-content: space-around;
         height: 80vh;
+        width: 100vw;
     }
 }
 
@@ -67,16 +69,15 @@
         width: 40rem;
     }
     @include desktop{
-        height: 50rem;
-        width: 50rem;
+        height: 45rem;
+        width: 45rem;
     }
 }
 
 .card-side-front{
-    background-color: red;
     position: absolute;
-    //top: 0;
-    //left: 0;
+    top: 0;
+    left: 0;
     z-index: 1;
     transition: all 1s;
     background-image: url(media/zurich.jpg);
