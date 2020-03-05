@@ -295,7 +295,7 @@
     }
 }
 
-.red-image{
+/*.red-image{
     background-image: url(media/bern.jpg);
     background-size: cover;
     border: solid 3px black;
@@ -312,8 +312,31 @@
         width: $cityimagewidthdesktop;
         margin-left: $margin;
     }
+}*/
+
+.red-gallery-parent{
+    margin: 0 auto;
+    height: 50rem;
+    width: 40rem;
+    border: solid 3px red;
 }
 
+.gallery{
+    position: relative;
+    height: 60rem;
+}
+
+.red-photo{
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    transition: all 0.6s;
+    border: solid 3px black;
+}
+
+.red-photo .city{
+    background-image: url(media/bern.jpg);
+}
 
 .red-box p{
     @include phone{
