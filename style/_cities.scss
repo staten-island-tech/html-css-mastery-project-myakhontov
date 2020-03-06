@@ -324,19 +324,36 @@
 .gallery{
     position: relative;
     height: 60rem;
+    display: flex;
+    justify-content: space-around;
+
 }
 
 .red-photo{
-    height: 20rem;
-    width: 20rem;
+    //height: 10rem;
+    //width: 10rem;
     position: absolute;
     transition: all 0.6s;
     border: solid 3px black;
 }
 
-.red-photo .city{
-    background-image: url(media/bern.jpg);
+.bern-square{
+    height: 15rem;
+    width: 20rem;
 }
+
+.idk{
+    height: 10rem;
+    width: 15rem;
+}
+
+.idk2{
+    height: 15rem;
+    width: 20rem;
+    top: 2rem;
+}
+
+
 
 .red-box p{
     @include phone{
