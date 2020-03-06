@@ -316,9 +316,9 @@
 
 .red-gallery-parent{
     margin: 0 auto;
-    height: 50rem;
-    width: 40rem;
-    border: solid 3px red;
+    height: 70rem;
+    width: 80rem;
+    //border: solid 3px red;
 }
 
 .gallery{
@@ -338,21 +338,34 @@
 }
 
 .bern-square{
-    height: 15rem;
-    width: 20rem;
+    height: 25rem;
+    top: 17rem;
+    left: 33rem;
 }
 
 .idk{
-    height: 10rem;
-    width: 15rem;
+    height: 25rem;
+    top: 2rem;
+    left: 23rem;
 }
 
 .idk2{
-    height: 15rem;
-    width: 20rem;
-    top: 2rem;
+    height: 25rem;
+    top: 22rem;
+    left: 4rem;
 }
 
+.red-photo:hover{
+    transform: scale(1.3);
+    outline: 1rem solid #222;
+    z-index: 1;
+    box-shadow: 10px 10px gray;
+}
+
+.gallery:hover .red-photo:not(:hover){
+    transform: scale(.7);
+    opacity: 0.3;
+}
 
 
 .red-box p{
