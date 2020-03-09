@@ -729,7 +729,7 @@
   .idk {
     height: 12rem;
     top: 2rem;
-    left: 10.5rem;
+    left: 11.5rem;
   }
 }
 
@@ -737,7 +737,7 @@
   .idk {
     height: 24rem;
     top: 2rem;
-    left: 22rem;
+    left: 23rem;
   }
 }
 
@@ -745,7 +745,7 @@
   .idk {
     height: 30rem;
     top: 2rem;
-    left: 20rem;
+    left: 21rem;
   }
 }
 
@@ -817,8 +817,8 @@
   .bern-title {
     -webkit-animation-name: bern-animation-phone;
             animation-name: bern-animation-phone;
-    -webkit-transform: translateX(-21rem) scale(1.25);
-            transform: translateX(-21rem) scale(1.25);
+    -webkit-transform: translateX(-20rem) scale(1.25);
+            transform: translateX(-20rem) scale(1.25);
   }
 }
 
@@ -826,6 +826,8 @@
   .bern-title {
     -webkit-animation-name: bern-animation-tablet;
             animation-name: bern-animation-tablet;
+    -webkit-transform: translateX(0rem) scale(1.25);
+            transform: translateX(0rem) scale(1.25);
   }
 }
 

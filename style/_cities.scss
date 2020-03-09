@@ -361,17 +361,17 @@
     @include phone{
         height: 12rem;
         top: 2rem;
-        left: 10.5rem;
+        left: 11.5rem;
     }
     @include tablet{
         height: 24rem;
         top: 2rem;
-        left: 22rem;
+        left: 23rem;
     }
     @include desktop{
         height: 30rem;
         top: 2rem;
-        left: 20rem;
+        left: 21rem;
     }
 }
 
@@ -428,10 +428,11 @@
     
     @include phone{
         animation-name: bern-animation-phone;
-        transform: translateX(-21rem) scale(1.25);
+        transform: translateX(-20rem) scale(1.25);
     }
     @include tablet{
         animation-name: bern-animation-tablet;
+        transform: translateX(0rem) scale(1.25);
     }
     @include desktop{
         animation-name: bern-animation-desktop;
