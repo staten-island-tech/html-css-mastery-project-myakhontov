@@ -617,6 +617,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100vw;
 }
 
 @media (min-width: 350px) {
@@ -685,7 +686,7 @@
 
 .gallery {
   position: relative;
-  height: 60rem;
+  height: 30rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -700,31 +701,61 @@
   border: solid 3px black;
 }
 
-.bern-square {
-  height: 25rem;
-  top: 17rem;
-  left: 33rem;
+@media (min-width: 350px) {
+  .bern-square {
+    height: 12rem;
+    top: 10rem;
+    left: 16rem;
+  }
 }
 
-.idk {
-  height: 25rem;
-  top: 2rem;
-  left: 23rem;
+@media (min-width: 1100px) {
+  .bern-square {
+    height: 30rem;
+    top: 20rem;
+    left: 33rem;
+  }
 }
 
-.idk2 {
-  height: 25rem;
-  top: 22rem;
-  left: 4rem;
+@media (min-width: 350px) {
+  .idk {
+    height: 12rem;
+    top: 2rem;
+    left: 10.5rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .idk {
+    height: 30rem;
+    top: 2rem;
+    left: 20rem;
+  }
+}
+
+@media (min-width: 350px) {
+  .idk2 {
+    height: 12rem;
+    top: 12rem;
+    left: 2rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .idk2 {
+    height: 30rem;
+    top: 24rem;
+    left: 2rem;
+  }
 }
 
 .red-photo:hover {
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
-  outline: 1rem solid #222;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  outline: 5px solid #222;
   z-index: 1;
-  -webkit-box-shadow: 10px 10px gray;
-          box-shadow: 10px 10px gray;
+  -webkit-box-shadow: 7px 7px gray;
+          box-shadow: 7px 7px gray;
 }
 
 .gallery:hover .red-photo:not(:hover) {
@@ -762,6 +793,8 @@
   .bern-title {
     -webkit-animation-name: bern-animation-phone;
             animation-name: bern-animation-phone;
+    -webkit-transform: translateX(-21rem) scale(1.25);
+            transform: translateX(-21rem) scale(1.25);
   }
 }
 
@@ -781,23 +814,23 @@
 
 @-webkit-keyframes bern-animation-phone {
   0% {
-    -webkit-transform: translateX(-250rem) scale(0.75);
-            transform: translateX(-250rem) scale(0.75);
+    -webkit-transform: translateX(-100rem) scale(0.75);
+            transform: translateX(-100rem) scale(0.75);
   }
   100% {
-    -webkit-transform: translateX(0rem) scale(1.25);
-            transform: translateX(0rem) scale(1.25);
+    -webkit-transform: translateX(-21rem) scale(1.25);
+            transform: translateX(-21rem) scale(1.25);
   }
 }
 
 @keyframes bern-animation-phone {
   0% {
-    -webkit-transform: translateX(-250rem) scale(0.75);
-            transform: translateX(-250rem) scale(0.75);
+    -webkit-transform: translateX(-100rem) scale(0.75);
+            transform: translateX(-100rem) scale(0.75);
   }
   100% {
-    -webkit-transform: translateX(0rem) scale(1.25);
-            transform: translateX(0rem) scale(1.25);
+    -webkit-transform: translateX(-21rem) scale(1.25);
+            transform: translateX(-21rem) scale(1.25);
   }
 }
 

@@ -277,6 +277,7 @@
     //background-image: linear-gradient(to bottom, color(lightred), color(lightbeige));
     background-color: color(lightred);
     display: flex;
+    width: 100vw;
     @include phone{
         height: 70vh;
         flex-direction: column;
@@ -323,7 +324,7 @@
 
 .gallery{
     position: relative;
-    height: 60rem;
+    height: 30rem;
     display: flex;
     justify-content: space-around;
 
@@ -338,28 +339,51 @@
 }
 
 .bern-square{
-    height: 25rem;
-    top: 17rem;
-    left: 33rem;
+    @include phone{
+        height: 12rem;
+        top: 10rem;
+        left: 16rem;
+    }
+    @include desktop{
+        height: 30rem;
+        top: 20rem;
+        left: 33rem;
+    }
 }
 
 .idk{
-    height: 25rem;
-    top: 2rem;
-    left: 23rem;
+    
+    @include phone{
+        height: 12rem;
+        top: 2rem;
+        left: 10.5rem;
+    }
+    @include desktop{
+        height: 30rem;
+        top: 2rem;
+        left: 20rem;
+    }
 }
 
 .idk2{
-    height: 25rem;
-    top: 22rem;
-    left: 4rem;
+    
+    @include phone{
+        height: 12rem;
+        top: 12rem;
+        left: 2rem;
+    }
+    @include desktop{
+        height: 30rem;
+        top: 24rem;
+        left: 2rem;
+    }
 }
 
 .red-photo:hover{
-    transform: scale(1.3);
-    outline: 1rem solid #222;
+    transform: scale(1.2);
+    outline: 5px solid #222;
     z-index: 1;
-    box-shadow: 10px 10px gray;
+    box-shadow: 7px 7px gray;
 }
 
 .gallery:hover .red-photo:not(:hover){
@@ -386,8 +410,10 @@
     animation-duration: 0.7s;
     animation-timing-function: ease-out;
     animation-play-state: paused;
+    
     @include phone{
         animation-name: bern-animation-phone;
+        transform: translateX(-21rem) scale(1.25);
     }
     @include tablet{
         animation-name: bern-animation-tablet;
@@ -399,8 +425,8 @@
 }
 
 @keyframes bern-animation-phone{
-    0%{transform: translateX(-250rem) scale(0.75);}
-    100%{transform: translateX(0rem) scale(1.25);}
+    0%{transform: translateX(-100rem) scale(0.75);}
+    100%{transform: translateX(-21rem) scale(1.25);}
 }
 
 @keyframes bern-animation-tablet{
