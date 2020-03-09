@@ -687,6 +687,7 @@
 .gallery {
   position: relative;
   height: 30rem;
+  left: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
