@@ -709,6 +709,14 @@
   }
 }
 
+@media (min-width: 600px) {
+  .bern-square {
+    height: 24rem;
+    top: 17rem;
+    left: 35rem;
+  }
+}
+
 @media (min-width: 1100px) {
   .bern-square {
     height: 30rem;
@@ -725,6 +733,14 @@
   }
 }
 
+@media (min-width: 600px) {
+  .idk {
+    height: 24rem;
+    top: 2rem;
+    left: 22rem;
+  }
+}
+
 @media (min-width: 1100px) {
   .idk {
     height: 30rem;
@@ -738,6 +754,14 @@
     height: 12rem;
     top: 12rem;
     left: 2rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .idk2 {
+    height: 24rem;
+    top: 21rem;
+    left: 4rem;
   }
 }
 
@@ -809,6 +833,8 @@
   .bern-title {
     -webkit-animation-name: bern-animation-desktop;
             animation-name: bern-animation-desktop;
+    -webkit-transform: translateX(0rem) scale(1.25);
+            transform: translateX(0rem) scale(1.25);
   }
 }
 

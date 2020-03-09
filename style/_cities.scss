@@ -344,6 +344,11 @@
         top: 10rem;
         left: 16rem;
     }
+    @include tablet{
+        height: 24rem;
+        top: 17rem;
+        left: 35rem;
+    }
     @include desktop{
         height: 30rem;
         top: 20rem;
@@ -358,6 +363,11 @@
         top: 2rem;
         left: 10.5rem;
     }
+    @include tablet{
+        height: 24rem;
+        top: 2rem;
+        left: 22rem;
+    }
     @include desktop{
         height: 30rem;
         top: 2rem;
@@ -371,6 +381,11 @@
         height: 12rem;
         top: 12rem;
         left: 2rem;
+    }
+    @include tablet{
+        height: 24rem;
+        top: 21rem;
+        left: 4rem;
     }
     @include desktop{
         height: 30rem;
@@ -420,6 +435,7 @@
     }
     @include desktop{
         animation-name: bern-animation-desktop;
+        transform: translateX(0rem) scale(1.25);
     }
     
 }
