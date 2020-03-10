@@ -218,7 +218,12 @@
     height: 30rem;
     display: flex;
     justify-content: space-around;
+    
 }
+
+
+
+
 .purple-photo{
     border: solid 3px black;
     filter: brightness(95%);
@@ -233,11 +238,43 @@
         height: 40rem;
         width: 50rem;
     }
-    @include desktop{
-        height: 70rem;
-        width: 70rem;
+    @include desktop{               //70,70
+        height: 30rem;
+        width: 30rem;
         margin-right: $margin;
     }
+    animation-duration: 0.7s;
+    animation-timing-function: ease-out;
+    animation-play-state: paused;
+    @include phone{
+        animation-name: gallery-animation-phone;
+    }
+    @include tablet{
+        animation-name: gallery-animation-tablet;
+    }
+    @include desktop{
+        animation-name: gallery-animation-desktop;
+    }
+}
+
+@keyframes gallery-animation-desktop{
+    0%{height: 30rem;
+        width: 30rem;}
+}
+
+.geneva-town{
+    top: 0rem;
+    left: 47rem;
+}
+
+.manidk{
+    top: 34rem;
+    left: 25rem;
+}
+
+.manidk2{
+    top: 0rem;
+    left: 2rem;
 }
 
 
