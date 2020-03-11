@@ -499,20 +499,12 @@
           filter: brightness(95%);
   border-radius: 50rem;
   position: absolute;
-  -webkit-transition: all 0.6s;
-  transition: all 0.6s;
-  -webkit-animation-duration: 0.7s;
-          animation-duration: 0.7s;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
 }
 
 @media (min-width: 350px) {
   .purple-photo {
-    height: 30rem;
-    width: 40rem;
+    height: 12rem;
+    width: 12rem;
   }
 }
 
@@ -531,27 +523,6 @@
   }
 }
 
-@media (min-width: 350px) {
-  .purple-photo {
-    -webkit-animation-name: gallery-animation-phone;
-            animation-name: gallery-animation-phone;
-  }
-}
-
-@media (min-width: 600px) {
-  .purple-photo {
-    -webkit-animation-name: gallery-animation-tablet;
-            animation-name: gallery-animation-tablet;
-  }
-}
-
-@media (min-width: 1100px) {
-  .purple-photo {
-    -webkit-animation-name: gallery-animation-desktop;
-            animation-name: gallery-animation-desktop;
-  }
-}
-
 @-webkit-keyframes gallery-animation-desktop {
   0% {
     height: 30rem;
@@ -567,18 +538,243 @@
 }
 
 .geneva-town {
-  top: 0rem;
-  left: 47rem;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@media (min-width: 350px) {
+  .geneva-town {
+    top: 0rem;
+    left: 0rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .geneva-town {
+    top: 0rem;
+    left: 42rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .geneva-town {
+    -webkit-animation-name: geneva-town-animation-desktop;
+            animation-name: geneva-town-animation-desktop;
+  }
+}
+
+@-webkit-keyframes geneva-town-animation-desktop {
+  0% {
+    height: 70rem;
+    width: 70rem;
+    top: 0rem;
+    left: 0rem;
+  }
+  100% {
+    height: 30rem;
+    width: 30rem;
+    top: 0rem;
+    left: 42rem;
+  }
+}
+
+@keyframes geneva-town-animation-desktop {
+  0% {
+    height: 70rem;
+    width: 70rem;
+    top: 0rem;
+    left: 0rem;
+  }
+  100% {
+    height: 30rem;
+    width: 30rem;
+    top: 0rem;
+    left: 42rem;
+  }
 }
 
 .manidk {
-  top: 34rem;
-  left: 25rem;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@media (min-width: 350px) {
+  .manidk {
+    top: 0rem;
+    left: 0rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .manidk {
+    top: 34rem;
+    left: 20rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .manidk {
+    -webkit-animation-name: manidk-animation-desktop;
+            animation-name: manidk-animation-desktop;
+  }
+}
+
+@-webkit-keyframes manidk-animation-desktop {
+  0% {
+    height: 70rem;
+    width: 70rem;
+    top: 0rem;
+    left: 0rem;
+  }
+  100% {
+    height: 30rem;
+    width: 30rem;
+    top: 34rem;
+    left: 20rem;
+  }
+}
+
+@keyframes manidk-animation-desktop {
+  0% {
+    height: 70rem;
+    width: 70rem;
+    top: 0rem;
+    left: 0rem;
+  }
+  100% {
+    height: 30rem;
+    width: 30rem;
+    top: 34rem;
+    left: 20rem;
+  }
 }
 
 .manidk2 {
-  top: 0rem;
-  left: 2rem;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@media (min-width: 1100px) {
+  .manidk2 {
+    top: 0rem;
+    left: -1rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .manidk2 {
+    -webkit-animation-name: manidk2-animation-desktop;
+            animation-name: manidk2-animation-desktop;
+  }
+}
+
+@-webkit-keyframes manidk2-animation-desktop {
+  0% {
+    height: 70rem;
+    width: 70rem;
+    top: 0rem;
+    left: 0rem;
+  }
+  100% {
+    height: 30rem;
+    width: 30rem;
+    top: 0rem;
+    left: -1rem;
+  }
+}
+
+@keyframes manidk2-animation-desktop {
+  0% {
+    height: 70rem;
+    width: 70rem;
+    top: 0rem;
+    left: 0rem;
+  }
+  100% {
+    height: 30rem;
+    width: 30rem;
+    top: 0rem;
+    left: -1rem;
+  }
+}
+
+.manidk3 {
+  opacity: 0.0;
+  -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@media (min-width: 1100px) {
+  .manidk3 {
+    -webkit-animation-name: manidk3-animation-desktop;
+            animation-name: manidk3-animation-desktop;
+  }
+}
+
+@-webkit-keyframes manidk3-animation-desktop {
+  0% {
+    height: 70rem;
+    width: 70rem;
+    left: 0;
+    opacity: 1.0;
+  }
+  100% {
+    height: 30rem;
+    width: 30rem;
+    left: 0;
+    opacity: 0.0;
+  }
+}
+
+@keyframes manidk3-animation-desktop {
+  0% {
+    height: 70rem;
+    width: 70rem;
+    left: 0;
+    opacity: 1.0;
+  }
+  100% {
+    height: 30rem;
+    width: 30rem;
+    left: 0;
+    opacity: 0.0;
+  }
+}
+
+.gallery-p:active .geneva-town {
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+.gallery-p:active .manidk {
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+.gallery-p:active .manidk2 {
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+.gallery-p:active .manidk3 {
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
 }
 
 .geneva-title {
@@ -611,6 +807,8 @@
   .geneva-title {
     -webkit-animation-name: geneva-animation-desktop;
             animation-name: geneva-animation-desktop;
+    -webkit-transform: translateX(-5rem) scale(1.25);
+            transform: translateX(-5rem) scale(1.25);
   }
 }
 
@@ -664,8 +862,8 @@
             transform: translateX(100rem) scale(0.75);
   }
   100% {
-    -webkit-transform: translateX(0rem) scale(1.25);
-            transform: translateX(0rem) scale(1.25);
+    -webkit-transform: translateX(-5rem) scale(1.25);
+            transform: translateX(-5rem) scale(1.25);
   }
 }
 
@@ -675,8 +873,8 @@
             transform: translateX(100rem) scale(0.75);
   }
   100% {
-    -webkit-transform: translateX(0rem) scale(1.25);
-            transform: translateX(0rem) scale(1.25);
+    -webkit-transform: translateX(-5rem) scale(1.25);
+            transform: translateX(-5rem) scale(1.25);
   }
 }
 
