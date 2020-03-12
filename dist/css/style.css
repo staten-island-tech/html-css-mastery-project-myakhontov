@@ -503,8 +503,8 @@
 
 @media (min-width: 350px) {
   .purple-photo {
-    height: 12rem;
-    width: 12rem;
+    height: 10rem;
+    width: 10rem;
   }
 }
 
@@ -523,20 +523,6 @@
   }
 }
 
-@-webkit-keyframes gallery-animation-desktop {
-  0% {
-    height: 30rem;
-    width: 30rem;
-  }
-}
-
-@keyframes gallery-animation-desktop {
-  0% {
-    height: 30rem;
-    width: 30rem;
-  }
-}
-
 .geneva-town {
   -webkit-animation-duration: 1.2s;
           animation-duration: 1.2s;
@@ -548,8 +534,10 @@
 
 @media (min-width: 350px) {
   .geneva-town {
-    top: 0rem;
-    left: 0rem;
+    top: 2rem;
+    left: 45rem;
+    -webkit-animation-name: geneva-town-animation-phone;
+            animation-name: geneva-town-animation-phone;
   }
 }
 
@@ -557,13 +545,38 @@
   .geneva-town {
     top: 0rem;
     left: 42rem;
+    -webkit-animation-name: geneva-town-animation-desktop;
+            animation-name: geneva-town-animation-desktop;
   }
 }
 
-@media (min-width: 1100px) {
-  .geneva-town {
-    -webkit-animation-name: geneva-town-animation-desktop;
-            animation-name: geneva-town-animation-desktop;
+@-webkit-keyframes geneva-town-animation-phone {
+  0% {
+    height: 25rem;
+    width: 25rem;
+    top: 0;
+    left: 27rem;
+  }
+  100% {
+    height: 10rem;
+    width: 10rem;
+    top: 2rem;
+    left: 45rem;
+  }
+}
+
+@keyframes geneva-town-animation-phone {
+  0% {
+    height: 25rem;
+    width: 25rem;
+    top: 0;
+    left: 27rem;
+  }
+  100% {
+    height: 10rem;
+    width: 10rem;
+    top: 2rem;
+    left: 45rem;
   }
 }
 
@@ -608,8 +621,10 @@
 
 @media (min-width: 350px) {
   .manidk {
-    top: 0rem;
-    left: 0rem;
+    top: 2rem;
+    left: 25rem;
+    -webkit-animation-name: manidk-animation-phone;
+            animation-name: manidk-animation-phone;
   }
 }
 
@@ -617,13 +632,38 @@
   .manidk {
     top: 34rem;
     left: 20rem;
+    -webkit-animation-name: manidk-animation-desktop;
+            animation-name: manidk-animation-desktop;
   }
 }
 
-@media (min-width: 1100px) {
-  .manidk {
-    -webkit-animation-name: manidk-animation-desktop;
-            animation-name: manidk-animation-desktop;
+@-webkit-keyframes manidk-animation-phone {
+  0% {
+    height: 25rem;
+    width: 25rem;
+    top: 0;
+    left: 27rem;
+  }
+  100% {
+    height: 10rem;
+    width: 10rem;
+    top: 2rem;
+    left: 25rem;
+  }
+}
+
+@keyframes manidk-animation-phone {
+  0% {
+    height: 25rem;
+    width: 25rem;
+    top: 0;
+    left: 27rem;
+  }
+  100% {
+    height: 10rem;
+    width: 10rem;
+    top: 2rem;
+    left: 25rem;
   }
 }
 
@@ -666,17 +706,51 @@
           animation-play-state: paused;
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 350px) {
   .manidk2 {
-    top: 0rem;
-    left: -1rem;
+    top: 16rem;
+    left: 35rem;
+    -webkit-animation-name: manidk2-animation-phone;
+            animation-name: manidk2-animation-phone;
   }
 }
 
 @media (min-width: 1100px) {
   .manidk2 {
+    top: 0rem;
+    left: -1rem;
     -webkit-animation-name: manidk2-animation-desktop;
             animation-name: manidk2-animation-desktop;
+  }
+}
+
+@-webkit-keyframes manidk2-animation-phone {
+  0% {
+    height: 25rem;
+    width: 25rem;
+    top: 0;
+    left: 27rem;
+  }
+  100% {
+    height: 10rem;
+    width: 10rem;
+    top: 16rem;
+    left: 35rem;
+  }
+}
+
+@keyframes manidk2-animation-phone {
+  0% {
+    height: 25rem;
+    width: 25rem;
+    top: 0;
+    left: 27rem;
+  }
+  100% {
+    height: 10rem;
+    width: 10rem;
+    top: 16rem;
+    left: 35rem;
   }
 }
 
@@ -711,13 +785,20 @@
 }
 
 .manidk3 {
-  opacity: 0.0;
-  -webkit-animation-duration: 0.7s;
-          animation-duration: 0.7s;
+  opacity: 1.0;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
+}
+
+@media (min-width: 350px) {
+  .manidk3 {
+    -webkit-animation-name: manidk3-animation-phone;
+            animation-name: manidk3-animation-phone;
+  }
 }
 
 @media (min-width: 1100px) {
@@ -727,17 +808,53 @@
   }
 }
 
+@-webkit-keyframes manidk3-animation-phone {
+  0% {
+    height: 30rem;
+    width: 30rem;
+    top: 0rem;
+    left: 27rem;
+    opacity: 1.0;
+  }
+  100% {
+    height: 60rem;
+    width: 60rem;
+    top: 0rem;
+    left: 0rem;
+    opacity: 0.0;
+  }
+}
+
+@keyframes manidk3-animation-phone {
+  0% {
+    height: 30rem;
+    width: 30rem;
+    top: 0rem;
+    left: 27rem;
+    opacity: 1.0;
+  }
+  100% {
+    height: 60rem;
+    width: 60rem;
+    top: 0rem;
+    left: 0rem;
+    opacity: 0.0;
+  }
+}
+
 @-webkit-keyframes manidk3-animation-desktop {
   0% {
     height: 70rem;
     width: 70rem;
-    left: 0;
+    top: 0rem;
+    left: 0rem;
     opacity: 1.0;
   }
   100% {
-    height: 30rem;
-    width: 30rem;
-    left: 0;
+    height: 60rem;
+    width: 60rem;
+    top: 0rem;
+    left: 0rem;
     opacity: 0.0;
   }
 }
@@ -746,35 +863,55 @@
   0% {
     height: 70rem;
     width: 70rem;
-    left: 0;
+    top: 0rem;
+    left: 0rem;
     opacity: 1.0;
   }
   100% {
-    height: 30rem;
-    width: 30rem;
-    left: 0;
+    height: 60rem;
+    width: 60rem;
+    top: 0rem;
+    left: 0rem;
     opacity: 0.0;
   }
 }
 
-.gallery-p:active .geneva-town {
-  -webkit-animation-play-state: running;
-          animation-play-state: running;
+@media (min-width: 350px) {
+  .gallery-p:hover .geneva-town {
+    -webkit-animation-play-state: running;
+            animation-play-state: running;
+  }
+  .gallery-p:hover .manidk {
+    -webkit-animation-play-state: running;
+            animation-play-state: running;
+  }
+  .gallery-p:hover .manidk2 {
+    -webkit-animation-play-state: running;
+            animation-play-state: running;
+  }
+  .gallery-p:hover .manidk3 {
+    -webkit-animation-play-state: running;
+            animation-play-state: running;
+  }
 }
 
-.gallery-p:active .manidk {
-  -webkit-animation-play-state: running;
-          animation-play-state: running;
-}
-
-.gallery-p:active .manidk2 {
-  -webkit-animation-play-state: running;
-          animation-play-state: running;
-}
-
-.gallery-p:active .manidk3 {
-  -webkit-animation-play-state: running;
-          animation-play-state: running;
+@media (min-width: 1100px) {
+  .gallery-p:active .geneva-town {
+    -webkit-animation-play-state: running;
+            animation-play-state: running;
+  }
+  .gallery-p:active .manidk {
+    -webkit-animation-play-state: running;
+            animation-play-state: running;
+  }
+  .gallery-p:active .manidk2 {
+    -webkit-animation-play-state: running;
+            animation-play-state: running;
+  }
+  .gallery-p:active .manidk3 {
+    -webkit-animation-play-state: running;
+            animation-play-state: running;
+  }
 }
 
 .geneva-title {
