@@ -785,6 +785,7 @@
 }
 
 .manidk3 {
+  opacity: 0.0;
   -webkit-animation-duration: 0.5s;
           animation-duration: 0.5s;
   -webkit-animation-timing-function: ease-out;
