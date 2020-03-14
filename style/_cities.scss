@@ -589,7 +589,7 @@
     
     @include phone{
         animation-name: bern-animation-phone;
-        transform: translateX(-20rem) scale(1.25);
+        transform: translateX(-21rem) scale(1.25);
     }
     @include tablet{
         animation-name: bern-animation-tablet;
