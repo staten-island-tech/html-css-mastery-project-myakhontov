@@ -589,7 +589,7 @@
     
     @include phone{
         animation-name: bern-animation-phone;
-        transform: translateX(-21rem) scale(1.25);
+        transform: translateX(-45rem) scale(1.25);
     }
     @include tablet{
         animation-name: bern-animation-tablet;
@@ -604,7 +604,7 @@
 
 @keyframes bern-animation-phone{
     0%{transform: translateX(-800rem) scale(0.75);}
-    100%{transform: translateX(-21rem) scale(1.25);}
+    100%{transform: translateX(-45rem) scale(1.25);}
 }
 
 @keyframes bern-animation-tablet{
