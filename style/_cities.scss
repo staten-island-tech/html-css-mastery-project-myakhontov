@@ -327,12 +327,16 @@
 }
 
 .manidk3{
-    opacity: 1.0;
+    opacity: 0.0;
     animation-duration: 0.5s;
     animation-timing-function: ease-out;
     animation-play-state: paused;
     @include phone{
         animation-name: manidk3-animation-phone;
+        top: 4rem;
+        left: 31rem;
+        height: 18rem;
+        width: 18rem;
     }
     @include desktop{
         animation-name: manidk3-animation-desktop;
@@ -340,8 +344,8 @@
 }
 
 @keyframes manidk3-animation-phone{
-    0%{height: 30rem; width: 30rem; top: 0rem; left: 27rem; opacity: 1.0;}
-    100%{height: 60rem; width: 60rem; top: 0rem; left: 0rem; opacity: 0.0;}
+    0%{height: 25rem; width: 25rem; top: 0rem; left: 27rem; opacity: 1.0;}
+    100%{height: 18rem; width: 18rem; top: 4rem; left: 31rem; opacity: 0.0;}
 } 
 
 @keyframes manidk3-animation-desktop{

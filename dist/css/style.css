@@ -785,7 +785,7 @@
 }
 
 .manidk3 {
-  opacity: 1.0;
+  opacity: 0.0;
   -webkit-animation-duration: 0.5s;
           animation-duration: 0.5s;
   -webkit-animation-timing-function: ease-out;
@@ -798,6 +798,10 @@
   .manidk3 {
     -webkit-animation-name: manidk3-animation-phone;
             animation-name: manidk3-animation-phone;
+    top: 4rem;
+    left: 31rem;
+    height: 18rem;
+    width: 18rem;
   }
 }
 
@@ -810,34 +814,34 @@
 
 @-webkit-keyframes manidk3-animation-phone {
   0% {
-    height: 30rem;
-    width: 30rem;
+    height: 25rem;
+    width: 25rem;
     top: 0rem;
     left: 27rem;
     opacity: 1.0;
   }
   100% {
-    height: 60rem;
-    width: 60rem;
-    top: 0rem;
-    left: 0rem;
+    height: 18rem;
+    width: 18rem;
+    top: 4rem;
+    left: 31rem;
     opacity: 0.0;
   }
 }
 
 @keyframes manidk3-animation-phone {
   0% {
-    height: 30rem;
-    width: 30rem;
+    height: 25rem;
+    width: 25rem;
     top: 0rem;
     left: 27rem;
     opacity: 1.0;
   }
   100% {
-    height: 60rem;
-    width: 60rem;
-    top: 0rem;
-    left: 0rem;
+    height: 18rem;
+    width: 18rem;
+    top: 4rem;
+    left: 31rem;
     opacity: 0.0;
   }
 }
