@@ -1230,8 +1230,8 @@
   .bern-title {
     -webkit-animation-name: bern-animation-phone;
             animation-name: bern-animation-phone;
-    -webkit-transform: translateX(-21rem) scale(1.25);
-            transform: translateX(-21rem) scale(1.25);
+    -webkit-transform: translateX(-20rem) scale(1.25);
+            transform: translateX(-20rem) scale(1.25);
   }
 }
 
