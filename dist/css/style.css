@@ -1259,8 +1259,8 @@
             transform: translateX(-200rem) scale(0.75);
   }
   100% {
-    -webkit-transform: translateX(-21rem) scale(1.25);
-            transform: translateX(-21rem) scale(1.25);
+    -webkit-transform: translateX(-30rem) scale(1.25);
+            transform: translateX(-30rem) scale(1.25);
   }
 }
 
@@ -1270,8 +1270,8 @@
             transform: translateX(-200rem) scale(0.75);
   }
   100% {
-    -webkit-transform: translateX(-21rem) scale(1.25);
-            transform: translateX(-21rem) scale(1.25);
+    -webkit-transform: translateX(-30rem) scale(1.25);
+            transform: translateX(-30rem) scale(1.25);
   }
 }
 
