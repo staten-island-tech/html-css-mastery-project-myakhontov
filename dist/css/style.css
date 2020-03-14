@@ -1230,8 +1230,8 @@
   .bern-title {
     -webkit-animation-name: bern-animation-phone;
             animation-name: bern-animation-phone;
-    -webkit-transform: translateX(-45rem) scale(1.25);
-            transform: translateX(-45rem) scale(1.25);
+    -webkit-transform: translateX(-21rem) scale(1.25);
+            transform: translateX(-21rem) scale(1.25);
   }
 }
 
@@ -1259,8 +1259,8 @@
             transform: translateX(-800rem) scale(0.75);
   }
   100% {
-    -webkit-transform: translateX(-45rem) scale(1.25);
-            transform: translateX(-45rem) scale(1.25);
+    -webkit-transform: translateX(-35rem) scale(1.25);
+            transform: translateX(-35rem) scale(1.25);
   }
 }
 
@@ -1270,8 +1270,8 @@
             transform: translateX(-800rem) scale(0.75);
   }
   100% {
-    -webkit-transform: translateX(-45rem) scale(1.25);
-            transform: translateX(-45rem) scale(1.25);
+    -webkit-transform: translateX(-35rem) scale(1.25);
+            transform: translateX(-35rem) scale(1.25);
   }
 }
 
