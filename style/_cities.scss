@@ -478,7 +478,7 @@
 .red-gallery-parent{
     margin: 0 auto;
     height: 70rem;
-    width: 80rem;
+    width: 100vw;
     //border: solid 3px red;
 }
 
@@ -537,7 +537,6 @@
 }
 
 .bern-winter{
-    
     @include phone{
         height: 12rem;
         top: 13rem;
