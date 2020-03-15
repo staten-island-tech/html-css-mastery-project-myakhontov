@@ -1118,7 +1118,7 @@
   .bern-square {
     height: 12rem;
     top: 10rem;
-    left: 16rem;
+    left: 17rem;
   }
 }
 
@@ -1142,7 +1142,7 @@
   .bern-river {
     height: 12rem;
     top: 2rem;
-    left: 8rem;
+    left: 9rem;
   }
 }
 
@@ -1164,7 +1164,7 @@
 
 @media (min-width: 350px) {
   .bern-winter {
-    height: 11rem;
+    height: 12rem;
     top: 13rem;
     left: 1rem;
   }
