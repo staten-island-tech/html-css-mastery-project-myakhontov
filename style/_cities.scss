@@ -245,126 +245,126 @@
     
 }
 
-.geneva-town{
+.geneva-cathedral{
     @include phone{
         top: 2rem;
         left: 45rem;
-        animation-name: geneva-town-animation-phone;
+        animation-name: geneva-cathedral-animation-phone;
     }
     @include desktop{
         top: 0rem;
         left: 42rem;
-        animation-name: geneva-town-animation-desktop;
+        animation-name: geneva-cathedral-animation-desktop;
     }
     animation-duration: 1.2s;
     animation-timing-function: ease-out;
     animation-play-state: paused;
 }
 
-@keyframes geneva-town-animation-phone{
+@keyframes geneva-cathedral-animation-phone{
     0%{height: 25rem; width: 25rem; top: 0; left: 27rem;}
     100%{height: 10rem; width: 10rem; top:2rem; left: 45rem;}
 }
 
-@keyframes geneva-town-animation-desktop{
+@keyframes geneva-cathedral-animation-desktop{
     0%{height: 70rem; width: 70rem; top: 0rem; left: 0rem;}
     100%{height: 30rem; width: 30rem; top: 0rem; left: 42rem;}
 }
 
 
 
-.manidk{
+.geneva-night{
     @include phone{
         top: 2rem;
         left: 25rem;
-        animation-name: manidk-animation-phone;
+        animation-name: geneva-night-animation-phone;
     }
     @include desktop{
         top: 34rem;
         left: 20rem;
-        animation-name: manidk-animation-desktop;
+        animation-name: geneva-night-animation-desktop;
     }
     animation-duration: 1.2s;
     animation-timing-function: ease-out;
     animation-play-state: paused;
 }
 
-@keyframes manidk-animation-phone{
+@keyframes geneva-night-animation-phone{
     0%{height: 25rem; width: 25rem; top: 0; left: 27rem;}
     100%{height: 10rem; width: 10rem; top:2rem; left: 25rem;}
 }
 
 
-@keyframes manidk-animation-desktop{
+@keyframes geneva-night-animation-desktop{
     0%{height: 70rem; width: 70rem; top: 0rem; left: 0rem;}
     100%{height: 30rem; width: 30rem; top: 34rem; left: 20rem;}
 }
 
-.manidk2{
+.geneva-castle{
     @include phone{
         top: 16rem;
         left: 35rem;
-        animation-name: manidk2-animation-phone;
+        animation-name: geneva-castle-animation-phone;
     }
     @include desktop{
         top: 0rem;
         left: -1rem;
-        animation-name: manidk2-animation-desktop;
+        animation-name: geneva-castle-animation-desktop;
     }
     animation-duration: 1.2s;
     animation-timing-function: ease-out;
     animation-play-state: paused;
 }
 
-@keyframes manidk2-animation-phone{
+@keyframes geneva-castle-animation-phone{
     0%{height: 25rem; width: 25rem; top: 0; left: 27rem;}
     100%{height: 10rem; width: 10rem; top:16rem; left: 35rem;}
 }
 
-@keyframes manidk2-animation-desktop{
+@keyframes geneva-castle-animation-desktop{
     0%{height: 70rem; width: 70rem; top: 0rem; left: 0rem;}
     100%{height: 30rem; width: 30rem; top: 0rem; left: -1rem;}
 }
 
-.manidk3{
+.geneva-town{
     opacity: 0.0;
     animation-duration: 0.5s;
     animation-timing-function: ease-out;
     animation-play-state: paused;
     @include phone{
-        animation-name: manidk3-animation-phone;
+        animation-name: geneva-town-animation-phone;
         top: 4rem;
         left: 31rem;
         height: 18rem;
         width: 18rem;
     }
     @include desktop{
-        animation-name: manidk3-animation-desktop;
+        animation-name: geneva-town-animation-desktop;
     }
 }
 
-@keyframes manidk3-animation-phone{
+@keyframes geneva-town-animation-phone{
     0%{height: 25rem; width: 25rem; top: 0rem; left: 27rem; opacity: 1.0;}
     100%{height: 18rem; width: 18rem; top: 4rem; left: 31rem; opacity: 0.0;}
 } 
 
-@keyframes manidk3-animation-desktop{
+@keyframes geneva-town-animation-desktop{
     0%{height: 70rem; width: 70rem; top: 0rem; left: 0rem; opacity: 1.0;}
     100%{height: 60rem; width: 60rem; top: 0rem; left: 0rem; opacity: 0.0;}
 } 
 
 @include phone{
     .gallery-p:hover{
+        .geneva-cathedral{
+            animation-play-state: running;
+        }
+        .geneva-night{
+            animation-play-state: running;
+        }
+        .geneva-castle{
+            animation-play-state: running;
+        }
         .geneva-town{
-            animation-play-state: running;
-        }
-        .manidk{
-            animation-play-state: running;
-        }
-        .manidk2{
-            animation-play-state: running;
-        }
-        .manidk3{
             animation-play-state: running;
         }
     }
@@ -372,16 +372,16 @@
 
 @include desktop{
     .gallery-p:active{
+        .geneva-cathedral{
+            animation-play-state: running;
+        }
+        .geneva-night{
+            animation-play-state: running;
+        }
+        .geneva-castle{
+            animation-play-state: running;
+        }
         .geneva-town{
-            animation-play-state: running;
-        }
-        .manidk{
-            animation-play-state: running;
-        }
-        .manidk2{
-            animation-play-state: running;
-        }
-        .manidk3{
             animation-play-state: running;
         }
     }
