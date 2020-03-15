@@ -210,7 +210,13 @@
 .purple-gallery-parent{
     //margin: 0 auto;
     height: 80rem;
-    width: 80rem;
+    @include phone{
+        width: 100vw;
+    }
+    @include desktop{
+        width: 80rem;
+    }
+    
 }
 
 .gallery-p{
@@ -248,7 +254,7 @@
 .geneva-cathedral{
     @include phone{
         top: 2rem;
-        left: 45rem;
+        left: 25rem;
         animation-name: geneva-cathedral-animation-phone;
     }
     @include desktop{
@@ -262,8 +268,8 @@
 }
 
 @keyframes geneva-cathedral-animation-phone{
-    0%{height: 25rem; width: 25rem; top: 0; left: 27rem;}
-    100%{height: 10rem; width: 10rem; top:2rem; left: 45rem;}
+    0%{height: 25rem; width: 25rem; top: 0; left: 6rem;}
+    100%{height: 10rem; width: 10rem; top:2rem; left: 25rem;}
 }
 
 @keyframes geneva-cathedral-animation-desktop{
@@ -276,7 +282,7 @@
 .geneva-night{
     @include phone{
         top: 2rem;
-        left: 25rem;
+        left: 2rem;
         animation-name: geneva-night-animation-phone;
     }
     @include desktop{
@@ -290,8 +296,8 @@
 }
 
 @keyframes geneva-night-animation-phone{
-    0%{height: 25rem; width: 25rem; top: 0; left: 27rem;}
-    100%{height: 10rem; width: 10rem; top:2rem; left: 25rem;}
+    0%{height: 25rem; width: 25rem; top: 0; left: 6rem;}
+    100%{height: 10rem; width: 10rem; top:2rem; left: 2rem;}
 }
 
 
@@ -303,7 +309,7 @@
 .geneva-castle{
     @include phone{
         top: 16rem;
-        left: 35rem;
+        left: 13.5rem;
         animation-name: geneva-castle-animation-phone;
     }
     @include desktop{
@@ -317,8 +323,8 @@
 }
 
 @keyframes geneva-castle-animation-phone{
-    0%{height: 25rem; width: 25rem; top: 0; left: 27rem;}
-    100%{height: 10rem; width: 10rem; top:16rem; left: 35rem;}
+    0%{height: 25rem; width: 25rem; top: 0; left: 6rem;}
+    100%{height: 10rem; width: 10rem; top:16rem; left: 13.5rem;}
 }
 
 @keyframes geneva-castle-animation-desktop{
@@ -334,7 +340,7 @@
     @include phone{
         animation-name: geneva-town-animation-phone;
         top: 4rem;
-        left: 31rem;
+        left: 9rem;
         height: 18rem;
         width: 18rem;
     }
@@ -344,8 +350,8 @@
 }
 
 @keyframes geneva-town-animation-phone{
-    0%{height: 25rem; width: 25rem; top: 0rem; left: 27rem; opacity: 1.0;}
-    100%{height: 18rem; width: 18rem; top: 4rem; left: 31rem; opacity: 0.0;}
+    0%{height: 25rem; width: 25rem; top: 0rem; left: 6rem; opacity: 1.0;}
+    100%{height: 18rem; width: 18rem; top: 4rem; left: 9rem; opacity: 0.0;}
 } 
 
 @keyframes geneva-town-animation-desktop{
@@ -478,7 +484,13 @@
 .red-gallery-parent{
     margin: 0 auto;
     height: 70rem;
-    width: 100vw;
+    @include phone{
+        width: 100vw;
+    }
+    @include desktop{
+        width: 80rem;
+    }
+    
     //border: solid 3px red;
 }
 
