@@ -300,28 +300,28 @@
     100%{height: 30rem; width: 30rem; top: 34rem; left: 20rem;}
 }
 
-.manidk2{
+.geneva-castle{
     @include phone{
         top: 16rem;
         left: 35rem;
-        animation-name: manidk2-animation-phone;
+        animation-name: geneva-castle-animation-phone;
     }
     @include desktop{
         top: 0rem;
         left: -1rem;
-        animation-name: manidk2-animation-desktop;
+        animation-name: geneva-castle-animation-desktop;
     }
     animation-duration: 1.2s;
     animation-timing-function: ease-out;
     animation-play-state: paused;
 }
 
-@keyframes manidk2-animation-phone{
+@keyframes geneva-castle-animation-phone{
     0%{height: 25rem; width: 25rem; top: 0; left: 27rem;}
     100%{height: 10rem; width: 10rem; top:16rem; left: 35rem;}
 }
 
-@keyframes manidk2-animation-desktop{
+@keyframes geneva-castle-animation-desktop{
     0%{height: 70rem; width: 70rem; top: 0rem; left: 0rem;}
     100%{height: 30rem; width: 30rem; top: 0rem; left: -1rem;}
 }
@@ -361,7 +361,7 @@
         .manidk{
             animation-play-state: running;
         }
-        .manidk2{
+        .geneva-castle{
             animation-play-state: running;
         }
         .manidk3{
@@ -378,7 +378,7 @@
         .manidk{
             animation-play-state: running;
         }
-        .manidk2{
+        .geneva-castle{
             animation-play-state: running;
         }
         .manidk3{
