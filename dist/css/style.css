@@ -546,7 +546,7 @@
 @media (min-width: 350px) {
   .geneva-cathedral {
     top: 2rem;
-    left: 25rem;
+    left: 26rem;
     -webkit-animation-name: geneva-cathedral-animation-phone;
             animation-name: geneva-cathedral-animation-phone;
   }
@@ -572,7 +572,7 @@
     height: 10rem;
     width: 10rem;
     top: 2rem;
-    left: 25rem;
+    left: 26rem;
   }
 }
 
@@ -587,7 +587,7 @@
     height: 10rem;
     width: 10rem;
     top: 2rem;
-    left: 25rem;
+    left: 26rem;
   }
 }
 
@@ -633,7 +633,7 @@
 @media (min-width: 350px) {
   .geneva-night {
     top: 2rem;
-    left: 2rem;
+    left: 3rem;
     -webkit-animation-name: geneva-night-animation-phone;
             animation-name: geneva-night-animation-phone;
   }
@@ -659,7 +659,7 @@
     height: 10rem;
     width: 10rem;
     top: 2rem;
-    left: 2rem;
+    left: 3rem;
   }
 }
 
@@ -674,7 +674,7 @@
     height: 10rem;
     width: 10rem;
     top: 2rem;
-    left: 2rem;
+    left: 3rem;
   }
 }
 
@@ -720,7 +720,7 @@
 @media (min-width: 350px) {
   .geneva-castle {
     top: 16rem;
-    left: 13.5rem;
+    left: 14rem;
     -webkit-animation-name: geneva-castle-animation-phone;
             animation-name: geneva-castle-animation-phone;
   }
@@ -746,7 +746,7 @@
     height: 10rem;
     width: 10rem;
     top: 16rem;
-    left: 13.5rem;
+    left: 14rem;
   }
 }
 
@@ -761,7 +761,7 @@
     height: 10rem;
     width: 10rem;
     top: 16rem;
-    left: 13.5rem;
+    left: 14rem;
   }
 }
 
