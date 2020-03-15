@@ -517,12 +517,12 @@
     }
 }
 
-.idk{
+.bern-river{
     
     @include phone{
         height: 12rem;
         top: 2rem;
-        left: 11.5rem;
+        left: 8rem;
     }
     @include tablet{
         height: 24rem;
@@ -536,12 +536,12 @@
     }
 }
 
-.idk2{
+.bern-winter{
     
     @include phone{
-        height: 12rem;
-        top: 12rem;
-        left: 2rem;
+        height: 11rem;
+        top: 13rem;
+        left: 1rem;
     }
     @include tablet{
         height: 24rem;

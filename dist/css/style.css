@@ -1139,15 +1139,15 @@
 }
 
 @media (min-width: 350px) {
-  .idk {
+  .bern-river {
     height: 12rem;
     top: 2rem;
-    left: 11.5rem;
+    left: 8rem;
   }
 }
 
 @media (min-width: 600px) {
-  .idk {
+  .bern-river {
     height: 24rem;
     top: 2rem;
     left: 23rem;
@@ -1155,7 +1155,7 @@
 }
 
 @media (min-width: 1100px) {
-  .idk {
+  .bern-river {
     height: 30rem;
     top: 2rem;
     left: 21rem;
@@ -1163,15 +1163,15 @@
 }
 
 @media (min-width: 350px) {
-  .idk2 {
-    height: 12rem;
-    top: 12rem;
-    left: 2rem;
+  .bern-winter {
+    height: 11rem;
+    top: 13rem;
+    left: 1rem;
   }
 }
 
 @media (min-width: 600px) {
-  .idk2 {
+  .bern-winter {
     height: 24rem;
     top: 21rem;
     left: 4rem;
@@ -1179,7 +1179,7 @@
 }
 
 @media (min-width: 1100px) {
-  .idk2 {
+  .bern-winter {
     height: 30rem;
     top: 24rem;
     left: 2rem;
