@@ -588,7 +588,7 @@
     
     @include phone{
         animation-name: bern-animation-phone;
-        transform: translateX(-20rem) scale(1.25);
+        transform: translateX(0rem) scale(1.25);
     }
     @include tablet{
         animation-name: bern-animation-tablet;
@@ -603,7 +603,7 @@
 
 @keyframes bern-animation-phone{
     0%{transform: translateX(-800rem) scale(0.75);}
-    100%{transform: translateX(-50rem) scale(1.25);} //for inspect: translateX(-20rem)
+    100%{transform: translateX(0rem) scale(1.25);} //for inspect: translateX(-20rem)
 }                                                    //main prob: phone wont read 100% keyframe translateX, keeps translating to same spot too far
 
 @keyframes bern-animation-tablet{
