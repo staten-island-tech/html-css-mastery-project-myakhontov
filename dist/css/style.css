@@ -697,7 +697,7 @@
   }
 }
 
-.manidk2 {
+.geneva-castle {
   -webkit-animation-duration: 1.2s;
           animation-duration: 1.2s;
   -webkit-animation-timing-function: ease-out;
@@ -707,24 +707,24 @@
 }
 
 @media (min-width: 350px) {
-  .manidk2 {
+  .geneva-castle {
     top: 16rem;
     left: 35rem;
-    -webkit-animation-name: manidk2-animation-phone;
-            animation-name: manidk2-animation-phone;
+    -webkit-animation-name: geneva-castle-animation-phone;
+            animation-name: geneva-castle-animation-phone;
   }
 }
 
 @media (min-width: 1100px) {
-  .manidk2 {
+  .geneva-castle {
     top: 0rem;
     left: -1rem;
-    -webkit-animation-name: manidk2-animation-desktop;
-            animation-name: manidk2-animation-desktop;
+    -webkit-animation-name: geneva-castle-animation-desktop;
+            animation-name: geneva-castle-animation-desktop;
   }
 }
 
-@-webkit-keyframes manidk2-animation-phone {
+@-webkit-keyframes geneva-castle-animation-phone {
   0% {
     height: 25rem;
     width: 25rem;
@@ -739,7 +739,7 @@
   }
 }
 
-@keyframes manidk2-animation-phone {
+@keyframes geneva-castle-animation-phone {
   0% {
     height: 25rem;
     width: 25rem;
@@ -754,7 +754,7 @@
   }
 }
 
-@-webkit-keyframes manidk2-animation-desktop {
+@-webkit-keyframes geneva-castle-animation-desktop {
   0% {
     height: 70rem;
     width: 70rem;
@@ -769,7 +769,7 @@
   }
 }
 
-@keyframes manidk2-animation-desktop {
+@keyframes geneva-castle-animation-desktop {
   0% {
     height: 70rem;
     width: 70rem;
@@ -889,7 +889,7 @@
     -webkit-animation-play-state: running;
             animation-play-state: running;
   }
-  .gallery-p:hover .manidk2 {
+  .gallery-p:hover .geneva-castle {
     -webkit-animation-play-state: running;
             animation-play-state: running;
   }
@@ -908,7 +908,7 @@
     -webkit-animation-play-state: running;
             animation-play-state: running;
   }
-  .gallery-p:active .manidk2 {
+  .gallery-p:active .geneva-castle {
     -webkit-animation-play-state: running;
             animation-play-state: running;
   }
