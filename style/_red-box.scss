@@ -1,0 +1,197 @@
+@import"./variables";
+
+.red-box{
+    //background-image: linear-gradient(to bottom, color(lightred), color(lightbeige));
+    background-color: color(lightred);
+    display: flex;
+    width: 100vw;
+    @include phone{
+        height: 70vh;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    @include tablet{
+        height: 90vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    @include desktop{
+        height: 100vh;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+/*.red-image{
+    background-image: url(media/bern.jpg);
+    background-size: cover;
+    border: solid 3px black;
+    @include phone{
+        height: $cityimageheightphone;
+        width: $cityimageheightphone;
+    }
+    @include tablet{
+        height: 40rem;
+        width: 50rem;
+    }
+    @include desktop{
+        height: $cityimageheightdesktop;
+        width: $cityimagewidthdesktop;
+        margin-left: $margin;
+    }
+}*/
+
+.red-gallery-parent{
+    margin: 0 auto;
+    height: 70rem;
+    @include phone{
+        width: 100vw;
+    }
+    @include desktop{
+        width: 80rem;
+    }
+    
+    //border: solid 3px red;
+}
+
+.gallery-r{
+    position: relative;
+    height: 25rem;
+    left: 1rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.red-photo{
+    //height: 10rem;
+    //width: 10rem;
+    position: absolute;
+    transition: all 0.6s;
+    border: solid 3px black;
+}
+
+.bern-square{
+    @include phone{
+        height: 12rem;
+        top: 10rem;
+        left: 17rem;
+    }
+    @include tablet{
+        height: 24rem;
+        top: 17rem;
+        left: 35rem;
+    }
+    @include desktop{
+        height: 30rem;
+        top: 20rem;
+        left: 33rem;
+    }
+}
+
+.bern-river{
+    
+    @include phone{
+        height: 12rem;
+        top: 2rem;
+        left: 9rem;
+    }
+    @include tablet{
+        height: 24rem;
+        top: 2rem;
+        left: 23rem;
+    }
+    @include desktop{
+        height: 30rem;
+        top: 2rem;
+        left: 21rem;
+    }
+}
+
+.bern-winter{
+    @include phone{
+        height: 12rem;
+        top: 13rem;
+        left: 1rem;
+    }
+    @include tablet{
+        height: 24rem;
+        top: 21rem;
+        left: 4rem;
+    }
+    @include desktop{
+        height: 30rem;
+        top: 24rem;
+        left: 2rem;
+    }
+}
+
+.red-photo:hover{
+    transform: scale(1.2);
+    outline: 5px solid #222;
+    z-index: 1;
+    box-shadow: 7px 7px gray;
+}
+
+.gallery:hover .red-photo:not(:hover){
+    transform: scale(.7);
+    opacity: 0.3;
+}
+
+
+.red-box p{
+    @include phone{
+        text-align: center;
+    }
+    @include desktop{
+        text-align: right;
+        margin-right: $margin;
+    }
+}
+
+
+.bern-title{
+    /*transform: translateX(-100rem);
+    transition: all 1.0s;
+    animation-fill-mode: forwards;*/
+    animation-duration: 0.7s;
+    animation-timing-function: ease-out;
+    animation-play-state: paused;
+    
+    @include phone{
+        animation-name: bern-animation-phone;
+        transform: translateX(0rem) scale(1.25);
+    }
+    @include tablet{
+        animation-name: bern-animation-tablet;
+        transform: translateX(0rem) scale(1.25);
+    }
+    @include desktop{
+        animation-name: bern-animation-desktop;
+        transform: translateX(0rem) scale(1.25);
+    }
+    
+}
+
+@keyframes bern-animation-phone{
+    0%{transform: translateX(-800rem) scale(0.75);}
+    100%{transform: translateX(0rem) scale(1.25);} //for inspect: translateX(-20rem)
+}                                                    //main prob: phone wont read 100% keyframe translateX, keeps translating to same spot too far
+
+@keyframes bern-animation-tablet{
+    0%{transform: translateX(-600rem) scale(0.75);}
+    100%{transform: translateX(0rem) scale(1.25);}
+}
+
+@keyframes bern-animation-desktop{
+    0%{transform: translateX(-100rem) scale(0.75);}
+    100%{transform: translateX(0rem) scale(1.25);}
+}
+
+.red-box:hover{
+    .bern-title{
+        animation-play-state: running;
+        
+    }
+}

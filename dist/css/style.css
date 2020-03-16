@@ -276,7 +276,18 @@
 .blue-image {
   background-image: url(media/zurich.jpg);
   background-size: cover;
-  border: solid 3px black;
+  -webkit-clip-path: polygon(50% 7%, 0 93%, 100% 93%);
+          clip-path: polygon(50% 7%, 0 93%, 100% 93%);
+  -webkit-animation-name: shapes;
+          animation-name: shapes;
+  -webkit-animation-duration: 12.0s;
+          animation-duration: 12.0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
 
 @media (min-width: 350px) {
@@ -298,6 +309,74 @@
     height: 70rem;
     width: 80rem;
     margin-left: 6rem;
+  }
+}
+
+@-webkit-keyframes shapes {
+  /*
+    0%{clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);} //pentagon
+    20%{clip-path: polygon(75% 50%, 99% 93%, 0 93%, 25% 50%, 50% 0);} //triangle
+    40%{clip-path: polygon(100% 50%, 50% 100%, 0 50%, 50% 0, 75% 24%);} //diamond
+    60%{clip-path: polygon(100% 100%, 0 100%, 15% 0, 85% 0, 92% 50%);}  //trapezoid
+    80%{clip-path: polygon(0 100%, 0 0, 100% 0, 100% 50%, 100% 100%);}  //square
+    100%{clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);} //pentagon */
+  0% {
+    -webkit-clip-path: polygon(100% 93%, 0 93%, 50% 7%, 75% 50%);
+            clip-path: polygon(100% 93%, 0 93%, 50% 7%, 75% 50%);
+  }
+  20% {
+    -webkit-clip-path: polygon(15% 100%, 0 0, 85% 0, 100% 100%);
+            clip-path: polygon(15% 100%, 0 0, 85% 0, 100% 100%);
+  }
+  40% {
+    -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+            clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  }
+  60% {
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+            clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+  }
+  80% {
+    -webkit-clip-path: polygon(100% 50%, 50% 100%, 0 50%, 50% 0);
+            clip-path: polygon(100% 50%, 50% 100%, 0 50%, 50% 0);
+  }
+  100% {
+    -webkit-clip-path: polygon(100% 93%, 0 93%, 50% 7%, 75% 50%);
+            clip-path: polygon(100% 93%, 0 93%, 50% 7%, 75% 50%);
+  }
+}
+
+@keyframes shapes {
+  /*
+    0%{clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);} //pentagon
+    20%{clip-path: polygon(75% 50%, 99% 93%, 0 93%, 25% 50%, 50% 0);} //triangle
+    40%{clip-path: polygon(100% 50%, 50% 100%, 0 50%, 50% 0, 75% 24%);} //diamond
+    60%{clip-path: polygon(100% 100%, 0 100%, 15% 0, 85% 0, 92% 50%);}  //trapezoid
+    80%{clip-path: polygon(0 100%, 0 0, 100% 0, 100% 50%, 100% 100%);}  //square
+    100%{clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);} //pentagon */
+  0% {
+    -webkit-clip-path: polygon(100% 93%, 0 93%, 50% 7%, 75% 50%);
+            clip-path: polygon(100% 93%, 0 93%, 50% 7%, 75% 50%);
+  }
+  20% {
+    -webkit-clip-path: polygon(15% 100%, 0 0, 85% 0, 100% 100%);
+            clip-path: polygon(15% 100%, 0 0, 85% 0, 100% 100%);
+  }
+  40% {
+    -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+            clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  }
+  60% {
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+            clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+  }
+  80% {
+    -webkit-clip-path: polygon(100% 50%, 50% 100%, 0 50%, 50% 0);
+            clip-path: polygon(100% 50%, 50% 100%, 0 50%, 50% 0);
+  }
+  100% {
+    -webkit-clip-path: polygon(100% 93%, 0 93%, 50% 7%, 75% 50%);
+            clip-path: polygon(100% 93%, 0 93%, 50% 7%, 75% 50%);
   }
 }
 
@@ -1239,7 +1318,7 @@
 
 .bern-title {
   /*transform: translateX(-100rem);
-    transition: 1.0s all;
+    transition: all 1.0s;
     animation-fill-mode: forwards;*/
   -webkit-animation-duration: 0.7s;
           animation-duration: 0.7s;

@@ -1,0 +1,150 @@
+@import"./variables";
+
+.blue-box{
+    //background-image: linear-gradient(to bottom, color(lightblue), color(lightpurple));
+    background-color: color(lightblue);
+    @include phone{
+        height: 80vh;
+        width: 100vw;
+    }
+    @include tablet{
+        height: 90vh;
+    }
+    @include desktop{
+        height: 100vh;
+    }
+    
+}
+
+
+.city-section-title{
+    font-family: 'Marcellus', serif;
+    text-align: center;
+    @include phone{
+        font-size: 5rem;
+    }
+    @include desktop{
+        font-size: 14rem;
+    }
+
+}
+
+.blue-box-parent{
+   // border: 10px solid red;
+    display: flex;
+    align-items: center;
+    @include phone{
+        height: 70vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    @include tablet{
+        height: 70vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    @include desktop{
+        height: 80vh;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
+
+.blue-image{
+    background-image: url(media/zurich.jpg);
+    background-size: cover;
+    //border: solid 3px black;
+    clip-path: polygon(50% 7%, 0 93%, 100% 93%);
+    @include phone{
+        height: 35vh;
+        width: 75vw;
+    }
+    @include tablet{
+        height: 40rem;
+        width: 50rem;
+    }
+    @include desktop{
+        height: $cityimageheightdesktop;
+        width: $cityimagewidthdesktop;
+        margin-left: $margin;
+    }
+    animation-name: shapes;
+    animation-duration: 12.0s;
+    animation-iteration-count: infinite;
+    transition: all 1s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes shapes{/*
+    0%{clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);} //pentagon
+    20%{clip-path: polygon(75% 50%, 99% 93%, 0 93%, 25% 50%, 50% 0);} //triangle
+    40%{clip-path: polygon(100% 50%, 50% 100%, 0 50%, 50% 0, 75% 24%);} //diamond
+    60%{clip-path: polygon(100% 100%, 0 100%, 15% 0, 85% 0, 92% 50%);}  //trapezoid
+    80%{clip-path: polygon(0 100%, 0 0, 100% 0, 100% 50%, 100% 100%);}  //square
+    100%{clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);} //pentagon */
+    0%{clip-path: polygon(100% 93%, 0 93%, 50% 7%, 75% 50%);} //triangle
+    20%{clip-path: polygon(15% 100%, 0 0, 85% 0, 100% 100%);} //parallelogram
+    40%{clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);} //trapezoid
+    60%{clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);} //square
+    80%{clip-path: polygon(100% 50%, 50% 100%, 0 50%, 50% 0);} //diamond
+    100%{clip-path: polygon(100% 93%, 0 93%, 50% 7%, 75% 50%);} //triangle
+}
+
+.zurich-title{
+    /*transform: translateX(-100rem);
+    transition: 1.0s all;
+    animation-fill-mode: forwards;*/
+    animation-duration: 0.7s;
+    animation-timing-function: ease-out;
+    animation-play-state: paused;
+    
+    @include phone{
+        animation-name: zurich-animation-phone;
+        
+    }
+    @include tablet{
+        animation-name: zurich-animation-tablet;
+    }
+    @include desktop{
+        animation-name: zurich-animation-desktop;
+        
+    }
+    
+}
+
+@keyframes zurich-animation-phone{
+    0%{transform: translateX(-250rem) scale(0.75);}
+    100%{transform: translateX(0rem) scale(1.25);}
+}
+
+@keyframes zurich-animation-tablet{
+    0%{transform: translateX(-600rem) scale(0.75);}
+    100%{transform: translateX(0rem) scale(1.25);}
+}
+
+@keyframes zurich-animation-desktop{
+    0%{transform: translateX(-100rem) scale(0.75);}
+    100%{transform: translateX(0rem) scale(1.25);}
+}
+
+.blue-box:hover{
+    .zurich-title{
+        animation-play-state: running;
+        
+    }
+}
+
+
+
+.blue-box p{
+    //border: 5px solid green;
+    
+    @include phone{
+        text-align: center;
+    }
+    @include desktop{
+        text-align: right;
+        margin-right: $margin;
+    }
+}
