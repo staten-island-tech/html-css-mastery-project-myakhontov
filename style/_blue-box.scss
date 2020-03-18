@@ -23,6 +23,9 @@
     @include phone{
         font-size: 5rem;
     }
+    @include tablet{
+        font-size: 8rem;
+    }
     @include desktop{
         font-size: 14rem;
     }

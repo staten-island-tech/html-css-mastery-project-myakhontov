@@ -38,23 +38,30 @@
 
 .purple-gallery-parent{
     //margin: 0 auto;
-    height: 80rem;
+    
     @include phone{
+        height: 40vh;
         width: 100vw;
     }
     @include desktop{
-        width: 80rem;
+        height: 80vh;
+        width: 45vw;
     }
     
 }
 
 .gallery-p{
     position: relative;
-    height: 30rem;
-    width: 100vw;
     display: flex;
     justify-content: space-around;
-    
+    @include phone{
+        height: 33vh;
+        width: 100vw;
+    }
+    @include desktop{
+        height: 52vh;
+        width: 45vw;
+    }
 }
 
 
