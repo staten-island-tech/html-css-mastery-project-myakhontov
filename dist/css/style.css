@@ -816,7 +816,7 @@
 @media (min-width: 350px) {
   .geneva-castle {
     top: 16rem;
-    left: 14rem;
+    left: 14.5rem;
     -webkit-animation-name: geneva-castle-animation-phone;
             animation-name: geneva-castle-animation-phone;
   }
@@ -842,7 +842,7 @@
     height: 10rem;
     width: 10rem;
     top: 16rem;
-    left: 14rem;
+    left: 14.5rem;
   }
 }
 
@@ -857,7 +857,7 @@
     height: 10rem;
     width: 10rem;
     top: 16rem;
-    left: 14rem;
+    left: 14.5rem;
   }
 }
 
@@ -1039,24 +1039,31 @@
 
 @media (min-width: 350px) {
   .geneva-title {
+    width: 11rem;
     -webkit-animation-name: geneva-animation-phone;
             animation-name: geneva-animation-phone;
+    -webkit-transform: translateX(14rem) scale(1.25);
+            transform: translateX(14rem) scale(1.25);
   }
 }
 
 @media (min-width: 600px) {
   .geneva-title {
+    width: 21rem;
     -webkit-animation-name: geneva-animation-tablet;
             animation-name: geneva-animation-tablet;
+    -webkit-transform: translateX(28rem) scale(1.25);
+            transform: translateX(28rem) scale(1.25);
   }
 }
 
 @media (min-width: 1100px) {
   .geneva-title {
+    width: 34rem;
     -webkit-animation-name: geneva-animation-desktop;
             animation-name: geneva-animation-desktop;
-    -webkit-transform: translateX(-5rem) scale(1.25);
-            transform: translateX(-5rem) scale(1.25);
+    -webkit-transform: translateX(17rem) scale(1.25);
+            transform: translateX(17rem) scale(1.25);
   }
 }
 
@@ -1066,8 +1073,8 @@
             transform: translateX(250rem) scale(0.75);
   }
   100% {
-    -webkit-transform: translateX(0rem) scale(1.25);
-            transform: translateX(0rem) scale(1.25);
+    -webkit-transform: translateX(14rem) scale(1.25);
+            transform: translateX(14rem) scale(1.25);
   }
 }
 
@@ -1077,8 +1084,8 @@
             transform: translateX(250rem) scale(0.75);
   }
   100% {
-    -webkit-transform: translateX(0rem) scale(1.25);
-            transform: translateX(0rem) scale(1.25);
+    -webkit-transform: translateX(14rem) scale(1.25);
+            transform: translateX(14rem) scale(1.25);
   }
 }
 
@@ -1088,8 +1095,8 @@
             transform: translateX(600rem) scale(0.75);
   }
   100% {
-    -webkit-transform: translateX(0rem) scale(1.25);
-            transform: translateX(0rem) scale(1.25);
+    -webkit-transform: translateX(28rem) scale(1.25);
+            transform: translateX(28rem) scale(1.25);
   }
 }
 
@@ -1099,8 +1106,8 @@
             transform: translateX(600rem) scale(0.75);
   }
   100% {
-    -webkit-transform: translateX(0rem) scale(1.25);
-            transform: translateX(0rem) scale(1.25);
+    -webkit-transform: translateX(28rem) scale(1.25);
+            transform: translateX(28rem) scale(1.25);
   }
 }
 
@@ -1110,8 +1117,8 @@
             transform: translateX(100rem) scale(0.75);
   }
   100% {
-    -webkit-transform: translateX(-5rem) scale(1.25);
-            transform: translateX(-5rem) scale(1.25);
+    -webkit-transform: translateX(17rem) scale(1.25);
+            transform: translateX(17rem) scale(1.25);
   }
 }
 
@@ -1121,8 +1128,8 @@
             transform: translateX(100rem) scale(0.75);
   }
   100% {
-    -webkit-transform: translateX(-5rem) scale(1.25);
-            transform: translateX(-5rem) scale(1.25);
+    -webkit-transform: translateX(17rem) scale(1.25);
+            transform: translateX(17rem) scale(1.25);
   }
 }
 
@@ -1194,7 +1201,7 @@
     @include desktop{
         height: $cityimageheightdesktop;
         width: $cityimagewidthdesktop;
-        margin-left: $margin;
+        margin-left: 6rem;
     }
 }*/
 .red-gallery-parent {

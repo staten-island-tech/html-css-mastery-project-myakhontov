@@ -68,9 +68,9 @@
         width: 50rem;
     }
     @include desktop{
-        height: $cityimageheightdesktop;
-        width: $cityimagewidthdesktop;
-        margin-left: $margin;
+        height: 70rem;
+        width: 80rem;
+        margin-left: 6rem;
     }
     animation-name: shapes;
     animation-duration: 12.0s;
@@ -149,6 +149,6 @@
     }
     @include desktop{
         text-align: right;
-        margin-right: $margin;
+        margin-right: 6rem;
     }
 }
