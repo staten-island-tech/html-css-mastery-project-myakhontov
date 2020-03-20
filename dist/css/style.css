@@ -635,6 +635,8 @@
           animation-duration: 1.2s;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
 }
 
 @media (min-width: 350px) {
@@ -657,8 +659,8 @@
 
 @-webkit-keyframes geneva-cathedral-animation-phone {
   0% {
-    height: 25rem;
-    width: 25rem;
+    height: 50rem;
+    width: 50rem;
     top: 0;
     left: 6rem;
   }
@@ -672,8 +674,8 @@
 
 @keyframes geneva-cathedral-animation-phone {
   0% {
-    height: 25rem;
-    width: 25rem;
+    height: 50rem;
+    width: 50rem;
     top: 0;
     left: 6rem;
   }
@@ -720,6 +722,8 @@
           animation-duration: 1.2s;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
 }
 
 @media (min-width: 350px) {
@@ -742,8 +746,8 @@
 
 @-webkit-keyframes geneva-night-animation-phone {
   0% {
-    height: 25rem;
-    width: 25rem;
+    height: 50rem;
+    width: 50rem;
     top: 0;
     left: 6rem;
   }
@@ -757,8 +761,8 @@
 
 @keyframes geneva-night-animation-phone {
   0% {
-    height: 25rem;
-    width: 25rem;
+    height: 50rem;
+    width: 50rem;
     top: 0;
     left: 6rem;
   }
@@ -805,6 +809,8 @@
           animation-duration: 1.2s;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
 }
 
 @media (min-width: 350px) {
@@ -827,8 +833,8 @@
 
 @-webkit-keyframes geneva-castle-animation-phone {
   0% {
-    height: 25rem;
-    width: 25rem;
+    height: 50rem;
+    width: 50rem;
     top: 0;
     left: 6rem;
   }
@@ -842,8 +848,8 @@
 
 @keyframes geneva-castle-animation-phone {
   0% {
-    height: 25rem;
-    width: 25rem;
+    height: 50rem;
+    width: 50rem;
     top: 0;
     left: 6rem;
   }
@@ -891,6 +897,8 @@
           animation-duration: 0.5s;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
 }
 
 @media (min-width: 350px) {
@@ -913,8 +921,8 @@
 
 @-webkit-keyframes geneva-town-animation-phone {
   0% {
-    height: 25rem;
-    width: 25rem;
+    height: 50rem;
+    width: 50rem;
     top: 0rem;
     left: 6rem;
     opacity: 1.0;
@@ -930,8 +938,8 @@
 
 @keyframes geneva-town-animation-phone {
   0% {
-    height: 25rem;
-    width: 25rem;
+    height: 50rem;
+    width: 50rem;
     top: 0rem;
     left: 6rem;
     opacity: 1.0;
