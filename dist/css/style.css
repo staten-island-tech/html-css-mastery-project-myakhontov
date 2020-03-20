@@ -635,8 +635,6 @@
           animation-duration: 1.2s;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
 }
 
 @media (min-width: 350px) {
@@ -722,8 +720,6 @@
           animation-duration: 1.2s;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
 }
 
 @media (min-width: 350px) {
@@ -809,8 +805,6 @@
           animation-duration: 1.2s;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
 }
 
 @media (min-width: 350px) {
@@ -897,8 +891,6 @@
           animation-duration: 0.5s;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
 }
 
 @media (min-width: 350px) {

@@ -101,7 +101,7 @@
     }
     animation-duration: 1.2s;
     animation-timing-function: ease-out;
-    animation-play-state: paused;
+    //animation-play-state: paused;
 }
 
 @keyframes geneva-cathedral-animation-phone{
@@ -129,7 +129,7 @@
     }
     animation-duration: 1.2s;
     animation-timing-function: ease-out;
-    animation-play-state: paused;
+    //animation-play-state: paused;
 }
 
 @keyframes geneva-night-animation-phone{
@@ -156,7 +156,7 @@
     }
     animation-duration: 1.2s;
     animation-timing-function: ease-out;
-    animation-play-state: paused;
+    //animation-play-state: paused;
 }
 
 @keyframes geneva-castle-animation-phone{
@@ -173,7 +173,7 @@
     opacity: 0.0;
     animation-duration: 0.5s;
     animation-timing-function: ease-out;
-    animation-play-state: paused;
+    //animation-play-state: paused;
     @include phone{
         animation-name: geneva-town-animation-phone;
         top: 4rem;
