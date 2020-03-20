@@ -987,42 +987,40 @@
   }
 }
 
-@media (min-width: 350px) {
-  .gallery-p:hover .geneva-cathedral {
-    -webkit-animation-play-state: running;
+/*@include phone{
+    .gallery-p:hover{
+        .geneva-cathedral{
             animation-play-state: running;
-  }
-  .gallery-p:hover .geneva-night {
-    -webkit-animation-play-state: running;
+        }
+        .geneva-night{
             animation-play-state: running;
-  }
-  .gallery-p:hover .geneva-castle {
-    -webkit-animation-play-state: running;
+        }
+        .geneva-castle{
             animation-play-state: running;
-  }
-  .gallery-p:hover .geneva-town {
-    -webkit-animation-play-state: running;
+        }
+        .geneva-town{
             animation-play-state: running;
-  }
+        }
+    }
+}*/
+.gallery-p:active .geneva-cathedral {
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
 }
 
-@media (min-width: 1100px) {
-  .gallery-p:active .geneva-cathedral {
-    -webkit-animation-play-state: running;
-            animation-play-state: running;
-  }
-  .gallery-p:active .geneva-night {
-    -webkit-animation-play-state: running;
-            animation-play-state: running;
-  }
-  .gallery-p:active .geneva-castle {
-    -webkit-animation-play-state: running;
-            animation-play-state: running;
-  }
-  .gallery-p:active .geneva-town {
-    -webkit-animation-play-state: running;
-            animation-play-state: running;
-  }
+.gallery-p:active .geneva-night {
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+.gallery-p:active .geneva-castle {
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+.gallery-p:active .geneva-town {
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
 }
 
 .geneva-title {

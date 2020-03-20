@@ -196,7 +196,7 @@
     100%{height: 60rem; width: 60rem; top: 0rem; left: 0rem; opacity: 0.0;}
 } 
 
-@include phone{
+/*@include phone{
     .gallery-p:hover{
         .geneva-cathedral{
             animation-play-state: running;
@@ -211,9 +211,9 @@
             animation-play-state: running;
         }
     }
-}
+}*/
 
-@include desktop{
+//@include desktop{
     .gallery-p:active{
         .geneva-cathedral{
             animation-play-state: running;
@@ -228,7 +228,7 @@
             animation-play-state: running;
         }
     }
-}
+//}
 
 .geneva-title{
     /*transform: translateX(-100rem);
