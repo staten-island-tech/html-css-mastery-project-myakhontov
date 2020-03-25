@@ -402,6 +402,7 @@
   .zurich-title {
     -webkit-animation-name: zurich-animation-phone;
             animation-name: zurich-animation-phone;
+    height: auto;
   }
 }
 

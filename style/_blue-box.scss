@@ -105,6 +105,7 @@
     
     @include phone{
         animation-name: zurich-animation-phone;
+        height: auto;
         
     }
     @include tablet{
