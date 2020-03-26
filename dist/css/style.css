@@ -1825,23 +1825,7 @@
           transform: rotateY(-180deg);
   -webkit-transition: all 1s;
   transition: all 1s;
-  background-color: green;
-}
-
-.alps .card-side-front {
-  background-image: url(media/swiss_alps.jpg);
-}
-
-.alps .card-side-back {
-  background-color: green;
-}
-
-.jet .card-side-front {
-  background-image: url(media/jetdeau.jpg);
-}
-
-.jet .card-side-back {
-  background-color: green;
+  background-color: #721817;
 }
 
 .card:hover .card-side-front {
@@ -1854,12 +1838,28 @@
           transform: rotateY(0deg);
 }
 
+.alps .card-side-front {
+  background-image: url(media/swiss_alps.jpg);
+}
+
+.alps .card-side-back {
+  background-color: #721817;
+}
+
+.jet .card-side-front {
+  background-image: url(media/jetdeau.jpg);
+}
+
+.jet .card-side-back {
+  background-color: #721817;
+}
+
 .festival .card-side-front {
   background-image: url(media/balloon.jpg);
 }
 
 .festival .card-side-back {
-  background-color: green;
+  background-color: #721817;
 }
 
 .card header {
@@ -1888,6 +1888,11 @@
     -webkit-transform: translateY(2rem);
             transform: translateY(2rem);
   }
+}
+
+.card-side-back p {
+  font-size: 3rem;
+  color: #82968C;
 }
 
 html {
