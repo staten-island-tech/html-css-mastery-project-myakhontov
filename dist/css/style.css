@@ -617,8 +617,8 @@
 
 @media (min-width: 600px) {
   .purple-photo {
-    height: 40rem;
-    width: 50rem;
+    height: 22rem;
+    width: 22rem;
   }
 }
 
@@ -645,6 +645,15 @@
     left: 26rem;
     -webkit-animation-name: geneva-cathedral-animation-phone;
             animation-name: geneva-cathedral-animation-phone;
+  }
+}
+
+@media (min-width: 600px) {
+  .geneva-cathedral {
+    top: 2rem;
+    left: 46rem;
+    -webkit-animation-name: geneva-cathedral-animation-tablet;
+            animation-name: geneva-cathedral-animation-tablet;
   }
 }
 
@@ -684,6 +693,36 @@
     width: 10rem;
     top: 2rem;
     left: 26rem;
+  }
+}
+
+@-webkit-keyframes geneva-cathedral-animation-tablet {
+  0% {
+    height: 40rem;
+    width: 40rem;
+    top: 1rem;
+    left: 18rem;
+  }
+  100% {
+    height: 22rem;
+    width: 22rem;
+    top: 2rem;
+    left: 46rem;
+  }
+}
+
+@keyframes geneva-cathedral-animation-tablet {
+  0% {
+    height: 40rem;
+    width: 40rem;
+    top: 1rem;
+    left: 18rem;
+  }
+  100% {
+    height: 22rem;
+    width: 22rem;
+    top: 2rem;
+    left: 46rem;
   }
 }
 
@@ -735,6 +774,15 @@
   }
 }
 
+@media (min-width: 600px) {
+  .geneva-night {
+    top: 2rem;
+    left: 8rem;
+    -webkit-animation-name: geneva-night-animation-tablet;
+            animation-name: geneva-night-animation-tablet;
+  }
+}
+
 @media (min-width: 1100px) {
   .geneva-night {
     top: 34rem;
@@ -771,6 +819,36 @@
     width: 10rem;
     top: 2rem;
     left: 3rem;
+  }
+}
+
+@-webkit-keyframes geneva-night-animation-tablet {
+  0% {
+    height: 40rem;
+    width: 40rem;
+    top: 1rem;
+    left: 18rem;
+  }
+  100% {
+    height: 22rem;
+    width: 22rem;
+    top: 2rem;
+    left: 8rem;
+  }
+}
+
+@keyframes geneva-night-animation-tablet {
+  0% {
+    height: 40rem;
+    width: 40rem;
+    top: 1rem;
+    left: 18rem;
+  }
+  100% {
+    height: 22rem;
+    width: 22rem;
+    top: 2rem;
+    left: 8rem;
   }
 }
 
@@ -822,6 +900,15 @@
   }
 }
 
+@media (min-width: 600px) {
+  .geneva-castle {
+    top: 24rem;
+    left: 27rem;
+    -webkit-animation-name: geneva-castle-animation-tablet;
+            animation-name: geneva-castle-animation-tablet;
+  }
+}
+
 @media (min-width: 1100px) {
   .geneva-castle {
     top: 0rem;
@@ -858,6 +945,36 @@
     width: 10rem;
     top: 16rem;
     left: 14.5rem;
+  }
+}
+
+@-webkit-keyframes geneva-castle-animation-tablet {
+  0% {
+    height: 40rem;
+    width: 40rem;
+    top: 1rem;
+    left: 18rem;
+  }
+  100% {
+    height: 22rem;
+    width: 22rem;
+    top: 24rem;
+    left: 27rem;
+  }
+}
+
+@keyframes geneva-castle-animation-tablet {
+  0% {
+    height: 40rem;
+    width: 40rem;
+    top: 1rem;
+    left: 18rem;
+  }
+  100% {
+    height: 22rem;
+    width: 22rem;
+    top: 24rem;
+    left: 27rem;
   }
 }
 
@@ -912,6 +1029,15 @@
   }
 }
 
+@media (min-width: 600px) {
+  .geneva-town {
+    top: 12rem;
+    left: 29rem;
+    -webkit-animation-name: geneva-town-animation-tablet;
+            animation-name: geneva-town-animation-tablet;
+  }
+}
+
 @media (min-width: 1100px) {
   .geneva-town {
     -webkit-animation-name: geneva-town-animation-desktop;
@@ -949,6 +1075,40 @@
     width: 18rem;
     top: 4rem;
     left: 9rem;
+    opacity: 0.0;
+  }
+}
+
+@-webkit-keyframes geneva-town-animation-tablet {
+  0% {
+    height: 40rem;
+    width: 40rem;
+    top: 1rem;
+    left: 18rem;
+    opacity: 1.0;
+  }
+  100% {
+    height: 22rem;
+    width: 22rem;
+    top: 12rem;
+    left: 19rem;
+    opacity: 0.0;
+  }
+}
+
+@keyframes geneva-town-animation-tablet {
+  0% {
+    height: 40rem;
+    width: 40rem;
+    top: 1rem;
+    left: 18rem;
+    opacity: 1.0;
+  }
+  100% {
+    height: 22rem;
+    width: 22rem;
+    top: 12rem;
+    left: 19rem;
     opacity: 0.0;
   }
 }

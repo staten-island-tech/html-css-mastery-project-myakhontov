@@ -77,8 +77,8 @@
         width: 10rem;
     }
     @include tablet{
-        height: 40rem;
-        width: 50rem;
+        height: 22rem;  //40,40
+        width: 22rem;
     }
     @include desktop{     //70,70
         height: 30rem;
@@ -93,6 +93,11 @@
         top: 2rem;
         left: 26rem;
         animation-name: geneva-cathedral-animation-phone;
+    }
+    @include tablet{
+        top: 2rem;
+        left: 46rem;
+        animation-name: geneva-cathedral-animation-tablet;
     }
     @include desktop{
         top: 0rem;
@@ -109,6 +114,11 @@
     100%{height: 10rem; width: 10rem; top:2rem; left: 26rem;}
 }
 
+@keyframes geneva-cathedral-animation-tablet{
+    0%{height: 40rem; width: 40rem; top: 1rem; left: 18rem;}
+    100%{height: 22rem; width: 22rem; top:2rem; left: 46rem;}
+}
+
 @keyframes geneva-cathedral-animation-desktop{
     0%{height: 70rem; width: 70rem; top: 0rem; left: 0rem;}
     100%{height: 30rem; width: 30rem; top: 0rem; left: 42rem;}
@@ -121,6 +131,11 @@
         top: 2rem;
         left: 3rem;
         animation-name: geneva-night-animation-phone;
+    }
+    @include tablet{
+        top: 2rem;
+        left: 8rem;
+        animation-name: geneva-night-animation-tablet;
     }
     @include desktop{
         top: 34rem;
@@ -137,6 +152,10 @@
     100%{height: 10rem; width: 10rem; top:2rem; left: 3rem;}
 }
 
+@keyframes geneva-night-animation-tablet{
+    0%{height: 40rem; width: 40rem; top: 1rem; left: 18rem;}
+    100%{height: 22rem; width: 22rem; top:2rem; left: 8rem;}
+}
 
 @keyframes geneva-night-animation-desktop{
     0%{height: 70rem; width: 70rem; top: 0rem; left: 0rem;}
@@ -148,6 +167,11 @@
         top: 16rem;
         left: 14.5rem;
         animation-name: geneva-castle-animation-phone;
+    }
+    @include tablet{
+        top: 24rem;
+        left: 27rem;
+        animation-name: geneva-castle-animation-tablet;
     }
     @include desktop{
         top: 0rem;
@@ -162,6 +186,11 @@
 @keyframes geneva-castle-animation-phone{
     0%{height: 25rem; width: 25rem; top: 1rem; left: 7rem;}
     100%{height: 10rem; width: 10rem; top:16rem; left: 14.5rem;}
+}
+
+@keyframes geneva-castle-animation-tablet{
+    0%{height: 40rem; width: 40rem; top: 1rem; left: 18rem;}
+    100%{height: 22rem; width: 22rem; top:24rem; left: 27rem;}
 }
 
 @keyframes geneva-castle-animation-desktop{
@@ -181,6 +210,11 @@
         height: 18rem;
         width: 18rem;
     }
+    @include tablet{
+        top: 12rem;
+        left: 29rem;
+        animation-name: geneva-town-animation-tablet;
+    }
     @include desktop{
         animation-name: geneva-town-animation-desktop;
     }
@@ -191,12 +225,17 @@
     100%{height: 18rem; width: 18rem; top: 4rem; left: 9rem; opacity: 0.0;}
 } 
 
+@keyframes geneva-town-animation-tablet{
+    0%{height: 40rem; width: 40rem; top: 1rem; left: 18rem; opacity: 1.0;}
+    100%{height: 22rem; width: 22rem; top:12rem; left: 19rem; opacity: 0.0;}
+}
+
 @keyframes geneva-town-animation-desktop{
     0%{height: 70rem; width: 70rem; top: 0rem; left: 0rem; opacity: 1.0;}
     100%{height: 60rem; width: 60rem; top: 0rem; left: 0rem; opacity: 0.0;}
 } 
 
-@include phone{
+@include phone{     //works for tablet as well
     .gallery-p:hover{
         .geneva-cathedral{
             animation-play-state: running;
