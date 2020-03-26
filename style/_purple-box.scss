@@ -169,7 +169,7 @@
         animation-name: geneva-castle-animation-phone;
     }
     @include tablet{
-        top: 24rem;
+        top: 22rem;
         left: 27rem;
         animation-name: geneva-castle-animation-tablet;
     }
@@ -190,7 +190,7 @@
 
 @keyframes geneva-castle-animation-tablet{
     0%{height: 40rem; width: 40rem; top: 1rem; left: 18rem;}
-    100%{height: 22rem; width: 22rem; top:24rem; left: 27rem;}
+    100%{height: 22rem; width: 22rem; top:22rem; left: 27rem;}
 }
 
 @keyframes geneva-castle-animation-desktop{

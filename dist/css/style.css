@@ -902,7 +902,7 @@
 
 @media (min-width: 600px) {
   .geneva-castle {
-    top: 24rem;
+    top: 22rem;
     left: 27rem;
     -webkit-animation-name: geneva-castle-animation-tablet;
             animation-name: geneva-castle-animation-tablet;
@@ -958,7 +958,7 @@
   100% {
     height: 22rem;
     width: 22rem;
-    top: 24rem;
+    top: 22rem;
     left: 27rem;
   }
 }
@@ -973,7 +973,7 @@
   100% {
     height: 22rem;
     width: 22rem;
-    top: 24rem;
+    top: 22rem;
     left: 27rem;
   }
 }
