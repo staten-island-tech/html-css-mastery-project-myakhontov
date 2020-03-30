@@ -22,7 +22,8 @@
     text-align: center;
     @include phone{
         font-size: 5rem;
-        width: 100vw;
+        width: 35rem;
+        margin: 0 auto;
     }
     @include tablet{
         font-size: 8rem;

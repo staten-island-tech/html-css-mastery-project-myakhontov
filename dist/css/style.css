@@ -218,7 +218,8 @@
 @media (min-width: 350px) {
   .city-section-title {
     font-size: 5rem;
-    width: 100vw;
+    width: 35rem;
+    margin: 0 auto;
   }
 }
 
