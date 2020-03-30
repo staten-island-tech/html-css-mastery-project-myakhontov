@@ -220,6 +220,7 @@
     font-size: 5rem;
     width: 35rem;
     margin: 0 auto;
+    margin-bottom: 2rem;
   }
 }
 
@@ -404,7 +405,6 @@
   .zurich-title {
     -webkit-animation-name: zurich-animation-phone;
             animation-name: zurich-animation-phone;
-    margin: 20rem;
   }
 }
 

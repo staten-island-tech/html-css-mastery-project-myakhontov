@@ -24,6 +24,7 @@
         font-size: 5rem;
         width: 35rem;
         margin: 0 auto;
+        margin-bottom: 2rem;
     }
     @include tablet{
         font-size: 8rem;
@@ -107,7 +108,6 @@
     
     @include phone{
         animation-name: zurich-animation-phone;
-        margin: 20rem;
     }
     @include tablet{
         animation-name: zurich-animation-tablet;
