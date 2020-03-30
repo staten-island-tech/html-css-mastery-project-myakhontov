@@ -5,7 +5,7 @@
     background-color: color(lightpurple);
     display: flex;
     @include phone{
-        height: 70vh;
+        height: 75vh;
         flex-direction: column-reverse;
         justify-content: space-around;
         align-items: center;
