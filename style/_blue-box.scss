@@ -4,7 +4,7 @@
     //background-image: linear-gradient(to bottom, color(lightblue), color(lightpurple));
     background-color: color(lightblue);
     @include phone{
-        height: 80vh;
+        height: 85vh;
         width: 100vw;
     }
     @include tablet{
