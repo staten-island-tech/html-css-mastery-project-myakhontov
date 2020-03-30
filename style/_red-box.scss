@@ -6,7 +6,7 @@
     display: flex;
     width: 100vw;
     @include phone{
-        height: 70vh;
+        height: 75vh;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;

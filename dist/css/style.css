@@ -1311,7 +1311,7 @@
 
 @media (min-width: 350px) {
   .red-box {
-    height: 70vh;
+    height: 75vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
