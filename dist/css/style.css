@@ -569,9 +569,15 @@
 
 @media (min-width: 350px) {
   .purple-gallery-parent {
-    height: 40vh;
+    height: 45vh;
     width: 100vw;
-    left: 20rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .purple-gallery-parent {
+    height: 52vh;
+    width: 100vw;
   }
 }
 
@@ -593,7 +599,14 @@
 
 @media (min-width: 350px) {
   .gallery-p {
-    height: 33vh;
+    height: 40vh;
+    width: 100vw;
+  }
+}
+
+@media (min-width: 600px) {
+  .gallery-p {
+    height: 45vh;
     width: 100vw;
   }
 }

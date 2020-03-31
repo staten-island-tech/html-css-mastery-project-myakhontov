@@ -41,9 +41,12 @@
     //margin: 0 auto;
     
     @include phone{
-        height: 40vh;
+        height: 45vh;
         width: 100vw;
-        left: 20rem;
+    }
+    @include tablet{
+        height: 52vh;
+        width: 100vw;
     }
     @include desktop{
         height: 80vh;
@@ -57,7 +60,11 @@
     display: flex;
     justify-content: space-around;
     @include phone{
-        height: 33vh;
+        height: 40vh;
+        width: 100vw;
+    }
+    @include tablet{
+        height: 45vh;
         width: 100vw;
     }
     @include desktop{
