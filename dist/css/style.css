@@ -233,6 +233,7 @@
 @media (min-width: 1100px) {
   .city-section-title {
     font-size: 14rem;
+    width: 100vw;
   }
 }
 
@@ -648,7 +649,6 @@
   .purple-photo {
     height: 30rem;
     width: 30rem;
-    margin-right: 6rem;
   }
 }
 
