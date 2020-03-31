@@ -4,6 +4,7 @@
     //background-image: linear-gradient(to bottom, color(lightpurple), color(lightred));
     background-color: color(lightpurple);
     display: flex;
+    width: 100vw;
     @include phone{
         height: 75vh;
         flex-direction: column-reverse;
