@@ -567,6 +567,10 @@
   }
 }
 
+.purple-gallery-parent {
+  border: solid 3px purple;
+}
+
 @media (min-width: 350px) {
   .purple-gallery-parent {
     height: 45vh;
@@ -595,6 +599,7 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  border: solid 3px green;
 }
 
 @media (min-width: 350px) {
