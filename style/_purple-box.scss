@@ -56,7 +56,6 @@
 }
 
 .gallery-p{
-    position: relative;
     display: flex;
     justify-content: space-around;
     border: solid 3px green;
@@ -81,7 +80,7 @@
     //border: solid 3px black;
     filter: brightness(95%);
     border-radius: 50rem;
-    position: absolute;
+    //position: absolute;
     @include phone{
         height: 10rem;    //25,25
         width: 10rem;
@@ -102,7 +101,7 @@
     @include phone{
         //top: 2rem;
         //left: 26rem;
-        transform: translate(11rem, 2rem);
+        transform: translate(25rem, 2rem);
         animation-name: geneva-cathedral-animation-phone;
     }
     @include tablet{
@@ -111,8 +110,8 @@
         animation-name: geneva-cathedral-animation-tablet;
     }
     @include desktop{
-        top: 0rem;
-        left: 42rem;
+        //top: 0rem;
+        //left: 42rem;
         animation-name: geneva-cathedral-animation-desktop;
     }
     animation-duration: 1.2s;
@@ -121,8 +120,8 @@
 }
 
 @keyframes geneva-cathedral-animation-phone{
-    0%{transform: scale(2.2) translate(0rem, 5rem);} //top: 11rem; left: 14rem;}
-    100%{transform: scale(1.0) translate(11rem, 2rem);}// top:2rem; left: 26rem;}
+    0%{transform: scale(2.2) translate(6.5rem, 5rem);} //top: 11rem; left: 14rem;}
+    100%{transform: scale(1.0) translate(25rem, 2rem);}// top:2rem; left: 26rem;}
 }
 
 @keyframes geneva-cathedral-animation-tablet{
@@ -131,8 +130,8 @@
 }
 
 @keyframes geneva-cathedral-animation-desktop{
-    0%{height: 70rem; width: 70rem; top: 0rem; left: 0rem;}
-    100%{height: 30rem; width: 30rem; top: 0rem; left: 42rem;}
+    0%{transform: scale(2.3); top: 0rem; left: 0rem;}
+    100%{transform: scale(1.0); top: 0rem; left: 42rem;}
 }
 
 
@@ -141,7 +140,7 @@
     @include phone{
         //top: 2rem;
         //left: 3rem;
-        transform: translate(-11rem, 2rem);
+        transform: translate(-5rem, 2rem);
         animation-name: geneva-night-animation-phone;
     }
     @include tablet{
@@ -160,8 +159,8 @@
 }
 
 @keyframes geneva-night-animation-phone{
-    0%{transform: scale(2.2) translate(0rem, 5rem);} //top: 11rem; left: 14rem;}
-    100%{transform: scale(1.0) translate(-11rem, 2rem);} // top:2rem; left: 3rem;}
+    0%{transform: scale(2.2) translate(2rem, 5rem);} //top: 11rem; left: 14rem;}
+    100%{transform: scale(1.0) translate(-5rem, 2rem);} // top:2rem; left: 3rem;}
 }
 
 @keyframes geneva-night-animation-tablet{
@@ -170,15 +169,15 @@
 }
 
 @keyframes geneva-night-animation-desktop{
-    0%{height: 70rem; width: 70rem; top: 0rem; left: 0rem;}
-    100%{height: 30rem; width: 30rem; top: 34rem; left: 20rem;}
+    0%{transform: scale(2.3); top: 0rem; left: 0rem;}
+    100%{transform: scale(1.0); top: 34rem; left: 20rem;}
 }
 
 .geneva-castle{
     @include phone{
        // top: 16rem;
         //left: 14.5rem;
-        transform: translate(0rem, 16rem);
+        transform: translate(-5rem, 16rem);
         animation-name: geneva-castle-animation-phone;
     }
     @include tablet{
@@ -197,8 +196,8 @@
 }
 
 @keyframes geneva-castle-animation-phone{
-    0%{transform: scale(2.2) translate(0rem, 5rem);} // top: 11rem; left: 14rem;}
-    100%{transform: scale(1.0) translate(0rem, 16rem);} // top:16rem; left: 14.5rem;}
+    0%{transform: scale(2.2) translate(-2.5rem, 5rem);} // top: 11rem; left: 14rem;}
+    100%{transform: scale(1.0) translate(-5rem, 16rem);} // top:16rem; left: 14.5rem;}
 }
 
 @keyframes geneva-castle-animation-tablet{
@@ -207,8 +206,8 @@
 }
 
 @keyframes geneva-castle-animation-desktop{
-    0%{height: 70rem; width: 70rem; top: 0rem; left: 0rem;}
-    100%{height: 30rem; width: 30rem; top: 0rem; left: -1rem;}
+    0%{transform: scale(2.3); top: 0rem; left: 0rem;}
+    100%{transform: scale(1.0); top: 0rem; left: -1rem;}
 }
 
 .geneva-town{
@@ -217,12 +216,8 @@
     animation-timing-function: ease-out;
     animation-play-state: paused;
     @include phone{
-        transform: translate(0rem, 7rem);
+        transform: translate(-15rem, 7rem);
         animation-name: geneva-town-animation-phone;
-        //top: 4rem;
-        //left: 9rem;
-        //height: 18rem;
-        //width: 18rem;
     }
     @include tablet{
         top: 12rem;
@@ -235,8 +230,8 @@
 }
 
 @keyframes geneva-town-animation-phone{
-    0%{transform: scale(2.2) translate(0rem, 5rem);  opacity: 1.0;} //top: 11rem; left: 14rem;
-    100%{transform: scale(1.0) translate(0rem, 7rem); opacity: 0.0;} //top: 4rem; left: 9rem;
+    0%{transform: scale(2.2) translate(-7rem, 5rem);  opacity: 1.0;} //top: 11rem; left: 14rem;
+    100%{transform: scale(1.0) translate(-15rem, 7rem); opacity: 0.0;} //top: 4rem; left: 9rem;
 } 
 
 @keyframes geneva-town-animation-tablet{
@@ -245,8 +240,8 @@
 }
 
 @keyframes geneva-town-animation-desktop{
-    0%{height: 70rem; width: 70rem; top: 0rem; left: 0rem; opacity: 1.0;}
-    100%{height: 60rem; width: 60rem; top: 0rem; left: 0rem; opacity: 0.0;}
+    0%{transform: scale(2.3); top: 0rem; left: 0rem; opacity: 1.0;}
+    100%{transform: scale(1.0); top: 0rem; left: 0rem; opacity: 0.0;}
 } 
 
 @include phone{     //works for tablet as well
@@ -284,45 +279,26 @@
 }
 
 .geneva-title{
-    /*transform: translateX(-100rem);
-    transition: 1.0s all;
-    animation-fill-mode: forwards;*/
     animation-duration: 0.7s;
     animation-timing-function: ease-out;
     animation-play-state: paused;
     text-align: center;
+    animation-name: geneva-animation;
+    margin-left: 35%;
     @include phone{
-        height: auto;
         width: 11rem;
-        animation-name: geneva-animation-phone;
-        //transform: translateX(14rem) scale(1.25);
-        margin-left: 35%;
     }
     @include tablet{
         width: 21rem;
-        animation-name: geneva-animation-tablet;
-        transform: translateX(28rem) scale(1.25);
     }
     @include desktop{
         width: 34rem;
-        animation-name: geneva-animation-desktop;
-        transform: translateX(17rem) scale(1.25);
     }
     
 }
-@keyframes geneva-animation-phone{
+@keyframes geneva-animation{
     0%{margin-left: 110%;}
     100%{margin-left: 35%;}
-}
-
-@keyframes geneva-animation-tablet{
-    0%{transform: translateX(600rem) scale(0.75);}
-    100%{transform: translateX(28rem) scale(1.25);}
-}
-
-@keyframes geneva-animation-desktop{
-    0%{transform: translateX(100rem) scale(0.75);}
-    100%{transform: translateX(17rem) scale(1.25);}
 }
 
 .purple-box:hover{
