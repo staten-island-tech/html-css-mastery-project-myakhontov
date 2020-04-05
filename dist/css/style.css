@@ -1183,6 +1183,7 @@
           animation-timing-function: ease-out;
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
+  text-align: center;
 }
 
 @media (min-width: 350px) {
@@ -1191,8 +1192,7 @@
     width: 11rem;
     -webkit-animation-name: geneva-animation-phone;
             animation-name: geneva-animation-phone;
-    -webkit-transform: translateX(14rem) scale(1.25);
-            transform: translateX(14rem) scale(1.25);
+    margin-left: 35%;
   }
 }
 
@@ -1218,23 +1218,19 @@
 
 @-webkit-keyframes geneva-animation-phone {
   0% {
-    -webkit-transform: translateX(250rem) scale(0.75);
-            transform: translateX(250rem) scale(0.75);
+    margin-left: 110%;
   }
   100% {
-    -webkit-transform: translateX(14rem) scale(1.25);
-            transform: translateX(14rem) scale(1.25);
+    margin-left: 35%;
   }
 }
 
 @keyframes geneva-animation-phone {
   0% {
-    -webkit-transform: translateX(250rem) scale(0.75);
-            transform: translateX(250rem) scale(0.75);
+    margin-left: 110%;
   }
   100% {
-    -webkit-transform: translateX(14rem) scale(1.25);
-            transform: translateX(14rem) scale(1.25);
+    margin-left: 35%;
   }
 }
 

@@ -290,11 +290,13 @@
     animation-duration: 0.7s;
     animation-timing-function: ease-out;
     animation-play-state: paused;
+    text-align: center;
     @include phone{
         height: auto;
         width: 11rem;
         animation-name: geneva-animation-phone;
-        transform: translateX(14rem) scale(1.25);
+        //transform: translateX(14rem) scale(1.25);
+        margin-left: 35%;
     }
     @include tablet{
         width: 21rem;
@@ -309,8 +311,8 @@
     
 }
 @keyframes geneva-animation-phone{
-    0%{transform: translateX(250rem) scale(0.75);}
-    100%{transform: translateX(14rem) scale(1.25);}
+    0%{margin-left: 110%;}
+    100%{margin-left: 35%;}
 }
 
 @keyframes geneva-animation-tablet{
