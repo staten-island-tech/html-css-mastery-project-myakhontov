@@ -1190,8 +1190,8 @@
     width: 11rem;
     -webkit-animation-name: geneva-animation-phone;
             animation-name: geneva-animation-phone;
-    -webkit-transform: translateX(14rem) scale(1.25);
-            transform: translateX(14rem) scale(1.25);
+    -webkit-transform: translateX(0rem) scale(1.25);
+            transform: translateX(0rem) scale(1.25);
   }
 }
 
@@ -1221,8 +1221,8 @@
             transform: translateX(250rem) scale(0.75);
   }
   100% {
-    -webkit-transform: translateX(14rem) scale(1.25);
-            transform: translateX(14rem) scale(1.25);
+    -webkit-transform: translateX(0rem) scale(1.25);
+            transform: translateX(0rem) scale(1.25);
   }
 }
 
@@ -1232,8 +1232,8 @@
             transform: translateX(250rem) scale(0.75);
   }
   100% {
-    -webkit-transform: translateX(14rem) scale(1.25);
-            transform: translateX(14rem) scale(1.25);
+    -webkit-transform: translateX(0rem) scale(1.25);
+            transform: translateX(0rem) scale(1.25);
   }
 }
 
