@@ -139,8 +139,9 @@
 
 .geneva-night{
     @include phone{
-        top: 2rem;
-        left: 3rem;
+        //top: 2rem;
+        //left: 3rem;
+        transform: translate(-11rem, 2rem);
         animation-name: geneva-night-animation-phone;
     }
     @include tablet{
@@ -159,8 +160,8 @@
 }
 
 @keyframes geneva-night-animation-phone{
-    0%{transform: scale(2.2); top: 11rem; left: 14rem;}
-    100%{transform: scale(1.0); top:2rem; left: 3rem;}
+    0%{transform: scale(2.2) translate(0rem, 5rem);} //top: 11rem; left: 14rem;}
+    100%{transform: scale(1.0) translate(-11rem, 2rem);} // top:2rem; left: 3rem;}
 }
 
 @keyframes geneva-night-animation-tablet{
@@ -175,8 +176,9 @@
 
 .geneva-castle{
     @include phone{
-        top: 16rem;
-        left: 14.5rem;
+       // top: 16rem;
+        //left: 14.5rem;
+        transform: translate(0rem, 16rem);
         animation-name: geneva-castle-animation-phone;
     }
     @include tablet{
@@ -195,8 +197,8 @@
 }
 
 @keyframes geneva-castle-animation-phone{
-    0%{transform: scale(2.2); top: 11rem; left: 14rem;}
-    100%{transform: scale(1.0); top:16rem; left: 14.5rem;}
+    0%{transform: scale(2.2) translate(0rem, 5rem);} // top: 11rem; left: 14rem;}
+    100%{transform: scale(1.0) translate(0rem, 16rem);} // top:16rem; left: 14.5rem;}
 }
 
 @keyframes geneva-castle-animation-tablet{
@@ -215,9 +217,10 @@
     animation-timing-function: ease-out;
     animation-play-state: paused;
     @include phone{
+        transform: translate(0rem, 7rem);
         animation-name: geneva-town-animation-phone;
-        top: 4rem;
-        left: 9rem;
+        //top: 4rem;
+        //left: 9rem;
         //height: 18rem;
         //width: 18rem;
     }
@@ -232,8 +235,8 @@
 }
 
 @keyframes geneva-town-animation-phone{
-    0%{transform: scale(2.2); top: 11rem; left: 14rem; opacity: 1.0;}
-    100%{transform: scale(1.0); top: 4rem; left: 9rem; opacity: 0.0;}
+    0%{transform: scale(2.2) translate(0rem, 5rem);  opacity: 1.0;} //top: 11rem; left: 14rem;
+    100%{transform: scale(1.0) translate(0rem, 7rem); opacity: 0.0;} //top: 4rem; left: 9rem;
 } 
 
 @keyframes geneva-town-animation-tablet{
