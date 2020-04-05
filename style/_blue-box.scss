@@ -106,7 +106,7 @@
     animation-duration: 0.7s;
     animation-timing-function: ease-out;
     animation-play-state: paused;
-    
+    text-align: center;
     @include phone{
         animation-name: zurich-animation-phone;
     }

@@ -140,7 +140,6 @@
 .titles {
   font-family: 'Marcellus', serif;
   text-shadow: 2px 2px 0 white, -2px 2px 0 white, 2px -2px 0 white, -2px -2px 0 white;
-  text-align: center;
   -webkit-transform: scale(1.25);
           transform: scale(1.25);
 }
@@ -400,6 +399,7 @@
           animation-timing-function: ease-out;
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
+  text-align: center;
 }
 
 @media (min-width: 350px) {
@@ -1498,6 +1498,7 @@
           animation-timing-function: ease-out;
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
+  text-align: center;
 }
 
 @media (min-width: 350px) {

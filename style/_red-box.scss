@@ -158,7 +158,7 @@
     animation-duration: 0.7s;
     animation-timing-function: ease-out;
     animation-play-state: paused;
-    
+    text-align: center;
     @include phone{
         animation-name: bern-animation-phone;
         transform: translateX(0rem) scale(1.25);
