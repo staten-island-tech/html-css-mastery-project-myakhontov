@@ -106,8 +106,7 @@
         animation-name: geneva-cathedral-animation-tablet;
     }
     @include desktop{
-        //top: 0rem;
-        //left: 42rem;
+        transform: translate(23rem, 0rem);
         animation-name: geneva-cathedral-animation-desktop;
     }
     animation-duration: 1.2s;
@@ -126,16 +125,14 @@
 }
 
 @keyframes geneva-cathedral-animation-desktop{
-    0%{transform: scale(2.3); top: 0rem; left: 0rem;}
-    100%{transform: scale(1.0); top: 0rem; left: 42rem;}
+    0%{transform: scale(2.0) translate(23rem, 8rem);}
+    100%{transform: scale(1.0) translate(23rem, 0rem);}
 }
 
 
 
 .geneva-night{
     @include phone{
-        //top: 2rem;
-        //left: 3rem;
         transform: translate(-5rem, 2rem);
         animation-name: geneva-night-animation-phone;
     }
@@ -144,8 +141,7 @@
         animation-name: geneva-night-animation-tablet;
     }
     @include desktop{
-        top: 34rem;
-        left: 20rem;
+        transform: translate(17rem, 32rem);
         animation-name: geneva-night-animation-desktop;
     }
     animation-duration: 1.2s;
@@ -164,8 +160,8 @@
 }
 
 @keyframes geneva-night-animation-desktop{
-    0%{transform: scale(2.3); top: 0rem; left: 0rem;}
-    100%{transform: scale(1.0); top: 34rem; left: 20rem;}
+    0%{transform: scale(2.0) translate(9rem, 8rem);}
+    100%{transform: scale(1.0) translate(17rem, 32rem);}
 }
 
 .geneva-castle{
@@ -180,8 +176,7 @@
         animation-name: geneva-castle-animation-tablet;
     }
     @include desktop{
-        top: 0rem;
-        left: -1rem;
+        transform: translate(10rem, 0rem);
         animation-name: geneva-castle-animation-desktop;
     }
     animation-duration: 1.2s;
@@ -200,8 +195,8 @@
 }
 
 @keyframes geneva-castle-animation-desktop{
-    0%{transform: scale(2.3); top: 0rem; left: 0rem;}
-    100%{transform: scale(1.0); top: 0rem; left: -1rem;}
+    0%{transform: scale(2.0) translate(-6rem, 8rem);}
+    100%{transform: scale(1.0) translate(10rem, 0rem);}
 }
 
 .geneva-town{
@@ -218,6 +213,7 @@
         animation-name: geneva-town-animation-tablet;
     }
     @include desktop{
+        transform: translate(-43rem, 14rem);
         animation-name: geneva-town-animation-desktop;
     }
 }
@@ -233,8 +229,8 @@
 }
 
 @keyframes geneva-town-animation-desktop{
-    0%{transform: scale(2.3); top: 0rem; left: 0rem; opacity: 1.0;}
-    100%{transform: scale(1.0); top: 0rem; left: 0rem; opacity: 0.0;}
+    0%{transform: scale(2.0) translate(-21rem, 8rem); opacity: 1.0;}
+    100%{transform: scale(1.0) translate(-43rem, 14rem); opacity: 0.0;}
 } 
 
 @include phone{     //works for tablet as well

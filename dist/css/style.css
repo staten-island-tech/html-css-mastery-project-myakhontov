@@ -679,6 +679,8 @@
 
 @media (min-width: 1100px) {
   .geneva-cathedral {
+    -webkit-transform: translate(23rem, 0rem);
+            transform: translate(23rem, 0rem);
     -webkit-animation-name: geneva-cathedral-animation-desktop;
             animation-name: geneva-cathedral-animation-desktop;
   }
@@ -730,31 +732,23 @@
 
 @-webkit-keyframes geneva-cathedral-animation-desktop {
   0% {
-    -webkit-transform: scale(2.3);
-            transform: scale(2.3);
-    top: 0rem;
-    left: 0rem;
+    -webkit-transform: scale(2) translate(23rem, 8rem);
+            transform: scale(2) translate(23rem, 8rem);
   }
   100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    top: 0rem;
-    left: 42rem;
+    -webkit-transform: scale(1) translate(23rem, 0rem);
+            transform: scale(1) translate(23rem, 0rem);
   }
 }
 
 @keyframes geneva-cathedral-animation-desktop {
   0% {
-    -webkit-transform: scale(2.3);
-            transform: scale(2.3);
-    top: 0rem;
-    left: 0rem;
+    -webkit-transform: scale(2) translate(23rem, 8rem);
+            transform: scale(2) translate(23rem, 8rem);
   }
   100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    top: 0rem;
-    left: 42rem;
+    -webkit-transform: scale(1) translate(23rem, 0rem);
+            transform: scale(1) translate(23rem, 0rem);
   }
 }
 
@@ -787,8 +781,8 @@
 
 @media (min-width: 1100px) {
   .geneva-night {
-    top: 34rem;
-    left: 20rem;
+    -webkit-transform: translate(17rem, 32rem);
+            transform: translate(17rem, 32rem);
     -webkit-animation-name: geneva-night-animation-desktop;
             animation-name: geneva-night-animation-desktop;
   }
@@ -840,31 +834,23 @@
 
 @-webkit-keyframes geneva-night-animation-desktop {
   0% {
-    -webkit-transform: scale(2.3);
-            transform: scale(2.3);
-    top: 0rem;
-    left: 0rem;
+    -webkit-transform: scale(2) translate(9rem, 8rem);
+            transform: scale(2) translate(9rem, 8rem);
   }
   100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    top: 34rem;
-    left: 20rem;
+    -webkit-transform: scale(1) translate(17rem, 32rem);
+            transform: scale(1) translate(17rem, 32rem);
   }
 }
 
 @keyframes geneva-night-animation-desktop {
   0% {
-    -webkit-transform: scale(2.3);
-            transform: scale(2.3);
-    top: 0rem;
-    left: 0rem;
+    -webkit-transform: scale(2) translate(9rem, 8rem);
+            transform: scale(2) translate(9rem, 8rem);
   }
   100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    top: 34rem;
-    left: 20rem;
+    -webkit-transform: scale(1) translate(17rem, 32rem);
+            transform: scale(1) translate(17rem, 32rem);
   }
 }
 
@@ -897,8 +883,8 @@
 
 @media (min-width: 1100px) {
   .geneva-castle {
-    top: 0rem;
-    left: -1rem;
+    -webkit-transform: translate(10rem, 0rem);
+            transform: translate(10rem, 0rem);
     -webkit-animation-name: geneva-castle-animation-desktop;
             animation-name: geneva-castle-animation-desktop;
   }
@@ -950,31 +936,23 @@
 
 @-webkit-keyframes geneva-castle-animation-desktop {
   0% {
-    -webkit-transform: scale(2.3);
-            transform: scale(2.3);
-    top: 0rem;
-    left: 0rem;
+    -webkit-transform: scale(2) translate(-6rem, 8rem);
+            transform: scale(2) translate(-6rem, 8rem);
   }
   100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    top: 0rem;
-    left: -1rem;
+    -webkit-transform: scale(1) translate(10rem, 0rem);
+            transform: scale(1) translate(10rem, 0rem);
   }
 }
 
 @keyframes geneva-castle-animation-desktop {
   0% {
-    -webkit-transform: scale(2.3);
-            transform: scale(2.3);
-    top: 0rem;
-    left: 0rem;
+    -webkit-transform: scale(2) translate(-6rem, 8rem);
+            transform: scale(2) translate(-6rem, 8rem);
   }
   100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    top: 0rem;
-    left: -1rem;
+    -webkit-transform: scale(1) translate(10rem, 0rem);
+            transform: scale(1) translate(10rem, 0rem);
   }
 }
 
@@ -1008,6 +986,8 @@
 
 @media (min-width: 1100px) {
   .geneva-town {
+    -webkit-transform: translate(-43rem, 14rem);
+            transform: translate(-43rem, 14rem);
     -webkit-animation-name: geneva-town-animation-desktop;
             animation-name: geneva-town-animation-desktop;
   }
@@ -1067,34 +1047,26 @@
 
 @-webkit-keyframes geneva-town-animation-desktop {
   0% {
-    -webkit-transform: scale(2.3);
-            transform: scale(2.3);
-    top: 0rem;
-    left: 0rem;
+    -webkit-transform: scale(2) translate(-21rem, 8rem);
+            transform: scale(2) translate(-21rem, 8rem);
     opacity: 1.0;
   }
   100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    top: 0rem;
-    left: 0rem;
+    -webkit-transform: scale(1) translate(-43rem, 14rem);
+            transform: scale(1) translate(-43rem, 14rem);
     opacity: 0.0;
   }
 }
 
 @keyframes geneva-town-animation-desktop {
   0% {
-    -webkit-transform: scale(2.3);
-            transform: scale(2.3);
-    top: 0rem;
-    left: 0rem;
+    -webkit-transform: scale(2) translate(-21rem, 8rem);
+            transform: scale(2) translate(-21rem, 8rem);
     opacity: 1.0;
   }
   100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    top: 0rem;
-    left: 0rem;
+    -webkit-transform: scale(1) translate(-43rem, 14rem);
+            transform: scale(1) translate(-43rem, 14rem);
     opacity: 0.0;
   }
 }
