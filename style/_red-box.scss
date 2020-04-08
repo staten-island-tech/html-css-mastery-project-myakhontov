@@ -17,7 +17,7 @@
     }
     @include desktop{
         height: 100vh;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-around;
         //align-items: center;
     }
@@ -131,6 +131,7 @@
 
 
 .red-list{
+    //border: 3px solid white;
     @include phone{
         height: 18rem;
         width: auto;
@@ -140,12 +141,33 @@
         width: auto;
     }
     @include desktop{
-        height: 40rem;
+        height: 70rem;
         width: auto;
+        margin-right: 3rem;
     }
+    animation-name: list-shake;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in-out;
+    animation-play-state: paused;
+}
+
+@keyframes list-shake{
+    0%{transform: rotate(0deg);}
+    10%{transform: rotate(7deg);}
+    20%{transform: rotate(-7deg);}
+    30%{transform: rotate(7deg);}
+    40%{transform: rotate(-7deg);}
+    50%{transform: rotate(7deg);}
+    60%{transform: rotate(-7deg);}
+    70%{transform: rotate(7deg);}
+    80%{transform: rotate(-7deg);}
+    90%{transform: rotate(7deg);}
+    100%{transform: rotate(0deg);}
+
 }
 
 .red-list ul{
+    //border: 3px solid white;
     list-style-position: inside;
     //list-style-type: none;
     margin: 0;
@@ -162,6 +184,7 @@
     @include desktop{
         font-size: 6rem;
         line-height: 8rem;
+        margin-top: 5rem;
     }
 }
 
@@ -207,6 +230,8 @@
 .red-box:hover{
     .bern-title{
         animation-play-state: running;
-        
+    }
+    .red-list{
+        animation-play-state: running;
     }
 }
