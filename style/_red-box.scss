@@ -1,7 +1,6 @@
 @import"./variables";
 
 .red-box{
-    //background-image: linear-gradient(to bottom, color(lightred), color(lightbeige));
     background-color: color(lightred);
     display: flex;
     width: 100vw;
@@ -18,38 +17,25 @@
     }
     @include desktop{
         height: 100vh;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: space-around;
+        //align-items: center;
     }
 }
 
-/*.red-image{
-    background-image: url(media/bern.jpg);
-    background-size: cover;
-    border: solid 3px black;
-    @include phone{
-        height: $cityimageheightphone;
-        width: $cityimageheightphone;
-    }
-    @include tablet{
-        height: 40rem;
-        width: 50rem;
-    }
-    @include desktop{
-        height: $cityimageheightdesktop;
-        width: $cityimagewidthdesktop;
-        margin-left: 6rem;
-    }
-}*/
-
 .red-gallery-parent{
-    margin: 0 auto;
     height: 70rem;
     @include phone{
+        height: 30rem;
         width: 100vw;
     }
+    @include tablet{
+        height: 57rem;
+        width: 70rem;
+    }
     @include desktop{
-        width: 80rem;
+        height: auto;
+        width: 110rem;
     }
     
     //border: solid 3px red;
@@ -57,16 +43,21 @@
 
 .gallery-r{
     position: relative;
-    height: 25rem;
-    left: 1rem;
-    display: flex;
-    justify-content: space-around;
+    @include phone{
+        height: 25rem;
+    }
+    @include tablet{
+        height: 48rem;
+    }
+    @include desktop{
+        height: 55rem;
+        width: 80rem;
+        margin: 0 auto;
+    }
 
 }
 
 .red-photo{
-    //height: 10rem;
-    //width: 10rem;
     position: absolute;
     transition: all 0.6s;
     border: solid 3px black;
@@ -81,7 +72,7 @@
     @include tablet{
         height: 24rem;
         top: 17rem;
-        left: 35rem;
+        left: 31rem;
     }
     @include desktop{
         height: 30rem;
@@ -91,7 +82,6 @@
 }
 
 .bern-river{
-    
     @include phone{
         height: 12rem;
         top: 2rem;
@@ -100,7 +90,7 @@
     @include tablet{
         height: 24rem;
         top: 2rem;
-        left: 23rem;
+        left: 19rem;
     }
     @include desktop{
         height: 30rem;
@@ -118,7 +108,7 @@
     @include tablet{
         height: 24rem;
         top: 21rem;
-        left: 4rem;
+        left: 1rem;
     }
     @include desktop{
         height: 30rem;
@@ -140,21 +130,46 @@
 }
 
 
-.red-box p{
+.red-list{
     @include phone{
-        text-align: center;
+        height: 18rem;
+        width: auto;
+    }
+    @include tablet{
+        height: 25rem;
+        width: auto;
     }
     @include desktop{
-        text-align: right;
-        margin-right: 6rem;
+        height: 40rem;
+        width: auto;
     }
 }
 
+.red-list ul{
+    list-style-position: inside;
+    //list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    @include phone{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    @include tablet{
+        font-size: 3.5rem;
+        line-height: 5rem;
+    }
+    @include desktop{
+        font-size: 6rem;
+        line-height: 8rem;
+    }
+}
+
+/*.red-list ul li{
+    background-color: rgba(255,255,255,0.2);
+}*/
 
 .bern-title{
-    /*transform: translateX(-100rem);
-    transition: all 1.0s;
-    animation-fill-mode: forwards;*/
     animation-duration: 0.7s;
     animation-timing-function: ease-out;
     animation-play-state: paused;

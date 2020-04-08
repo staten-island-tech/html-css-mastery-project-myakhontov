@@ -186,6 +186,10 @@
   }
 }
 
+.city-section ul {
+  font-family: 'Marcellus', serif;
+}
+
 .blue-box {
   background-color: #B9D6F8;
 }
@@ -1201,60 +1205,62 @@
 @media (min-width: 1100px) {
   .red-box {
     height: 100vh;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 
-/*.red-image{
-    background-image: url(media/bern.jpg);
-    background-size: cover;
-    border: solid 3px black;
-    @include phone{
-        height: $cityimageheightphone;
-        width: $cityimageheightphone;
-    }
-    @include tablet{
-        height: 40rem;
-        width: 50rem;
-    }
-    @include desktop{
-        height: $cityimageheightdesktop;
-        width: $cityimagewidthdesktop;
-        margin-left: 6rem;
-    }
-}*/
 .red-gallery-parent {
-  margin: 0 auto;
   height: 70rem;
 }
 
 @media (min-width: 350px) {
   .red-gallery-parent {
+    height: 30rem;
     width: 100vw;
+  }
+}
+
+@media (min-width: 600px) {
+  .red-gallery-parent {
+    height: 57rem;
+    width: 70rem;
   }
 }
 
 @media (min-width: 1100px) {
   .red-gallery-parent {
-    width: 80rem;
+    height: auto;
+    width: 110rem;
   }
 }
 
 .gallery-r {
   position: relative;
-  height: 25rem;
-  left: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+}
+
+@media (min-width: 350px) {
+  .gallery-r {
+    height: 25rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .gallery-r {
+    height: 48rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .gallery-r {
+    height: 55rem;
+    width: 80rem;
+    margin: 0 auto;
+  }
 }
 
 .red-photo {
@@ -1276,7 +1282,7 @@
   .bern-square {
     height: 24rem;
     top: 17rem;
-    left: 35rem;
+    left: 31rem;
   }
 }
 
@@ -1300,7 +1306,7 @@
   .bern-river {
     height: 24rem;
     top: 2rem;
-    left: 23rem;
+    left: 19rem;
   }
 }
 
@@ -1324,7 +1330,7 @@
   .bern-winter {
     height: 24rem;
     top: 21rem;
-    left: 4rem;
+    left: 1rem;
   }
 }
 
@@ -1352,22 +1358,58 @@
 }
 
 @media (min-width: 350px) {
-  .red-box p {
-    text-align: center;
+  .red-list {
+    height: 18rem;
+    width: auto;
+  }
+}
+
+@media (min-width: 600px) {
+  .red-list {
+    height: 25rem;
+    width: auto;
   }
 }
 
 @media (min-width: 1100px) {
-  .red-box p {
-    text-align: right;
-    margin-right: 6rem;
+  .red-list {
+    height: 40rem;
+    width: auto;
   }
 }
 
+.red-list ul {
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+@media (min-width: 350px) {
+  .red-list ul {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .red-list ul {
+    font-size: 3.5rem;
+    line-height: 5rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .red-list ul {
+    font-size: 6rem;
+    line-height: 8rem;
+  }
+}
+
+/*.red-list ul li{
+    background-color: rgba(255,255,255,0.2);
+}*/
 .bern-title {
-  /*transform: translateX(-100rem);
-    transition: all 1.0s;
-    animation-fill-mode: forwards;*/
   -webkit-animation-duration: 0.7s;
           animation-duration: 0.7s;
   -webkit-animation-timing-function: ease-out;
@@ -1516,7 +1558,7 @@
 
 @media (min-width: 1100px) {
   .landmark-sec-title {
-    font-size: 8rem;
+    font-size: 12rem;
   }
 }
 
@@ -1691,7 +1733,16 @@
           transform: rotateY(-180deg);
   -webkit-transition: all 1s;
   transition: all 1s;
-  background-color: #721817;
+  background-color: #F2B880;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .card:hover .card-side-front {
@@ -1708,24 +1759,12 @@
   background-image: url(media/swiss_alps.jpg);
 }
 
-.alps .card-side-back {
-  background-color: #721817;
-}
-
 .jet .card-side-front {
   background-image: url(media/jetdeau.jpg);
 }
 
-.jet .card-side-back {
-  background-color: #721817;
-}
-
 .festival .card-side-front {
   background-image: url(media/balloon.jpg);
-}
-
-.festival .card-side-back {
-  background-color: #721817;
 }
 
 .card header {
@@ -1757,8 +1796,16 @@
 }
 
 .card-side-back p {
-  font-size: 3rem;
-  color: #82968C;
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+}
+
+@media (min-width: 1100px) {
+  .card-side-back p {
+    font-size: 2.5rem;
+    height: auto;
+    width: 40rem;
+  }
 }
 
 html {
