@@ -22,7 +22,7 @@
     }
 }
 
-.purple-box p{
+/*.purple-box p{
     //border: 5px solid green;
     @include phone{
         text-align: center;
@@ -30,6 +30,12 @@
     @include desktop{
         text-align: left;
         margin-left: 6rem;
+    }
+}*/
+
+.purple-facts{
+    @include desktop{
+        margin-left: 3rem;
     }
 }
 
@@ -288,6 +294,9 @@
 
 .purple-box:hover{
     .geneva-title{
+        animation-play-state: running;
+    }
+    .purple-facts header{
         animation-play-state: running;
     }
 }

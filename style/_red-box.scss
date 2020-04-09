@@ -129,62 +129,9 @@
     opacity: 0.3;
 }
 
-
-.red-list{
-    //border: 3px solid white;
-    @include phone{
-        height: 18rem;
-        width: auto;
-    }
-    @include tablet{
-        height: 25rem;
-        width: auto;
-    }
+.red-facts{
     @include desktop{
-        height: 70rem;
-        width: auto;
         margin-right: 3rem;
-    }
-    animation-name: list-shake;
-    animation-duration: 1.2s;
-    animation-timing-function: ease-in-out;
-    animation-play-state: paused;
-}
-
-@keyframes list-shake{
-    0%{transform: rotate(0deg);}
-    10%{transform: rotate(7deg);}
-    20%{transform: rotate(-7deg);}
-    30%{transform: rotate(7deg);}
-    40%{transform: rotate(-7deg);}
-    50%{transform: rotate(7deg);}
-    60%{transform: rotate(-7deg);}
-    70%{transform: rotate(7deg);}
-    80%{transform: rotate(-7deg);}
-    90%{transform: rotate(7deg);}
-    100%{transform: rotate(0deg);}
-
-}
-
-.red-list ul{
-    //border: 3px solid white;
-    list-style-position: inside;
-    //list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    @include phone{
-        font-size: 2rem;
-        line-height: 3rem;
-    }
-    @include tablet{
-        font-size: 3.5rem;
-        line-height: 5rem;
-    }
-    @include desktop{
-        font-size: 6rem;
-        line-height: 8rem;
-        margin-top: 5rem;
     }
 }
 
@@ -231,7 +178,7 @@
     .bern-title{
         animation-play-state: running;
     }
-    .red-list{
+    .red-facts header{
         animation-play-state: running;
     }
 }

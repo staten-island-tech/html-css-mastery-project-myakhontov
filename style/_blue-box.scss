@@ -99,6 +99,12 @@
     100%{clip-path: polygon(100% 93%, 0 93%, 50% 7%, 75% 50%);} //triangle
 }
 
+.blue-facts{
+    @include desktop{
+        margin-right: 3rem;
+    }
+}
+
 .zurich-title{
     /*transform: translateX(-100rem);
     transition: 1.0s all;
@@ -138,13 +144,15 @@
 .blue-box:hover{
     .zurich-title{
         animation-play-state: running;
-        
+    }
+    .blue-facts header{
+        animation-play-state: running;
     }
 }
 
 
 
-.blue-box p{
+/*.blue-box p{
     //border: 5px solid green;
     
     @include phone{
@@ -154,4 +162,4 @@
         text-align: right;
         margin-right: 6rem;
     }
-}
+}*/
