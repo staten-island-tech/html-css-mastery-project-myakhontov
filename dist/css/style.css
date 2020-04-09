@@ -1967,9 +1967,84 @@
   }
 }
 
+@media (min-width: 350px) {
+  .alps .card-side-back p {
+    height: 13rem;
+    width: 26rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .alps .card-side-back p {
+    height: 18rem;
+    width: 37rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .alps .card-side-back p {
+    height: auto;
+    width: 40rem;
+  }
+}
+
+@media (min-width: 350px) {
+  .jet .card-side-back p {
+    height: 12rem;
+    width: 25rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .jet .card-side-back p {
+    height: 17rem;
+    width: 37rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .jet .card-side-back p {
+    height: auto;
+    width: 40rem;
+  }
+}
+
+@media (min-width: 350px) {
+  .festival .card-side-back p {
+    height: 12rem;
+    width: 25rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .festival .card-side-back p {
+    height: 18rem;
+    width: 38rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .festival .card-side-back p {
+    height: auto;
+    width: 40rem;
+  }
+}
+
 .card-side-back p {
   font-family: 'Bree Serif', serif;
   text-align: center;
+}
+
+@media (min-width: 350px) {
+  .card-side-back p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .card-side-back p {
+    font-size: 1.8rem;
+  }
 }
 
 @media (min-width: 1100px) {
