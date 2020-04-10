@@ -9,10 +9,26 @@
       href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Marcellus&family=Oswald:wght@500&display=swap"
       rel="stylesheet"
     />
-    />
     <title>See Switzerland!</title>
   </head>
   <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation_checkbox" id="navi-toggle">
+
+      <label for="navi-toggle" class="navigation_button">
+        <span class="navigation_icon"></span>
+      </label>
+
+      <div class="navigation_background">&nbsp;</div>
+      <nav class="navigation_nav">
+        <ul class="navigation_list">
+          <li class="navigation_item"><a href="#zurich" class="navigation_link">Zürich</a></li>
+          <li class="navigation_item"><a href="#geneva" class="navigation_link">Geneva</a></li>
+          <li class="navigation_item"><a href="#bern" class="navigation_link">Bern</a></li>
+          <li class="navigation_item"><a href="#experiences" class="navigation_link">More Experiences</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="city-section">
       <div class="cover">
         <h1 class="header">switzerland</h1>
@@ -20,7 +36,7 @@
       </div>
       <div onclick="" class="blue-box">
         <header class="city-section-title">Visit Our Beautiful Cities</header>
-        <div class="blue-box-parent">
+        <div class="blue-box-parent" id="zurich">
           <div class="blue-image-parent">
             <header class="titles zurich-title">Zürich</header>
             <div class="blue-image"></div>
@@ -40,7 +56,7 @@
         </div>
       </div>
       <div class="blue-purple gradient"></div>
-      <div onclick="" class="purple-box">
+      <div onclick="" class="purple-box" id="geneva">
         <div class="purple-facts fact-container">
           <header>Quick Facts...</header>
           <div class="purple-list list-container">
@@ -84,7 +100,7 @@
         </div>
       </div>
       <div class="purple-red gradient"></div>
-      <div onclick="" class="red-box">
+      <div onclick="" class="red-box" id="bern">
         <div class="red-gallery-parent">
           <header onclick="" class="titles bern-title">Bern</header>
           <div class="gallery-r">
@@ -120,7 +136,7 @@
       </div>
     </div>
     <div class="red-beige gradient"></div>
-    <div class="beige-box">
+    <div class="beige-box" id="experiences">
       <div class="landmark-sec-title">
         Immerse Yourself in Swiss Sights
       </div>
