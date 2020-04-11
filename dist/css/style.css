@@ -15,6 +15,7 @@
           box-shadow: 0 1rem 3rem gray;
   text-align: center;
   cursor: pointer;
+  border: 2px solid black;
 }
 
 .navigation_icon {
@@ -71,48 +72,68 @@
   top: 0;
 }
 
-.navigation_list {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  list-style: none;
-  text-align: center;
-  width: 100%;
-}
-
-.navigation_item {
-  margin: 1rem;
-}
-
 .navigation_nav {
-  height: 100vh;
   position: fixed;
-  top: 0;
-  left: 0;
   z-index: 1500;
-  opacity: 0;
-  width: 0%;
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
 }
 
 .navigation_background {
-  height: 6rem;
-  width: 6rem;
-  border-radius: 50%;
+  height: 100vh;
+  width: 50vw;
+  display: inline-block;
   position: fixed;
-  top: 6.5rem;
-  right: 6.5rem;
-  background-image: radial-gradient(#2998ff, #28b485);
   z-index: 1000;
-  -webkit-transition: -webkit-transform 0.8s;
-  transition: -webkit-transform 0.8s;
-  transition: transform 0.8s;
-  transition: transform 0.8s, -webkit-transform 0.8s;
-  -webkit-transform: scale(0);
-          transform: scale(0);
+}
+
+.navigation_background_left {
+  background-color: red;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  -webkit-transform: translateX(-50vw);
+          transform: translateX(-50vw);
+}
+
+.navigation_background_right {
+  right: 0;
+  background-color: blue;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  -webkit-transform: translateX(50vw);
+          transform: translateX(50vw);
+}
+
+.navigation_list_background {
+  position: fixed;
+  z-index: 1500;
+  height: 43%;
+  width: 30%;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg) scale(0.5);
+          transform: translate(-50%, -50%) rotate(45deg) scale(0.5);
+  opacity: 1;
+}
+
+.navigation_list {
+  border: 2px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+          transform: translate(-50%, -50%) rotate(-45deg);
+  list-style: none;
+  text-align: center;
+  height: 55%;
+  width: 50%;
+  background-color: white;
+  padding: 0;
+}
+
+.navigation_item {
+  margin: 1rem;
 }
 
 .navigation_link, .navigation_link:link, .navigation_link:visited {
@@ -137,14 +158,22 @@
 }
 
 .navigation_checkbox:checked ~ .navigation_background {
-  -webkit-transform: scale(80);
-          transform: scale(80);
+  -webkit-transform: translateX(0rem);
+          transform: translateX(0rem);
   opacity: 1;
 }
 
 .navigation_checkbox:checked ~ .navigation_nav {
-  opacity: 1;
   width: 100%;
+  background-color: red;
+}
+
+.navigation_checkbox:checked + .navigation_list_background {
+  background-color: green;
+}
+
+.navigation_list_background:hover {
+  background-color: red;
 }
 
 .gradient {
@@ -928,6 +957,7 @@
 
 .purple-gallery-parent {
   border: solid 3px purple;
+  overflow: hidden;
 }
 
 @media (min-width: 350px) {
