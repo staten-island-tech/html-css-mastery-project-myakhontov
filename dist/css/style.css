@@ -73,8 +73,15 @@
 }
 
 .navigation_nav {
+  height: 100vh;
   position: fixed;
+  top: 0;
+  left: 0;
   z-index: 1500;
+  opacity: 0;
+  width: 100%;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
 }
@@ -88,7 +95,7 @@
 }
 
 .navigation_background_left {
-  background-color: red;
+  background-color: #CBFFFA;
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
   -webkit-transform: translateX(-50vw);
@@ -97,7 +104,7 @@
 
 .navigation_background_right {
   right: 0;
-  background-color: blue;
+  background-color: #CBFFFA;
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
   -webkit-transform: translateX(50vw);
@@ -112,8 +119,8 @@
   background-color: white;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%) rotate(45deg) scale(0.5);
-          transform: translate(-50%, -50%) rotate(45deg) scale(0.5);
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+          transform: translate(-50%, -50%) rotate(45deg);
   opacity: 1;
 }
 
@@ -151,10 +158,9 @@
 }
 
 .navigation_link:hover, .navigation_link:active {
-  background-position: 100%;
-  color: #2998ff;
-  -webkit-transform: translateX(1rem);
-          transform: translateX(1rem);
+  color: #CBFFFA;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .navigation_checkbox:checked ~ .navigation_background {
@@ -164,16 +170,9 @@
 }
 
 .navigation_checkbox:checked ~ .navigation_nav {
-  width: 100%;
-  background-color: red;
-}
-
-.navigation_checkbox:checked + .navigation_list_background {
-  background-color: green;
-}
-
-.navigation_list_background:hover {
-  background-color: red;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .gradient {

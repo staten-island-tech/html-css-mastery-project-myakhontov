@@ -72,8 +72,14 @@
 ////////////////////////////////////////////////nav screen
 
 .navigation_nav{
+    height: 100vh;
     position: fixed;
+    top: 0;
+    left: 0;
     z-index: 1500;
+    opacity: 0;
+    width: 100%;
+    transform: scale(0.5);
     transition: all 0.8s; // cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
@@ -86,7 +92,7 @@
 }
 
 .navigation_background_left{
-    background-color: red;
+    background-color: color(navback);
     transition: all 0.8s;
     //transform: scale(1);
     transform: translateX(-50vw);
@@ -94,7 +100,7 @@
 
 .navigation_background_right{
     right: 0;
-    background-color: blue;
+    background-color: color(navback);
     transition: all 0.8s;
     //transform: scale(1);
     transform: translateX(50vw);
@@ -108,7 +114,7 @@
     background-color: white;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(45deg) scale(0.5);
+    transform: translate(-50%, -50%) rotate(45deg);
     opacity: 1;
 }
 
@@ -144,9 +150,8 @@
 }
 
 .navigation_link:hover, .navigation_link:active{
-    background-position: 100%;
-    color: rgba(41, 152, 255, 1);
-    transform: translateX(1rem);
+    color: color(navback);
+    transform: scale(1.2);
 }
 
 .navigation_checkbox:checked~.navigation_background{
@@ -155,16 +160,7 @@
 }
 
 .navigation_checkbox:checked~.navigation_nav{
-    //opacity: 1;
-    width: 100%;
-    background-color: red;
-}
-
-.navigation_checkbox:checked+.navigation_list_background{
-    background-color: green;
-}
-
-.navigation_list_background:hover{
-    background-color: red;
+    opacity: 1;
+    transform: scale(1);
 }
 
