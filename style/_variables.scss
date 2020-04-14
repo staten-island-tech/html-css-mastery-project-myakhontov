@@ -11,13 +11,8 @@ $colors: (
     @return map-get($colors, $color-name);
   }
 
-  
-$margin: 6rem;
-$cityimageheightdesktop: 70rem;
-$cityimagewidthdesktop: 80rem;
 
-$cityimageheightphone: 30rem;
-$cityimagewidthphone: 40rem;
+$navdesktop: 7rem;
 
 $desktop: 1100px;
 $laptop: 900px;

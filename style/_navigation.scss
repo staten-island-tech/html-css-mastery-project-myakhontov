@@ -6,8 +6,8 @@
 //////////////////////////////////////nav button (top left)
 .navigation_button{
     background-color: black;
-    height: 7rem;
-    width: 7rem;
+    height: $navdesktop;
+    width: $navdesktop;
     //border-radius: 50%;
     position: fixed;
     top: 0;
@@ -86,7 +86,7 @@
 }
 
 .navigation_background{
-    height: 7rem;
+    height: $navdesktop;
     width: 100vw;
     display: block;
     position: fixed;
