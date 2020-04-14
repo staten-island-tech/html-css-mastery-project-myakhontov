@@ -4,14 +4,14 @@ $colors: (
     lightred: #F8B9B9,
     lightbeige: #F8DFB9,
     peach: #F2B880,
-    navback: #CBFFFA
+    navback: #fff1d0
 );
 
 @function color($color-name) {
     @return map-get($colors, $color-name);
   }
 
-
+$navphone: 50%;
 $navdesktop: 7rem;
 
 $desktop: 1100px;
