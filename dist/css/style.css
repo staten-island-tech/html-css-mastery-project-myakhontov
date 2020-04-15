@@ -1174,6 +1174,8 @@
 
 @media (min-width: 350px) {
   .geneva-cathedral {
+    -webkit-transform: translate(25rem, 2rem);
+            transform: translate(25rem, 2rem);
     -webkit-animation-name: geneva-cathedral-animation-phone;
             animation-name: geneva-cathedral-animation-phone;
   }

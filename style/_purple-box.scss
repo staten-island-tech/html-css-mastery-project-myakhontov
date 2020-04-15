@@ -102,7 +102,7 @@
 
 .geneva-cathedral{
     @include phone{
-        //transform: translate(25rem, 2rem);
+        transform: translate(25rem, 2rem);
         animation-name: geneva-cathedral-animation-phone;
     }
     @include tablet{
