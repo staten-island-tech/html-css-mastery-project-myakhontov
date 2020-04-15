@@ -22,6 +22,13 @@
   }
 }
 
+@media (min-width: 600px) {
+  .navigation_button {
+    height: 7rem;
+    width: 7rem;
+  }
+}
+
 @media (min-width: 1100px) {
   .navigation_button {
     height: 7rem;
@@ -96,10 +103,17 @@
   .navigation_nav {
     height: 50%;
     width: 50%;
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
+    -webkit-transform: translateY(-110%);
+            transform: translateY(-110%);
     -webkit-transition: all 0.8s;
     transition: all 0.8s;
+  }
+}
+
+@media (min-width: 600px) {
+  .navigation_nav {
+    height: 45%;
+    width: 45%;
   }
 }
 
@@ -129,11 +143,22 @@
   .navigation_background {
     height: 50%;
     width: 50%;
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
+    -webkit-transform: translateY(-110%);
+            transform: translateY(-110%);
     -webkit-transition: all 0.8s;
     transition: all 0.8s;
     border-right: 4px solid black;
+    -webkit-box-shadow: 1rem 1rem 2rem gray;
+            box-shadow: 1rem 1rem 2rem gray;
+  }
+}
+
+@media (min-width: 600px) {
+  .navigation_background {
+    height: 45%;
+    width: 45%;
+    -webkit-box-shadow: 1rem 1rem 2rem gray;
+            box-shadow: 1rem 1rem 2rem gray;
   }
 }
 
@@ -145,6 +170,8 @@
     width: 100%;
     -webkit-transition: all 1.2s;
     transition: all 1.2s;
+    -webkit-box-shadow: 0 2rem 3rem gray;
+            box-shadow: 0 2rem 3rem gray;
   }
 }
 
@@ -186,7 +213,7 @@
 
 @media (min-width: 600px) {
   .navigation_list {
-    top: 0;
+    top: 7rem;
   }
 }
 
@@ -194,6 +221,7 @@
   .navigation_list {
     width: 95%;
     height: auto;
+    top: 0;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -203,6 +231,8 @@
 
 .navigation_item {
   display: inline;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .navigation_link, .navigation_link:link, .navigation_link:visited {
@@ -222,15 +252,21 @@
   }
 }
 
+@media (min-width: 600px) {
+  .navigation_link, .navigation_link:link, .navigation_link:visited {
+    font-size: 3rem;
+  }
+}
+
 @media (min-width: 1100px) {
   .navigation_link, .navigation_link:link, .navigation_link:visited {
     font-size: 4rem;
   }
 }
 
-.navigation_link:hover, .navigation_link:active {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+.navigation_item:hover, .navigation_link:active {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 @media (min-width: 350px) {

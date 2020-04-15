@@ -19,6 +19,10 @@
         height: 6rem;
         width: 6rem;
     }
+    @include tablet{
+        height: 7rem;
+        width: 7rem;
+    }
     @include desktop{
         height: 7rem;
         width: 7rem;
@@ -86,10 +90,14 @@
      // cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transition-timing-function: ease-out;
     @include phone{
-        height: $navphone;
+        height: 50%;
         width: 50%;
-        transform: translateY(-100%);
+        transform: translateY(-110%);
         transition: all 0.8s;
+    }
+    @include tablet{
+        height: 45%;
+        width: 45%;
     }
     @include desktop{
         height: auto;
@@ -108,17 +116,24 @@
     transition-timing-function: ease-out;
     border-bottom: 4px solid black;
     @include phone{
-        height: $navphone;
+        height: 50%;
         width: 50%;
-        transform: translateY(-100%);
+        transform: translateY(-110%);
         transition: all 0.8s;
         border-right: 4px solid black;
+        box-shadow: 1rem 1rem 2rem gray;
+    }
+    @include tablet{
+        height: 45%;
+        width: 45%;
+        box-shadow: 1rem 1rem 2rem gray;
     }
     @include desktop{
         height: 7rem;
         transform: translateX(-100vw) translateY(0%);
         width: 100%;
         transition: all 1.2s;
+        box-shadow: 0 2rem 3rem gray;
     }
 }
 
@@ -150,11 +165,12 @@
         flex-direction: column;
     }
     @include tablet{
-        top: 0;
+        top: 7rem;
     }
     @include desktop{
         width: 95%;
         height: auto;
+        top: 0;
         flex-direction: row;
     }
 }
@@ -167,6 +183,7 @@
     //background-color: white;
     //padding: 2rem;
     //clip-path: polygon(25% 15%, 75% 15%, 100% 50%, 75% 85%, 25% 85%, 0 50%);
+    transition: all 0.5s;
 }
 
 .navigation_link, .navigation_link:link, .navigation_link:visited{ //each link
@@ -182,14 +199,17 @@
     @include phone{
         font-size: 2.5rem;
     }
+    @include tablet{
+        font-size: 3rem;
+    }
     @include desktop{
         font-size: 4rem;
     }
 }
 
-.navigation_link:hover, .navigation_link:active{
+.navigation_item:hover, .navigation_link:active{
    // color: color(navback);
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
 
 .navigation_checkbox:checked~.navigation_background{
