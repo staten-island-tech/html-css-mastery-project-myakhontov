@@ -119,18 +119,18 @@
 }
 
 @keyframes geneva-cathedral-animation-phone{
-    0%{transform: scale(2.2) translate(6.5rem, 5rem);} //top: 11rem; left: 14rem;}
-    100%{transform: scale(1.0) translate(25rem, 2rem);}// top:2rem; left: 26rem;}
+    from{transform: scale(2.2) translate(6.5rem, 5rem);} //top: 11rem; left: 14rem;}
+    to{transform: scale(1.0) translate(25rem, 2rem);}// top:2rem; left: 26rem;}
 }
 
 @keyframes geneva-cathedral-animation-tablet{
-    0%{transform: scale(1.8) translate(18.5rem, 6rem);}
-    100%{transform: scale(1.0) translate(11rem, 0rem);}
+    from{transform: scale(1.8) translate(18.5rem, 6rem);}
+    to{transform: scale(1.0) translate(11rem, 0rem);}
 }
 
 @keyframes geneva-cathedral-animation-desktop{
-    0%{transform: scale(2.0) translate(23rem, 8rem);}
-    100%{transform: scale(1.0) translate(23rem, 0rem);}
+    from{transform: scale(2.0) translate(23rem, 8rem);}
+    to{transform: scale(1.0) translate(23rem, 0rem);}
 }
 
 
@@ -154,18 +154,18 @@
 }
 
 @keyframes geneva-night-animation-phone{
-    0%{transform: scale(2.2) translate(2rem, 5rem);} //top: 11rem; left: 14rem;}
-    100%{transform: scale(1.0) translate(-5rem, 2rem);} // top:2rem; left: 3rem;}
+    from{transform: scale(2.2) translate(2rem, 5rem);} //top: 11rem; left: 14rem;}
+    to{transform: scale(1.0) translate(-5rem, 2rem);} // top:2rem; left: 3rem;}
 }
 
 @keyframes geneva-night-animation-tablet{
-    0%{transform: scale(1.8) translate(6.5rem, 6rem);}
-    100%{transform: scale(1.0) translate(11rem, 21rem);}
+    from{transform: scale(1.8) translate(6.5rem, 6rem);}
+    to{transform: scale(1.0) translate(11rem, 21rem);}
 }
 
 @keyframes geneva-night-animation-desktop{
-    0%{transform: scale(2.0) translate(9rem, 8rem);}
-    100%{transform: scale(1.0) translate(17rem, 32rem);}
+    from{transform: scale(2.0) translate(9rem, 8rem);}
+    to{transform: scale(1.0) translate(17rem, 32rem);}
 }
 
 .geneva-castle{
@@ -189,18 +189,18 @@
 }
 
 @keyframes geneva-castle-animation-phone{
-    0%{transform: scale(2.2) translate(-2.5rem, 5rem);} // top: 11rem; left: 14rem;}
-    100%{transform: scale(1.0) translate(-5rem, 16rem);} // top:16rem; left: 14.5rem;}
+    from{transform: scale(2.2) translate(-2.5rem, 5rem);} // top: 11rem; left: 14rem;}
+    to{transform: scale(1.0) translate(-5rem, 16rem);} // top:16rem; left: 14.5rem;}
 }
 
 @keyframes geneva-castle-animation-tablet{
-    0%{transform: scale(1.8) translate(-6rem, 6rem);}
-    100%{transform: scale(1.0) translate(11rem, 0rem);}
+    from{transform: scale(1.8) translate(-6rem, 6rem);}
+    to{transform: scale(1.0) translate(11rem, 0rem);}
 }
 
 @keyframes geneva-castle-animation-desktop{
-    0%{transform: scale(2.0) translate(-6rem, 8rem);}
-    100%{transform: scale(1.0) translate(10rem, 0rem);}
+    from{transform: scale(2.0) translate(-6rem, 8rem);}
+    to{transform: scale(1.0) translate(10rem, 0rem);}
 }
 
 .geneva-town{
@@ -223,18 +223,18 @@
 }
 
 @keyframes geneva-town-animation-phone{
-    0%{transform: scale(2.2) translate(-7rem, 5rem);  opacity: 1.0;} //top: 11rem; left: 14rem;
-    100%{transform: scale(1.0) translate(-15rem, 7rem); opacity: 0.0;} //top: 4rem; left: 9rem;
+    from{transform: scale(2.2) translate(-7rem, 5rem);  opacity: 1.0;} //top: 11rem; left: 14rem;
+    to{transform: scale(1.0) translate(-15rem, 7rem); opacity: 0.0;} //top: 4rem; left: 9rem;
 } 
 
 @keyframes geneva-town-animation-tablet{
-    0%{transform: scale(1.8) translate(-18rem, 6rem); opacity: 1.0;}
-    100%{transform: scale(1.0) translate(-33rem, 8rem); opacity: 0.0;}
+    from{transform: scale(1.8) translate(-18rem, 6rem); opacity: 1.0;}
+    to{transform: scale(1.0) translate(-33rem, 8rem); opacity: 0.0;}
 }
 
 @keyframes geneva-town-animation-desktop{
-    0%{transform: scale(2.0) translate(-21rem, 8rem); opacity: 1.0;}
-    100%{transform: scale(1.0) translate(-43rem, 14rem); opacity: 0.0;}
+    from{transform: scale(2.0) translate(-21rem, 8rem); opacity: 1.0;}
+    to{transform: scale(1.0) translate(-43rem, 14rem); opacity: 0.0;}
 } 
 
 @include phone{     //works for tablet as well
@@ -290,8 +290,8 @@
     
 }
 @keyframes geneva-animation{
-    0%{margin-left: 110%;}
-    100%{margin-left: 35%;}
+    from{margin-left: 110%;}
+    to{margin-left: 35%;}
 }
 
 .purple-box:hover{
