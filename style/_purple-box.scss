@@ -237,7 +237,7 @@
 } 
 
 @include phone{     //works for tablet as well
-    .gallery-p:hover{
+    .gallery-p:active{
         .geneva-cathedral{
             animation-play-state: running;
         }

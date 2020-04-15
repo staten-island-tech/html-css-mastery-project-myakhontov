@@ -1585,19 +1585,19 @@
 }
 
 @media (min-width: 350px) {
-  .gallery-p:hover .geneva-cathedral {
+  .gallery-p:active .geneva-cathedral {
     -webkit-animation-play-state: running;
             animation-play-state: running;
   }
-  .gallery-p:hover .geneva-night {
+  .gallery-p:active .geneva-night {
     -webkit-animation-play-state: running;
             animation-play-state: running;
   }
-  .gallery-p:hover .geneva-castle {
+  .gallery-p:active .geneva-castle {
     -webkit-animation-play-state: running;
             animation-play-state: running;
   }
-  .gallery-p:hover .geneva-town {
+  .gallery-p:active .geneva-town {
     -webkit-animation-play-state: running;
             animation-play-state: running;
   }
