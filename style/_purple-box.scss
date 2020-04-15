@@ -83,8 +83,8 @@
     //border: solid 3px black;
     filter: brightness(95%);
     border-radius: 50rem;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
+    //animation-fill-mode: forwards;
+    //animation-iteration-count: 1;
     @include phone{
         height: 10rem;    //25,25
         width: 10rem;
@@ -238,7 +238,7 @@
 } 
 
 @include phone{     //works for tablet as well
-    .gallery-p:active{
+    .gallery-p:hover{
         .geneva-cathedral{
             animation-play-state: running;
         }

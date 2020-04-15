@@ -1138,10 +1138,6 @@
   -webkit-filter: brightness(95%);
           filter: brightness(95%);
   border-radius: 50rem;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
 }
 
 @media (min-width: 350px) {
@@ -1587,19 +1583,19 @@
 }
 
 @media (min-width: 350px) {
-  .gallery-p:active .geneva-cathedral {
+  .gallery-p:hover .geneva-cathedral {
     -webkit-animation-play-state: running;
             animation-play-state: running;
   }
-  .gallery-p:active .geneva-night {
+  .gallery-p:hover .geneva-night {
     -webkit-animation-play-state: running;
             animation-play-state: running;
   }
-  .gallery-p:active .geneva-castle {
+  .gallery-p:hover .geneva-castle {
     -webkit-animation-play-state: running;
             animation-play-state: running;
   }
-  .gallery-p:active .geneva-town {
+  .gallery-p:hover .geneva-town {
     -webkit-animation-play-state: running;
             animation-play-state: running;
   }
