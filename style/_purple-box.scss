@@ -87,6 +87,8 @@
     //animation-iteration-count: 1;
     //animation-delay: 0.01s;
     animation-play-state: paused;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-out;
     @include phone{
         height: 10rem;    //25,25
         width: 10rem;
@@ -100,7 +102,6 @@
         width: 30rem;
        // margin-right: 6rem;
     }
-    
 }
 
 .geneva-cathedral{
@@ -116,8 +117,7 @@
         transform: translate(23rem, 0rem);
         animation-name: geneva-cathedral-animation-desktop;
     }
-    animation-duration: 1.2s;
-    animation-timing-function: ease-out;
+    
     
 }
 
@@ -151,9 +151,6 @@
         transform: translate(17rem, 32rem);
         animation-name: geneva-night-animation-desktop;
     }
-    animation-duration: 1.2s;
-    animation-timing-function: ease-out;
-    
 }
 
 @keyframes geneva-night-animation-phone{
@@ -186,9 +183,6 @@
         transform: translate(10rem, 0rem);
         animation-name: geneva-castle-animation-desktop;
     }
-    animation-duration: 1.2s;
-    animation-timing-function: ease-out;
-    
 }
 
 @keyframes geneva-castle-animation-phone{
@@ -209,8 +203,6 @@
 .geneva-town{
     opacity: 0.0;
     animation-duration: 0.5s;
-    animation-timing-function: ease-out;
-    animation-play-state: paused;
     @include phone{
         transform: translate(-15rem, 7rem);
         animation-name: geneva-town-animation-phone;

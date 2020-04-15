@@ -1140,6 +1140,10 @@
   border-radius: 50rem;
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
 }
 
 @media (min-width: 350px) {
@@ -1161,13 +1165,6 @@
     height: 30rem;
     width: 30rem;
   }
-}
-
-.geneva-cathedral {
-  -webkit-animation-duration: 1.2s;
-          animation-duration: 1.2s;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
 }
 
 @media (min-width: 350px) {
@@ -1263,13 +1260,6 @@
   }
 }
 
-.geneva-night {
-  -webkit-animation-duration: 1.2s;
-          animation-duration: 1.2s;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
-}
-
 @media (min-width: 350px) {
   .geneva-night {
     -webkit-transform: translate(-5rem, 2rem);
@@ -1361,13 +1351,6 @@
     -webkit-transform: scale(1) translate(17rem, 32rem);
             transform: scale(1) translate(17rem, 32rem);
   }
-}
-
-.geneva-castle {
-  -webkit-animation-duration: 1.2s;
-          animation-duration: 1.2s;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
 }
 
 @media (min-width: 350px) {
@@ -1467,10 +1450,6 @@
   opacity: 0.0;
   -webkit-animation-duration: 0.5s;
           animation-duration: 0.5s;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
 }
 
 @media (min-width: 350px) {
