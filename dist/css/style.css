@@ -1138,6 +1138,8 @@
   -webkit-filter: brightness(95%);
           filter: brightness(95%);
   border-radius: 50rem;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
 }
 
 @media (min-width: 350px) {
