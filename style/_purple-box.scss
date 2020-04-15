@@ -85,6 +85,7 @@
     border-radius: 50rem;
     //animation-fill-mode: forwards;
     //animation-iteration-count: 1;
+    animation-delay: 0.01s;
     @include phone{
         height: 10rem;    //25,25
         width: 10rem;
