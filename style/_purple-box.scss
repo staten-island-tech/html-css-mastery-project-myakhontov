@@ -101,15 +101,15 @@
 
 .geneva-cathedral{
     @include phone{
-        //transform: translate(25rem, 2rem);
+        transform: translate(25rem, 2rem);
         animation-name: geneva-cathedral-animation-phone;
     }
     @include tablet{
-        //transform: translate(11rem, 0rem);
+        transform: translate(11rem, 0rem);
         animation-name: geneva-cathedral-animation-tablet;
     }
     @include desktop{
-       //transform: translate(23rem, 0rem);
+        transform: translate(23rem, 0rem);
         animation-name: geneva-cathedral-animation-desktop;
     }
     animation-duration: 1.2s;
@@ -136,15 +136,15 @@
 
 .geneva-night{
     @include phone{
-        //transform: translate(-5rem, 2rem);
+        transform: translate(-5rem, 2rem);
         animation-name: geneva-night-animation-phone;
     }
     @include tablet{
-        //transform: translate(11rem, 21rem);
+        transform: translate(11rem, 21rem);
         animation-name: geneva-night-animation-tablet;
     }
     @include desktop{
-        //transform: translate(17rem, 32rem);
+        transform: translate(17rem, 32rem);
         animation-name: geneva-night-animation-desktop;
     }
     animation-duration: 1.2s;
@@ -175,11 +175,11 @@
         animation-name: geneva-castle-animation-phone;
     }
     @include tablet{
-        //transform: translate(11rem, 0rem);
+        transform: translate(11rem, 0rem);
         animation-name: geneva-castle-animation-tablet;
     }
     @include desktop{
-        //transform: translate(10rem, 0rem);
+        transform: translate(10rem, 0rem);
         animation-name: geneva-castle-animation-desktop;
     }
     animation-duration: 1.2s;
@@ -208,15 +208,15 @@
     animation-timing-function: ease-out;
     animation-play-state: paused;
     @include phone{
-        //transform: translate(-15rem, 7rem);
+        transform: translate(-15rem, 7rem);
         animation-name: geneva-town-animation-phone;
     }
     @include tablet{
-        //transform: translate(-33rem, 8rem);
+        transform: translate(-33rem, 8rem);
         animation-name: geneva-town-animation-tablet;
     }
     @include desktop{
-        //transform: translate(-43rem, 14rem);
+        transform: translate(-43rem, 14rem);
         animation-name: geneva-town-animation-desktop;
     }
 }
