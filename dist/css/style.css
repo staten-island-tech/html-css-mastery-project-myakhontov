@@ -1138,8 +1138,6 @@
   -webkit-filter: brightness(95%);
           filter: brightness(95%);
   border-radius: 50rem;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
 }
 
 @media (min-width: 350px) {
@@ -1174,8 +1172,6 @@
 
 @media (min-width: 350px) {
   .geneva-cathedral {
-    -webkit-transform: translate(25rem, 2rem);
-            transform: translate(25rem, 2rem);
     -webkit-animation-name: geneva-cathedral-animation-phone;
             animation-name: geneva-cathedral-animation-phone;
   }
@@ -1368,6 +1364,8 @@
 
 @media (min-width: 350px) {
   .geneva-castle {
+    -webkit-transform: translate(-5rem, 16rem);
+            transform: translate(-5rem, 16rem);
     -webkit-animation-name: geneva-castle-animation-phone;
             animation-name: geneva-castle-animation-phone;
   }

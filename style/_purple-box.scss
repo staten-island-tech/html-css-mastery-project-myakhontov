@@ -83,7 +83,7 @@
     //border: solid 3px black;
     filter: brightness(95%);
     border-radius: 50rem;
-    animation-fill-mode: forwards;
+    //animation-fill-mode: forwards;
     @include phone{
         height: 10rem;    //25,25
         width: 10rem;
@@ -97,12 +97,11 @@
         width: 30rem;
        // margin-right: 6rem;
     }
-    
 }
 
 .geneva-cathedral{
     @include phone{
-        transform: translate(25rem, 2rem);
+        //transform: translate(25rem, 2rem);
         animation-name: geneva-cathedral-animation-phone;
     }
     @include tablet{
@@ -172,7 +171,7 @@
     @include phone{
        // top: 16rem;
         //left: 14.5rem;
-        //transform: translate(-5rem, 16rem);
+        transform: translate(-5rem, 16rem);
         animation-name: geneva-castle-animation-phone;
     }
     @include tablet{
