@@ -40,8 +40,6 @@
 }
 
 .purple-gallery-parent{
-    //margin: 0 auto;
-    border: solid 3px purple;
     overflow: hidden;
     @include phone{
         height: 40vh;
@@ -61,7 +59,6 @@
 .gallery-p{
     display: flex;
     justify-content: space-around;
-    border: solid 3px green;
     @include phone{
         height: 35vh;
         width: 100vw;

@@ -1079,7 +1079,6 @@
 }
 
 .purple-gallery-parent {
-  border: solid 3px purple;
   overflow: hidden;
 }
 
@@ -1110,7 +1109,6 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  border: solid 3px green;
 }
 
 @media (min-width: 350px) {
