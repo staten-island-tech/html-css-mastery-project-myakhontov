@@ -122,9 +122,8 @@
 }
 
 @keyframes geneva-cathedral-animation-phone{
-    0%{transform: scale(2.2) translate(6.5rem, 5rem);} //top: 11rem; left: 14rem;}
-    50%{transform: scale(1.6) translate(15.75rem, 3.5rem);}
-    100%{transform: scale(1.0) translate(25rem, 2rem);}// top:2rem; left: 26rem;}
+    from{transform: scale(2.2) translate(65px, 50px);} //top: 11rem; left: 14rem;}
+    to{transform: scale(1.0) translate(250px, 20px);}// top:2rem; left: 26rem;}
 }
 
 @keyframes geneva-cathedral-animation-tablet{

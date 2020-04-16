@@ -1195,32 +1195,24 @@
 }
 
 @-webkit-keyframes geneva-cathedral-animation-phone {
-  0% {
-    -webkit-transform: scale(2.2) translate(6.5rem, 5rem);
-            transform: scale(2.2) translate(6.5rem, 5rem);
+  from {
+    -webkit-transform: scale(2.2) translate(65px, 50px);
+            transform: scale(2.2) translate(65px, 50px);
   }
-  50% {
-    -webkit-transform: scale(1.6) translate(15.75rem, 3.5rem);
-            transform: scale(1.6) translate(15.75rem, 3.5rem);
-  }
-  100% {
-    -webkit-transform: scale(1) translate(25rem, 2rem);
-            transform: scale(1) translate(25rem, 2rem);
+  to {
+    -webkit-transform: scale(1) translate(250px, 20px);
+            transform: scale(1) translate(250px, 20px);
   }
 }
 
 @keyframes geneva-cathedral-animation-phone {
-  0% {
-    -webkit-transform: scale(2.2) translate(6.5rem, 5rem);
-            transform: scale(2.2) translate(6.5rem, 5rem);
+  from {
+    -webkit-transform: scale(2.2) translate(65px, 50px);
+            transform: scale(2.2) translate(65px, 50px);
   }
-  50% {
-    -webkit-transform: scale(1.6) translate(15.75rem, 3.5rem);
-            transform: scale(1.6) translate(15.75rem, 3.5rem);
-  }
-  100% {
-    -webkit-transform: scale(1) translate(25rem, 2rem);
-            transform: scale(1) translate(25rem, 2rem);
+  to {
+    -webkit-transform: scale(1) translate(250px, 20px);
+            transform: scale(1) translate(250px, 20px);
   }
 }
 
