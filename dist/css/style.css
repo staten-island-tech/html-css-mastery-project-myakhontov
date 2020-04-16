@@ -1218,45 +1218,45 @@
 
 @-webkit-keyframes geneva-cathedral-animation-tablet {
   from {
-    -webkit-transform: scale(1.8) translate(18.5rem, 6rem);
-            transform: scale(1.8) translate(18.5rem, 6rem);
+    -webkit-transform: scale(1.8) translate(185px, 60px);
+            transform: scale(1.8) translate(185px, 60px);
   }
   to {
-    -webkit-transform: scale(1) translate(11rem, 0rem);
-            transform: scale(1) translate(11rem, 0rem);
+    -webkit-transform: scale(1) translate(110px, 0px);
+            transform: scale(1) translate(110px, 0px);
   }
 }
 
 @keyframes geneva-cathedral-animation-tablet {
   from {
-    -webkit-transform: scale(1.8) translate(18.5rem, 6rem);
-            transform: scale(1.8) translate(18.5rem, 6rem);
+    -webkit-transform: scale(1.8) translate(185px, 60px);
+            transform: scale(1.8) translate(185px, 60px);
   }
   to {
-    -webkit-transform: scale(1) translate(11rem, 0rem);
-            transform: scale(1) translate(11rem, 0rem);
+    -webkit-transform: scale(1) translate(110px, 0px);
+            transform: scale(1) translate(110px, 0px);
   }
 }
 
 @-webkit-keyframes geneva-cathedral-animation-desktop {
   from {
-    -webkit-transform: scale(2) translate(23rem, 8rem);
-            transform: scale(2) translate(23rem, 8rem);
+    -webkit-transform: scale(2) translate(230px, 80px);
+            transform: scale(2) translate(230px, 80px);
   }
   to {
-    -webkit-transform: scale(1) translate(23rem, 0rem);
-            transform: scale(1) translate(23rem, 0rem);
+    -webkit-transform: scale(1) translate(230px, 0px);
+            transform: scale(1) translate(230px, 0px);
   }
 }
 
 @keyframes geneva-cathedral-animation-desktop {
   from {
-    -webkit-transform: scale(2) translate(23rem, 8rem);
-            transform: scale(2) translate(23rem, 8rem);
+    -webkit-transform: scale(2) translate(230px, 80px);
+            transform: scale(2) translate(230px, 80px);
   }
   to {
-    -webkit-transform: scale(1) translate(23rem, 0rem);
-            transform: scale(1) translate(23rem, 0rem);
+    -webkit-transform: scale(1) translate(230px, 0px);
+            transform: scale(1) translate(230px, 0px);
   }
 }
 
@@ -1289,67 +1289,67 @@
 
 @-webkit-keyframes geneva-night-animation-phone {
   from {
-    -webkit-transform: scale(2.2) translate(2rem, 5rem);
-            transform: scale(2.2) translate(2rem, 5rem);
+    -webkit-transform: scale(2.2) translate(20px, 50px);
+            transform: scale(2.2) translate(20px, 50px);
   }
   to {
-    -webkit-transform: scale(1) translate(-5rem, 2rem);
-            transform: scale(1) translate(-5rem, 2rem);
+    -webkit-transform: scale(1) translate(-50px, 20px);
+            transform: scale(1) translate(-50px, 20px);
   }
 }
 
 @keyframes geneva-night-animation-phone {
   from {
-    -webkit-transform: scale(2.2) translate(2rem, 5rem);
-            transform: scale(2.2) translate(2rem, 5rem);
+    -webkit-transform: scale(2.2) translate(20px, 50px);
+            transform: scale(2.2) translate(20px, 50px);
   }
   to {
-    -webkit-transform: scale(1) translate(-5rem, 2rem);
-            transform: scale(1) translate(-5rem, 2rem);
+    -webkit-transform: scale(1) translate(-50px, 20px);
+            transform: scale(1) translate(-50px, 20px);
   }
 }
 
 @-webkit-keyframes geneva-night-animation-tablet {
   from {
-    -webkit-transform: scale(1.8) translate(6.5rem, 6rem);
-            transform: scale(1.8) translate(6.5rem, 6rem);
+    -webkit-transform: scale(1.8) translate(65px, 60px);
+            transform: scale(1.8) translate(65px, 60px);
   }
   to {
-    -webkit-transform: scale(1) translate(11rem, 21rem);
-            transform: scale(1) translate(11rem, 21rem);
+    -webkit-transform: scale(1) translate(110px, 210px);
+            transform: scale(1) translate(110px, 210px);
   }
 }
 
 @keyframes geneva-night-animation-tablet {
   from {
-    -webkit-transform: scale(1.8) translate(6.5rem, 6rem);
-            transform: scale(1.8) translate(6.5rem, 6rem);
+    -webkit-transform: scale(1.8) translate(65px, 60px);
+            transform: scale(1.8) translate(65px, 60px);
   }
   to {
-    -webkit-transform: scale(1) translate(11rem, 21rem);
-            transform: scale(1) translate(11rem, 21rem);
+    -webkit-transform: scale(1) translate(110px, 210px);
+            transform: scale(1) translate(110px, 210px);
   }
 }
 
 @-webkit-keyframes geneva-night-animation-desktop {
   from {
-    -webkit-transform: scale(2) translate(9rem, 8rem);
-            transform: scale(2) translate(9rem, 8rem);
+    -webkit-transform: scale(2) translate(90px, 80px);
+            transform: scale(2) translate(90px, 80px);
   }
   to {
-    -webkit-transform: scale(1) translate(17rem, 32rem);
-            transform: scale(1) translate(17rem, 32rem);
+    -webkit-transform: scale(1) translate(170px, 320px);
+            transform: scale(1) translate(170px, 320px);
   }
 }
 
 @keyframes geneva-night-animation-desktop {
   from {
-    -webkit-transform: scale(2) translate(9rem, 8rem);
-            transform: scale(2) translate(9rem, 8rem);
+    -webkit-transform: scale(2) translate(90px, 80px);
+            transform: scale(2) translate(90px, 80px);
   }
   to {
-    -webkit-transform: scale(1) translate(17rem, 32rem);
-            transform: scale(1) translate(17rem, 32rem);
+    -webkit-transform: scale(1) translate(170px, 320px);
+            transform: scale(1) translate(170px, 320px);
   }
 }
 
@@ -1382,67 +1382,67 @@
 
 @-webkit-keyframes geneva-castle-animation-phone {
   from {
-    -webkit-transform: scale(2.2) translate(-2.5rem, 5rem);
-            transform: scale(2.2) translate(-2.5rem, 5rem);
+    -webkit-transform: scale(2.2) translate(-25px, 50px);
+            transform: scale(2.2) translate(-25px, 50px);
   }
   to {
-    -webkit-transform: scale(1) translate(-5rem, 16rem);
-            transform: scale(1) translate(-5rem, 16rem);
+    -webkit-transform: scale(1) translate(-50px, 160px);
+            transform: scale(1) translate(-50px, 160px);
   }
 }
 
 @keyframes geneva-castle-animation-phone {
   from {
-    -webkit-transform: scale(2.2) translate(-2.5rem, 5rem);
-            transform: scale(2.2) translate(-2.5rem, 5rem);
+    -webkit-transform: scale(2.2) translate(-25px, 50px);
+            transform: scale(2.2) translate(-25px, 50px);
   }
   to {
-    -webkit-transform: scale(1) translate(-5rem, 16rem);
-            transform: scale(1) translate(-5rem, 16rem);
+    -webkit-transform: scale(1) translate(-50px, 160px);
+            transform: scale(1) translate(-50px, 160px);
   }
 }
 
 @-webkit-keyframes geneva-castle-animation-tablet {
   from {
-    -webkit-transform: scale(1.8) translate(-6rem, 6rem);
-            transform: scale(1.8) translate(-6rem, 6rem);
+    -webkit-transform: scale(1.8) translate(-60px, 60px);
+            transform: scale(1.8) translate(-60px, 60px);
   }
   to {
-    -webkit-transform: scale(1) translate(11rem, 0rem);
-            transform: scale(1) translate(11rem, 0rem);
+    -webkit-transform: scale(1) translate(110px, 0px);
+            transform: scale(1) translate(110px, 0px);
   }
 }
 
 @keyframes geneva-castle-animation-tablet {
   from {
-    -webkit-transform: scale(1.8) translate(-6rem, 6rem);
-            transform: scale(1.8) translate(-6rem, 6rem);
+    -webkit-transform: scale(1.8) translate(-60px, 60px);
+            transform: scale(1.8) translate(-60px, 60px);
   }
   to {
-    -webkit-transform: scale(1) translate(11rem, 0rem);
-            transform: scale(1) translate(11rem, 0rem);
+    -webkit-transform: scale(1) translate(110px, 0px);
+            transform: scale(1) translate(110px, 0px);
   }
 }
 
 @-webkit-keyframes geneva-castle-animation-desktop {
   from {
-    -webkit-transform: scale(2) translate(-6rem, 8rem);
-            transform: scale(2) translate(-6rem, 8rem);
+    -webkit-transform: scale(2) translate(-60px, 80px);
+            transform: scale(2) translate(-60px, 80px);
   }
   to {
-    -webkit-transform: scale(1) translate(10rem, 0rem);
-            transform: scale(1) translate(10rem, 0rem);
+    -webkit-transform: scale(1) translate(100px, 0px);
+            transform: scale(1) translate(100px, 0px);
   }
 }
 
 @keyframes geneva-castle-animation-desktop {
   from {
-    -webkit-transform: scale(2) translate(-6rem, 8rem);
-            transform: scale(2) translate(-6rem, 8rem);
+    -webkit-transform: scale(2) translate(-60px, 80px);
+            transform: scale(2) translate(-60px, 80px);
   }
   to {
-    -webkit-transform: scale(1) translate(10rem, 0rem);
-            transform: scale(1) translate(10rem, 0rem);
+    -webkit-transform: scale(1) translate(100px, 0px);
+            transform: scale(1) translate(100px, 0px);
   }
 }
 
@@ -1481,78 +1481,78 @@
 
 @-webkit-keyframes geneva-town-animation-phone {
   from {
-    -webkit-transform: scale(2.2) translate(-7rem, 5rem);
-            transform: scale(2.2) translate(-7rem, 5rem);
+    -webkit-transform: scale(2.2) translate(-70px, 50px);
+            transform: scale(2.2) translate(-70px, 50px);
     opacity: 1.0;
   }
   to {
-    -webkit-transform: scale(1) translate(-15rem, 7rem);
-            transform: scale(1) translate(-15rem, 7rem);
+    -webkit-transform: scale(1) translate(-150px, 70px);
+            transform: scale(1) translate(-150px, 70px);
     opacity: 0.0;
   }
 }
 
 @keyframes geneva-town-animation-phone {
   from {
-    -webkit-transform: scale(2.2) translate(-7rem, 5rem);
-            transform: scale(2.2) translate(-7rem, 5rem);
+    -webkit-transform: scale(2.2) translate(-70px, 50px);
+            transform: scale(2.2) translate(-70px, 50px);
     opacity: 1.0;
   }
   to {
-    -webkit-transform: scale(1) translate(-15rem, 7rem);
-            transform: scale(1) translate(-15rem, 7rem);
+    -webkit-transform: scale(1) translate(-150px, 70px);
+            transform: scale(1) translate(-150px, 70px);
     opacity: 0.0;
   }
 }
 
 @-webkit-keyframes geneva-town-animation-tablet {
   from {
-    -webkit-transform: scale(1.8) translate(-18rem, 6rem);
-            transform: scale(1.8) translate(-18rem, 6rem);
+    -webkit-transform: scale(1.8) translate(-180px, 60px);
+            transform: scale(1.8) translate(-180px, 60px);
     opacity: 1.0;
   }
   to {
-    -webkit-transform: scale(1) translate(-33rem, 8rem);
-            transform: scale(1) translate(-33rem, 8rem);
+    -webkit-transform: scale(1) translate(-330px, 80px);
+            transform: scale(1) translate(-330px, 80px);
     opacity: 0.0;
   }
 }
 
 @keyframes geneva-town-animation-tablet {
   from {
-    -webkit-transform: scale(1.8) translate(-18rem, 6rem);
-            transform: scale(1.8) translate(-18rem, 6rem);
+    -webkit-transform: scale(1.8) translate(-180px, 60px);
+            transform: scale(1.8) translate(-180px, 60px);
     opacity: 1.0;
   }
   to {
-    -webkit-transform: scale(1) translate(-33rem, 8rem);
-            transform: scale(1) translate(-33rem, 8rem);
+    -webkit-transform: scale(1) translate(-330px, 80px);
+            transform: scale(1) translate(-330px, 80px);
     opacity: 0.0;
   }
 }
 
 @-webkit-keyframes geneva-town-animation-desktop {
   from {
-    -webkit-transform: scale(2) translate(-21rem, 8rem);
-            transform: scale(2) translate(-21rem, 8rem);
+    -webkit-transform: scale(2) translate(-210px, 80px);
+            transform: scale(2) translate(-210px, 80px);
     opacity: 1.0;
   }
   to {
-    -webkit-transform: scale(1) translate(-43rem, 14rem);
-            transform: scale(1) translate(-43rem, 14rem);
+    -webkit-transform: scale(1) translate(-430px, 140px);
+            transform: scale(1) translate(-430px, 140px);
     opacity: 0.0;
   }
 }
 
 @keyframes geneva-town-animation-desktop {
   from {
-    -webkit-transform: scale(2) translate(-21rem, 8rem);
-            transform: scale(2) translate(-21rem, 8rem);
+    -webkit-transform: scale(2) translate(-210px, 80px);
+            transform: scale(2) translate(-210px, 80px);
     opacity: 1.0;
   }
   to {
-    -webkit-transform: scale(1) translate(-43rem, 14rem);
-            transform: scale(1) translate(-43rem, 14rem);
+    -webkit-transform: scale(1) translate(-430px, 140px);
+            transform: scale(1) translate(-430px, 140px);
     opacity: 0.0;
   }
 }
