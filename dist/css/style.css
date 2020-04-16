@@ -1137,7 +1137,7 @@
 .purple-photo {
   -webkit-filter: brightness(95%);
           filter: brightness(95%);
-  border-radius: 50rem;
+  border-radius: 50%;
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
   -webkit-animation-duration: 1.2s;
